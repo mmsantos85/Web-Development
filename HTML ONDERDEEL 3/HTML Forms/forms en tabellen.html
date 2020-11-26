@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>1. Maak een HTML form waarbij de gebruiker zijn naam en achternaam in kan vullen:</h4>
+    <form style="background-color: gray; width: 300px;">
+        <label for="voornaam">voornaam</label>
+        <input type="text" id="voornaam" name="voornaam" placeholder="voornaam"><br>
+        <label for="achternaam">achternaam</label>
+        <input type="text" id="achternaam" name="achternaam" placeholder="achternaam">
+    </form>
+
+    <br>
+    <h4>2. Maak voor elk input ﬁeld een voorbeeld.</h4>
+    <h4>Radio button:</h4>
+    <input type="radio" id="man" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label>
+    <h4>Checkbox:</h4>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1"> Ik heb een fiets</label><br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+    <label for="vehicle2"> Ik heb een auto</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3"> Ik heb geen vervoermiddel</label><br>
+    <h4>Password:</h4>
+    Password: <input type="password" id="myPsw" value="psw123">
+    <h4>Reset:</h4>
+    <p>Click the button to create a Reset Button.</p>
+    <button onclick="myFunction()">Try it</button>
+    <h4>Submit:</h4>
+    <input type="submit" id="mySubmit" value="Submit the form">
+    <h4>Search:</h4>
+    <input type="search" id="mySearch" placeholder="Zoek iets op..">
+    <h4>Time:</h4>
+    <input type="time" id="myTime" value="11:11:11">
+    <h4>Hidden:</h4>
+    <p>Click the button to get the value of the hidden input field.</p>
+    <button onclick="myFunction()">Try it</button>
+    <h4>Email:</h4>
+     E-mail: <input type="email" id="myEmail" value="mmsantos85@gmail.com">
+
+    <br>
+    <h4>3. Maak een input email ﬁeld met een submit knop. Tip: wat gebeurt er wanneer je op de submit knop clickt met een random text</h4>
+     E-mail: <input type="email" id="myEmail" value="mmsantos85@gmail.com">
+     <input type="submit" id="mySubmit" value="Submit the form">
+
+     <br>
+     <h4>4. Bouw een gegroepeerde formulier waarin je verschillende input fields gebruikt. Zie hieronder resultaat:</h4>
+    <form action="/action_page.php"style="background-color: gray; width: 450px;">
+        <fieldset>
+          <legend>Persoons gegevens:</legend>
+          <label for="fname">Voornaam:</label>
+          <input type="text" id="voornaam" name="voornaam" placeholder="Voornaam"><br><br>
+          <label for="lname">Achternaam:</label>
+          <input type="text" id="Achternaam" name="Achternaam" placeholder="Achternaam"><br><br>
+          <label for="email">E-mail:</label>
+          <input type="text" id="E-mail" name="E-mail" placeholder="E-mail"><br><br>
+          <label for="Geboortedatum">Geboortedatum:</label>
+          <input type="date" id="Geboortedatum" name="Geboortedatum"><br><br>
+          <input type="radio" id="man" name="gender" value="male">
+          <label for="male">Man</label><br>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Vrouw</label><br>
+          <input type="radio" id="Anders" name="gender" value="other">
+          <label for="other">Anders</label><br><br>
+          <label for="fname">Postcode:</label>
+          <input type="text" id="voornaam" name="voornaam" placeholder="Postcode"><br><br>
+          <label for="fname">Adres:</label>
+          <input type="text" id="voornaam" name="voornaam" placeholder="Adres"><br><br>
+        </fieldset>
+          <input type="submit" id="mySubmit" value="Submit">
+          <input type="reset" id="reset" value="Reset">
+    </form>
+    
+    <br>
+    <h4>5. Naast input element heb je ook een select element. Hiermee kan je een dropdown list maken. Maak een drop down list.</h4> 
+    <form action="/action_page.php">
+        <label for="cars">Kies een Sieraad:</label>
+        <select name="cars" id="cars">
+          <option value="volvo">Oorbellen</option>
+          <option value="saab">Ringen</option>
+          <option value="opel">Armbanden</option>
+          <option value="audi">Kettingen</option>
+        </select>
+        <br><br>
+        <input type="verstuur" value="Verstuur">
+    </form>
+
+    <br>
+    <h4>6. We hebben nu geleerd hoe je dropdown list, radio buttons en checkboxes maak. Dit zijn 3 verschillende manieren om de gebruiker een keuze te laten maken. Benoem voor dropdown list, radio buttons en checkboxes een situatie waar je in kan gebruiken en leg dat uit?</h4>
+    <p>Met een dropdownmenu creëer je een duidelijk en hiërarchisch overzicht van alle belangrijke onderdelen op de pagina en de subsecties die de pagina bevat. Je hoeft alleen maar je muis over de hoofdsecties te bewegen om de subsecties te laten verschijnen</p>
+    
+    <br>
+    <h4>7. Maak een reserveringsformulier om een sport te reserveren. In dit formulier willen we graag het volgende weten: </h4>
+    <ul>
+        <li>Naam van dat persoon.</li>
+        <li>Of hij/zij/anders een lidmaatschap heeft.</li>
+        <li> E-mail van dat persoon.</li>
+        <li>Type sport.</li>
+        <li>datum en tijdstip om te reserveren.</li>
+        <li>Checkbox.</li>
+        <li>En submit knop.</li>
+    </ul>
+
+    <br>
+    <form action="/action_page.php"style="background-color: gray; width: 450px;">
+        <fieldset>
+            <legend>Reserveringsformulier:</legend>
+            <label for="fname">Voornaam:</label>
+            <input type="text" id="voornaam" name="voornaam" placeholder="Voornaam"><br><br>
+            <label for="lname">Achternaam:</label>
+            <input type="text" id="Achternaam" name="Achternaam" placeholder="Achternaam"><br><br>
+            <p>Heeft u een lidmaatschap?</p>
+            <input type="radio" id="Ja" name="gender" value="Ja">
+            <label for="male">Ja</label><br>
+            <input type="radio" id="Nee" name="gender" value="Nee">
+            <label for="male">Nee</label><br><br>
+            <label for="email">E-mail:</label><br>
+            <input type="text" id="E-mail" name="E-mail" placeholder="E-mail"><br><br>
+            <label for="cars">Reserveer welke sport u wilt beoefenen:</label>
+                <select name="cars" id="cars">
+                  <option value="volvo">Tafeltennis</option>
+                  <option value="saab">Badminton</option>
+                  <option value="opel">Squash</option>
+                </select>
+            <p>Op welke dag en tijdstip wilt u reserveren?</p>
+            <label for="Tijd">Tijd</label>
+            <input type="time" id="myTime" value="11:11:11"><br>
+            <label for="datum">Datum:</label>
+            <input type="date" id="myTime" value="Datum"><br>
+            <p>U gaat akkoord met de reserverings voorwaardes?</p>
+            <input type="checkbox" id="voorwaardes1" name="voorwaardes" value="Ja">
+            <label for="vehicle1">Ja</label><br>
+            <input type="checkbox" id="voorwaardes2" name="voorwaardes" value="Nee">
+            <label for="voorwaardes2">Ja</label><br>
+            <input type="submit" id="mySubmit" value="Submit">
+        </fieldset>
+    </form>
+
+    <br>
+    <h4>8. Maak een reserverings formulier om een boek te reserveren. In dit formulier willen we graag het volgende weten:</h4>
+
+    <br>
+    <h4>9.</h4>
+
+    <br>
+    <h4>10.</h4>
+
+    <br>
+    <h4>11.Maak een tabel met 'table' element. Zie hieronder:</h4>
+    <table style="background-color: gray; width: 400px;">
+        <tr>
+          <th>Voornaam</th>
+          <th>Achternaam</th> 
+          <th>Leeftijd</th>
+          <th>Telefoonnr.</th>
+        </tr>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>41</td>
+          <td>+31 12345678</td>
+        </tr>
+        <tr>
+          <td>Steven</td>
+          <td>JSmith</td>
+          <td>32</td>
+          <td>+31 12345678</td>
+        </tr>
+        <tr>
+          <td>Alexander</td>
+          <td>beave</td>
+          <td>16</td>
+          <td>+31 12345678</td>
+        </tr>
+    </table>
+
+    <br>
+    <h4>12.  Maak een agenda  tabel met 'table' element. Zie hieronder:</h4>
+    <table style="background-color: gray; width: 500px;">
+        <tr>
+          <th>MA</th>
+          <th>DIN</th> 
+          <th>WOE</th>
+          <th>DON</th>
+          <th>VRIJ</th>
+        </tr>
+        <tr>
+          <td>Afspraak met tandarts</td>
+          <td></td>
+          <td></td> 
+          <td></td>
+          <td>Sporten</td>       
+        </tr>
+        <tr>
+          <td></td>
+          <td>Huiswerk maken</td>
+          <td>Werken</td>
+          <td>Werken</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Afspraak met Tandarts</td>
+          <td></td>
+          <td></td>
+          <td>Werken</td>
+          <td>Bij vrienden</td>
+        </tr>
+        <tr>
+        
+        </tr>  
+    </table>
+
+    <br>
+    <h4>13.Voor het maken van een tabel kan je ook gebruik maken van colspan en rowspan attributen. Zoek uit wat colspan en rowspan attribuut doet en meet het volgende:</h4>
+    <table style="width:600px">
+        <tr>
+          <th></th>
+          <th>Sport</th>
+          <th>Aantal recreanten</th> 
+          <th>Aantal competitie spelers</th>
+          <th>Totale deelnemers</th>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Smith</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>94</td>
+        </tr>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>80</td>
+        </tr>
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th> 
+              <th>Age</th>
+            </tr>
+            <tr>
+              <td>Jill</td>
+              <td>Smith</td>
+              <td>50</td>
+            </tr>
+            <tr>
+              <td>Eve</td>
+              <td>Jackson</td>
+              <td>94</td>
+            </tr>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>80</td>
+            </tr>
+          </table>
+      </table>
+
+
+
+
+    <br>
+    <h4>14.Maak nu zelf een tabel met de elementen die je hiervoor hebt geleerd.</h4> 
+   
+
+
+</body>
+</html>
