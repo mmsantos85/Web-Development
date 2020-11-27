@@ -140,19 +140,49 @@
             <input type="checkbox" id="voorwaardes1" name="voorwaardes" value="Ja">
             <label for="vehicle1">Ja</label><br>
             <input type="checkbox" id="voorwaardes2" name="voorwaardes" value="Nee">
-            <label for="voorwaardes2">Ja</label><br>
+            <label for="voorwaardes2">Nee</label><br>
             <input type="submit" id="mySubmit" value="Submit">
         </fieldset>
     </form>
 
     <br>
     <h4>8. Maak een reserverings formulier om een boek te reserveren. In dit formulier willen we graag het volgende weten:</h4>
+    <form action="/action_page.php"style="background-color: yellow; width: 450px;">
+        <fieldset>
+            <legend>Reserveringsformulier:</legend>
+            <label for="fname">Voornaam:</label>
+            <input type="text" id="voornaam" name="voornaam" placeholder="Voornaam"><br><br>
+            <label for="lname">Achternaam:</label>
+            <input type="text" id="Achternaam" name="Achternaam" placeholder="Achternaam"><br><br>
+            <label for="email">E-mail:</label><br>
+            <input type="text" id="E-mail" name="E-mail" placeholder="E-mail"><br><br>
+            <label for="aantal">Hoeveel boeken wilt u reserveren? Minimaal 1 boek en Max. van 5 boeken:</label>
+                <select name="aantal" id="aantal">
+                  <option value="1 boek">1 Boek</option>
+                  <option value="2 boeken">2 Boeken</option>
+                  <option value="3 boeken">3 boeken</option>
+                  <option value="4 boeken">4 Boeken</option>
+                  <option value="5 boeken">5 boeken</option>
+                </select>
+            <input type="submit" id="mySubmit" value="Submit">
+        </fieldset>
+    </form>
 
     <br>
     <h4>9.</h4>
 
     <br>
-    <h4>10.</h4>
+    <h4>Tables</h4>
+    <h4>10.Om een tabel te maken heb je verschillende elementen nodig. Geef voor elke element een definitie.</h4>
+    <ul>
+        <li>'table'</li>
+        <li>'thead'</li>
+        <li>'tbody'</li>
+        <li>'tfoot'</li>
+        <li>'th'</li>
+        <li>'tr'</li>
+        <li>'td'</li>
+    </ul>
 
     <br>
     <h4>11.Maak een tabel met 'table' element. Zie hieronder:</h4>
@@ -230,45 +260,52 @@
           <th>Totale deelnemers</th>
         </tr>
         <tr>
-          <td></td>
-          <td>Smith</td>
-          <td>50</td>
+          <td rowspan="3">Racketsport</td>
+          <td>Badminton</td>
+          <td>10</td>
+          <td>30</td>
+          <td>40</td>
+        </tr>
+        <t>
+           <td>Tafeltennis</td>
+           <td>59</td>
+           <td>30</td>
+           <td>89</td>
         </tr>
         <tr>
-          <td>Eve</td>
-          <td>Jackson</td>
-          <td>94</td>
+            <td>tennis</td>
+            <td>159</td>
+            <td>130</td>
+            <td>189</td>
         </tr>
         <tr>
-          <td>John</td>
-          <td>Doe</td>
-          <td>80</td>
+            <td colspan="2"></td>
+            <td>189</td>
+            <td colspan="2"></td>
+            <td></td>
         </tr>
-            <tr>
-              <th>Firstname</th>
-              <th>Lastname</th> 
-              <th>Age</th>
-            </tr>
-            <tr>
-              <td>Jill</td>
-              <td>Smith</td>
-              <td>50</td>
-            </tr>
-            <tr>
-              <td>Eve</td>
-              <td>Jackson</td>
-              <td>94</td>
-            </tr>
-            <tr>
-              <td>John</td>
-              <td>Doe</td>
-              <td>80</td>
-            </tr>
-          </table>
-      </table>
-
-
-
+        <tr>
+            <td></td>
+            <td>Voetbal</td>
+            <td>88</td>
+            <td>40</td>
+            <td>128</td>
+        </tr>
+        <tr>
+            <td>Ballsport</td>
+            <td>Basketbal</td>
+            <td>60</td>
+            <td>40</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Volleybal</td>
+            <td>35</td>
+            <td>20</td>
+            <td>55</td>
+        </tr>
+    </table>
 
     <br>
     <h4>14.Maak nu zelf een tabel met de elementen die je hiervoor hebt geleerd.</h4> 
