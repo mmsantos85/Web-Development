@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<pre>
+<article>
+<h2>Wat is Cascade</h2>
+ 
+ 
+<h3>Stylesheets cascade - op een heel eenvoudig niveau betekent dit dat de volgorde van CSS-regels ertoe doet; 
+wanneer twee regels van toepassing zijn die dezelfde specificiteit hebben, 
+wordt degene die als laatste in de CSS komt, degene die zal worden gebruikt.
+In het onderstaande voorbeeld hebben we twee regels die van toepassing kunnen zijn op de h1. 
+De h1 wordt uiteindelijk blauw gekleurd - 
+deze regels hebben een identieke selector en hebben daarom dezelfde specificiteit, 
+dus de laatste in de bronvolgorde wint.
+</h3>
+ 
+</article>    
+<h1>Dit is mijn heading.</h1>
+ 
+<style>
+    
+h1 { 
+ color: red; 
+}
+h1 { 
+color: blue; 
+}      
+</style>
+ 
+ 
+<article>
+<h2>Specificity</h2>
+ 
+<h3>Specificity is hoe de browser beslist welke regel van toepassing is als meerdere regels verschillende selectors hebben,
+maar kan nog steeds van toepassing zijn op hetzelfde element.
+Het is in feite een maatstaf voor hoe specifiek de selectie van een selector zal zijn:
+Een elementenselector is minder specifiek 
+het selecteert alle elementen van dat type die op een pagina verschijnen 
+En krijgt dus een lagere score.
+Een klassenkiezer is specifieker - hij selecteert alleen de elementen op een pagina die een specifieke klasse-attribuutwaarde hebben 
+En krijgt dus een hogere score.
+Voorbeeld tijd! Hieronder hebben we weer twee regels die van toepassing kunnen zijn op de h1.
+De onderstaande h1 wordt uiteindelijk rood gekleurd - de klasseselector geeft zijn regel een hogere specificiteit, 
+en dus zal deze worden toegepast ook al verschijnt de regel met de elementenselector verder naar beneden in de bronvolgorde.</h3>
+ 
+</article>
+</pre>  
+ 
+<pre>
+<article>
+ 
+ 
+<h2>Inheritance</h2>   
+ 
+<h4>
+Inheritance moet ook in deze context worden begrepen sommige CSS-Property en
+die op bovenliggende elementen zijn ingesteld, 
+worden geërfd door hun onderliggende elementen en andere niet.
+Als u bijvoorbeeld een kleur en lettertypefamilie instelt op een element, 
+Wordt elk element erin ook gestileerd met die kleur en lettertype, 
+Tenzij u er rechtstreeks andere kleur- en lettertypewaarden op hebt toegepast.
+Omdat het lichaam een ​​blauwe kleur heeft gekregen, wordt dit via de nakomelingen overgeërfd.
+We kunnen de kleur veranderen door het element te targeten met een selector, zoals deze <span>span</span>.</h4>
+    
+<style>
+h4 {
+    color: blue;
+}
+ 
+span {
+    color: black;
+} 
+ 
+</style>
+ 
+ 
+ 
+</article>
+</pre>
+ 
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+</head>
+<body>
+    <h4>Opdracht 3. Er zijn verschillende selectors, voorbeeld:</h4>
+        <ul>
+            <li>Type selectors</li>
+            <li>Descendant selectors</li>
+            <li>Class selectors</li>
+        </ul>
+
+    <h4>Maak van de bovengenoemde selectors voorbeelden. Geef in je antwoord ook aan wat de voordelen zijn van elke selector.</h4>
+    <p>De type selector selecteerd/target elementen in een HTML document die ik wil aanpassen/stylen. 
+       Bijv ik wil alle 'a' tags of 'p' tags van mijn HTML layout in het rood dan kan ik dit in CSS aangeven.
+       Voordeel hieraan is dat je specifiek target.</p><br>
+
+        <p>Voorbeeld type selector:</p>
+        <span>Here's a span with some text.</span>
+        <p>Here's a p with some text.</p>
+        <span>Here's a span with more text.</span>
+
+        <style>
+            span {
+            background-color: skyblue;
+             }
+        </style>
+
+    <p>De CSS Descendant selector matched alle elementen die nakomelingen zijn van een specifieke element. 
+       De decendant selector is een onderdeel van de CSS combinators:'A combinator is something that explains the relationship between the selectors'. 
+       Selectors die een onderdeel zijn van combinators: descendant selector (space), child selector (>), 
+       adjacent sibling selector (+) en general sibling selector (~). 
+       Voordeel hiervan is dat je selectors kan combineren om samen een element te targeten.</p><br>
+       <p>Voorbeeld descendant selector:</p>
+
+        <div>
+            <p>Hello, <b>world</b> - what a <b>beautiful</b> day!</p>
+        </div>
+
+        <style type="text/css">
+            p b {
+                color: Blue;
+            }
+        </style>
+
+    <p> De Class selector selecteert HTML elementen met een specifieke class attribuut. 
+        Bijv. je kan een div een class naam geven met een specifieke naam of verwijzing van je Div. 
+        Hier mee kan je in je CSS file specifiek je class vorm geven. In je CSS begin je een class naam altijd met een punt. 
+        Het grote voordeel van classes is dat je ze kan hergebruiken op verschillende plaatsen en zelfs verschillende pagina's. 
+        Het wordt dan eenvoudig op CSS stijlregels toe te passen op deze klassen en ze een mooie opmaak te geven.</p><br>
+        <p>Voorbeeld class selector:</p><br>
+
+        <div class="main-content">
+             <p>Dit is mijn main content.</p>
+        </div>
+
+        <style> 
+            .main-content {
+            text-align: center;
+            color: red;
+             }
+        </style>
+                
+</body>
+</html>

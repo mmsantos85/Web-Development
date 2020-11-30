@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet7.css">
+</head>
+<body>
+    <nav></nav>
+    <main>
+        <!-- type selector = selecteert elk element met hetzelfde type // 'type_selector' class-->
+        <div class="type_selector">
+            <span>Here's a span with some text.</span>
+            <p class="type_selector_p">Here's a p with some text.</p>
+            <span>Here's a span with more text.</span>
+        </div>
+        <div class="type_selector">
+            <span>Here's a span with some text.</span>
+            <p class="type_selector_p">Here's a p with some text.</p>
+            <span>Here's a span with more text.</span>
+        </div>
+        <div class="type_selector">
+            <span>Here's a span with some text.</span>
+            <p class="type_selector_p">Here's a p with some text.</p>
+            <span>Here's a span with more text.</span>
+        </div>
+    </main>
+    <footer></footer>
+    <hr>
+
+   <p>General selector</p>
+   <div>
+        <span>Here's a span with some text.</span>
+        <p>Here's a p with some text.</p>
+        <span>Here's a span with more text.</span>
+        <span>Here's a span with some text.</span>
+        <p>Here's a p with some text.</p>
+        <span>Here's a span with more text.</span>
+    </div>
+
+    <style>
+        div ~ p {background-color: green;}   
+    </style>
+    <hr>
+
+   <p>Descendant selector</p>
+   <div>
+        <span>Here's a span with some text.</span>
+        <p>Here's a p with some text.</p>
+        <span>Here's a span with more text.</span>
+        <span>Here's a span with some text.</span>
+        <p>Here's a p with some text.</p>
+        <span>Here's a span with more text.</span>
+    </div>
+
+    <style>
+        div p {background-color: yellow;}
+    </style>
+    <hr>
+
+<p>Class selector</p>
+<!-- class selector =  selecteer hetgeen met de class name//'paragraaf'-->
+<div>
+    <span>Here's a span with some text.</span>
+    <p class="paragraaf">Here's a p with some text.</p>
+    <span>Here's a span with more text.</span>
+    <span>Here's a span with some text.</span>
+    <p>Here's a p with some text.</p>
+    <span>Here's a span with more text.</span>
+</div>
+
+<div>
+    <span>Here's a span with some text.</span>
+    <p class="paragraaf">Here's a p with some text.</p>
+    <span>Here's a span with more text.</span>
+    <span>Here's a span with some text.</span>
+    <p>Here's a p with some text.</p>
+    <span>Here's a span with more text.</span>
+</div>
+
+<style>
+    .paragraaf { background-color: yellow;}
+</style>
+<hr>
+
+<p>Child selector</p>
+<!-- child selector (( div > p ))  =  > selecteer alle elementen die de kinderen van het specified element zijn.'-->
+<div>
+    <span>Here's a span with some text.</span>
+    <p>Here's a p with some text.</p>
+    <span>Here's a span with more text.</span>
+    <span>Here's a span with some text.</span>
+    <p>Here's a p with some text.</p>
+    <span>Here's a span with more text.</span>
+</div>
+<div>
+    <span>Here's a span with some text.</span>
+    <p >Here's a p with some text.</p>
+    <span>Here's a span with more text.</span>
+    <span>Here's a span with some text.</span>
+    <p>Here's a p with some text.</p>
+    <span>Here's a span with more text.</span>
+</div>
+
+<style>
+    div > p {background-color: yellow;}
+</style>
+<hr>
+
+<p>Adjacentt selector</p>
+<!-- Adjacent selector (( div + p ))  =  + selecteer alle elementen die adjacent-kinderen zijn van het specifiek element-->
+<!-- kinder-element moet dezelfde ouder-element hebben, ''adjacent'' gelijk volgend na-->
+<div>
+    <span>Here's a span with some text.</span>
+    <p>Here's a p with some text.</p>
+    <span>Here's a span with more text.</span>
+    <span>Here's a span with some text.</span>
+    <p>Here's a p with some text.</p>
+    <span>Here's a span with more text.</span>
+</div>
+            <p>tekst hier</p>
+<div>
+    <span>Here's a span with some text.</span>
+    <p >Here's a p with some text.</p>
+    <span>Here's a span with more text.</span>
+    <span>Here's a span with some text.</span>
+    <p>Here's a p with some text.</p>
+    <span>Here's a span with more text.</span>
+</div>
+            <p>tekst hier</p>
+    <h1>Hallo </h1>
+            <p>tekst hier</p>
+
+</body>
+</html>
