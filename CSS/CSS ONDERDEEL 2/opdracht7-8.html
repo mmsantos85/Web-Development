@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>Opdracht 7. Maak nu een blok met width: 100px, height: 100px, margin: 5px, padding 5px en border-width: 5px. Zie hieronder:</h4>
+    <p class="blok-voorbeeld">Dit is de content</p>
+
+    <style>
+        .blok-voorbeeld { 
+        background-color: red;
+        padding: 5px;
+        height: 100px;
+        width: 100px;
+        border: 20px solid purple;
+        border-width: 5px;
+        margin: 5px;
+         }
+    </style>
+
+    <h4>1. Hoe breed is de box? 2. Hoe hoog is de box? </h4>
+    <p>Width = width + left padding + right padding + left border + right border + left margin + right margin= 160px</p>
+    <p>Height = height + top padding + bottom padding + top border + bottom border + top margin + bottom margin= 160px</p>
+    <h4>3. Wat merk je op met width en height?</h4>
+    <p>
+        De width en height is nu meer px dan wat ik heb aangegeven in mijn css box. 
+       De padding, margine en border voegen extra px toe aan de box.
+       Dit kan je oplossen met de property Box-sizing.
+    </p>
+
+    <h4>Opdracht 8. Welke CSS property kun je gebruiken om ervoor te zorgen dat de waarde van de
+        width en height de totale breedte en hoogte is van het blok van de voorgaande opdracht?</h4>
+    <p> 
+        Box-sizing, deze property definieert hoe de width en height word gecalculeerd. 
+        Hiermee kan je meerdere boxen/eigenschappen samenvoegen en passend maken. 
+        Bijv. soms voegen padding, border en margine meer px toe dan wat je hebt aangegeven met de width en height.
+        Box-sizing merged/uitlijnen het als het ware samen tot 1 passend box.
+    </p>
+
+</body>
+</html>
