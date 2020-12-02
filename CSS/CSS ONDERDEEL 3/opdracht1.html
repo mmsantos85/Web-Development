@@ -11,21 +11,21 @@
         Geef ook aan welke default position waarde elementen hebben die je gebruikt in html.</h4>
         <ul>
             <li>Static - Deze postion property is gepositioneerd volgens de normale flow van een webpage.
-                De top, right, left en bottom property's hebben geen invloed en dit is dan ook de default value.</li>
+                De top, right, left en bottom property's hebben geen invloed en dit is dan ook de default value.
+                Statische positionering is de standaard voor elk element.  
+                Het betekent gewoon: "zet het element op zijn normale positie in de documentstroom, hier is niets speciaals te zien".</li>
             <li>Relative - Deze position werkt hetzelfde als de static position. 
                 Alleen hier kan je wel top, bottom, left en right property's toevoegen. 
                 Hiermee kan je elementen in een box verplaatsen zonder dat het effect heeft op de andere gebruikte elementen. </li>
-            <li>Fixed - An element with position: fixed; is positioned relative to the viewport, which means it always stays in the 
-                same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.
-                A fixed element does not leave a gap in the page where it would normally have been located.</li>
-            <li>Absolute - An element with position: absolute; is positioned relative to the nearest positioned ancestor 
-                (instead of positioned relative to the viewport, like fixed).
-                However; if an absolute positioned element has no positioned ancestors, it uses the document body, 
-                and moves along with page scrolling.</li>
-            <li>Sticky - An element with position: sticky; is positioned based on the user's scroll position.
-                A sticky element toggles between relative and fixed, depending on the scroll position. 
-                It is positioned relative until a given offset position is met in the viewport - 
-                then it "sticks" in place (like position:fixed).</li>
+            <li>Fixed - de fixed position zorgt ervoor dat een element gefixeerd blijft op 1 plek, ook al scroll je van boven naar 
+                beneden en vice versa. De top, bottom, left en right kan je gebruiken om het element te positioneren.
+                Een gefixeerde element laat geen gat achter op de webpage waar het normaliter staat.</li>
+            <li>Absolute - Elementen die relative gepositioneerd zijn gaan mee met de normale flow van de webpage.
+                Voor het tegenovergstelde/contrast effect kan je absolute postion gebruiken. Hiermee word de element uit de normale flow gehaald
+                en positioneerd zich aan het dichtbijzijnde nacestor position. Als een absolute postion geen geposiotioneerde ancestor heeft
+                gebruikt het de body van de webpage en volgt hte normale flow van de webpage.</li>
+            <li>Sticky - Deze position werkt bijna hetzelfde als de absolute position. Verschil is dat het elementen fixeerd 
+                gebaseerd op waar de gebruiker scroll positie is.</li>
         </ul>
     
 </body>
