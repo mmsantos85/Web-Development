@@ -6,18 +6,26 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>3. Display & Positioning</h1>
+    <h1>Onderdeel 3. Display & Positioning</h1>
     <h4>Opdracht1. Welke position properties zijn er? Leg voor elke position property uit wat het doet. 
         Geef ook aan welke default position waarde elementen hebben die je gebruikt in html.</h4>
         <ul>
-            <li>Static- Deze postion property is gepositioneerd volgens de normale flow van een webpage.
-                De top, right, left en bottom 
-                The element is positioned according to the normal flow of the document. 
-                The top, right, bottom, left, and z-index properties have no effect. This is the default value.</li>
-            <li>Relative</li>
-            <li>Fixed</li>
-            <li>Absolute</li>
-            <li>Sticky</li>
+            <li>Static - Deze postion property is gepositioneerd volgens de normale flow van een webpage.
+                De top, right, left en bottom property's hebben geen invloed en dit is dan ook de default value.</li>
+            <li>Relative - Deze position werkt hetzelfde als de static position. 
+                Alleen hier kan je wel top, bottom, left en right property's toevoegen. 
+                Hiermee kan je elementen in een box verplaatsen zonder dat het effect heeft op de andere gebruikte elementen. </li>
+            <li>Fixed - An element with position: fixed; is positioned relative to the viewport, which means it always stays in the 
+                same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.
+                A fixed element does not leave a gap in the page where it would normally have been located.</li>
+            <li>Absolute - An element with position: absolute; is positioned relative to the nearest positioned ancestor 
+                (instead of positioned relative to the viewport, like fixed).
+                However; if an absolute positioned element has no positioned ancestors, it uses the document body, 
+                and moves along with page scrolling.</li>
+            <li>Sticky - An element with position: sticky; is positioned based on the user's scroll position.
+                A sticky element toggles between relative and fixed, depending on the scroll position. 
+                It is positioned relative until a given offset position is met in the viewport - 
+                then it "sticks" in place (like position:fixed).</li>
         </ul>
     
 </body>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>Opdracht 7. Zie de onderstaande image met tekst. Kun jij dit namaken? Gebruik zelf een foto van een zonnige bestemming.
+    Gebruik position, maar je mag geen z-index toepassen.</h4>
+
+    <div class="container">
+        <img src="https://www.bestereistijd.be/uploads/2017/10/beste-reistijd-tonga-1200x675.jpg" alt="https://www.bestereistijd.be/" width="650px" height="450px">
+            <div class="text1"><h1>Groeten uit <span class="land" ><font style="opacity: 0.5;">Griekenland!</font></span></h1></div>
+            <div class="text2"><p>Kom je ook hier vakantie vieren?</p></div>    
+            
+    </div>
+
+    <style>
+        .container {
+            position: relative;
+            text-align: center;
+        }
+
+        .text1 {
+            position: absolute;
+            left: 550px;
+            top: 80px ;
+            color: black;
+        }
+
+        .land {
+            color: white;
+            top: 100px;
+        }
+
+        .text2 {
+            position: absolute;
+            left: 620px;
+            top: 120px;
+            color: yellow;
+        }
+    </style>
+
+ 
+
+
+
+    
+</body>
+</html>
