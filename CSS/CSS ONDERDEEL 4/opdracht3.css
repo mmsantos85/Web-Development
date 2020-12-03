@@ -41,10 +41,12 @@ q::after {
     font-size: 1.5em;
   }
 
-  input::placeholder {
-    color: red;
-    font-size: 1.2em;
-    font-style: italic;
+  ::spelling-error  {
+    text-decoration: wavy red;
+  }
+
+  .first::first-line {
+    background-color: yellow;
   }
 
   
