@@ -1,0 +1,50 @@
+q::before { 
+    content: "«";
+    color: blue;
+}
+
+q::after { 
+    content: "»";
+    color: red;
+  }
+
+  .p2 {
+    width: 500px;
+    line-height: 1.5;
+  }
+
+  /* Make selected text gold on a red background */
+::selection {
+    color: gold;
+    background-color: red;
+  } 
+  
+  /* Make selected text in a paragraph white on a blue background */
+  p::selection {
+    color: white;
+    background-color: blue;
+  }
+  
+  h2 + p::first-letter {
+    color: white;
+    background-color: black;
+    border-radius: 2px;
+    box-shadow: 3px 3px 0 red;
+    font-size: 250%;
+    padding: 6px 3px;
+    margin-right: 6px;
+    float: left;
+  }
+
+  ul li::marker {
+    color: red;
+    font-size: 1.5em;
+  }
+
+  input::placeholder {
+    color: red;
+    font-size: 1.2em;
+    font-style: italic;
+  }
+
+  
