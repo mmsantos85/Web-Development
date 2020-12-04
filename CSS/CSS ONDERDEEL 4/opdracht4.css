@@ -30,5 +30,7 @@ button::after {
     border-bottom: 5px solid red
 }
 
-
+button:focus {
+    outline: 0;
+}
 

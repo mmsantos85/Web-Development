@@ -1,0 +1,92 @@
+.hoofd1 { 
+    position: relative;
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    left: 75px;
+    top: 100px; 
+      }
+    
+ .cijfer {
+    position: absolute;
+    left: 60px;
+    top: 40px;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+     }  
+        
+.oor1 {
+    content: "";
+    position: absolute;
+    background-color: black;            
+    width: 70px;
+    height: 70px; 
+    left: 195px;
+    bottom: 520px;
+    border-radius: 50%;  
+     }
+
+.oor2 {
+    content: "";
+    position: absolute;
+    background-color: black;            
+    width: 70px;
+    height: 70px; 
+    left: 50px;
+    bottom: 520px;
+    border-radius: 50%;  
+     }
+    
+.punt1::before{  
+    position: absolute;
+    content: "";
+    background-color: white;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    left: 80px;
+    top: 220px;
+      }
+
+.punt2::before{  
+    position: absolute;
+    content: "";
+    background-color: white;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    left: 226px;
+    top: 247px;
+      }
+
+.hoofd2 { 
+    position: relative;
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    left: 75px;
+    top: 100px; 
+      }
+
+.hoofd3 { 
+    position: relative;
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    left: 75px;
+    top: 100px; 
+      }
+
+.container {
+    display: flex;
+    flex-direction: row;
+}      
+
+    
+
+
+
