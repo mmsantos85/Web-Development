@@ -1,0 +1,14 @@
+.flex-container {
+    display: flex;
+    align-items: stretch;
+    background-color: hsl(61, 79%, 74%);
+  }
+  
+  .flex-container > div {
+    background-color: #89eeab;
+    color: black;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
