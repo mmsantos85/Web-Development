@@ -1,6 +1,49 @@
 .container-flexbox {
     display: flex;
-    background-color: #ffd6d6;
+    flex-direction: column;
+    background-color: hsl(0, 82%, 96%);
+    width: 650px;
+    height: 260px;
+    justify-content: flex-start;
   }
 
-  
+.flexbox-item-item-1 {
+    height: 20px;
+    background-color: rgb(144, 144, 255);
+    margin-top: 45px;
+}
+
+.flexbox-item-item-2 {
+    height: 20px;
+    width: 300px;
+    background-color: rgb(144, 144, 255);
+    margin-top: 10px;
+}
+
+.flexbox-item-item-3 {
+    height: 20px;
+    width: 350px;
+    background-color: rgb(144, 144, 255);
+    margin-top: 10px;
+}
+
+.flexbox-item-item-4 {
+    height: 20px;
+    width: 400px;
+    background-color: rgb(144, 144, 255);
+    margin-top: 10px;
+}
+
+.flexbox-item-item-5 {
+    height: 20px;
+    width: 200px;
+    background-color: rgb(144, 144, 255);
+    margin-top: 10px;
+}
+
+.flexbox-item-item-6 {
+    height: 20px;
+    width: 250px;
+    background-color: rgb(144, 144, 255);
+    margin-top: 10px;
+}

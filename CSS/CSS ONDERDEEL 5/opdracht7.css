@@ -1,0 +1,54 @@
+.container-flexbox {
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(0, 82%, 96%);
+    width: 350px;
+    height: 450px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flexbox-item1 {
+    background-color: rgb(144, 144, 255);
+    height: 450px;
+    width: 30px;
+    margin-left: 5px;
+}
+
+.flexbox-item2 {
+    background-color: rgb(144, 144, 255);
+    width: 30px;
+    height: 200px;
+    margin-left: 5px;
+}
+
+.flexbox-item3 {
+    background-color: rgb(144, 144, 255);
+    width: 30px;
+    height: 250px;
+    margin-left: 5px;
+}
+
+.flexbox-item4 {
+    background-color: rgb(144, 144, 255);
+    width: 30px;
+    height: 300px;
+    margin-left: 5px;
+}
+
+.flexbox-item5 {
+    background-color: rgb(144, 144, 255);
+    width: 30px;
+    height: 100px;
+    margin-left: 5px;
+}
+
+.flexbox-item6 {
+    background-color: rgb(144, 144, 255);
+    width: 30px;
+    height: 150px;
+    margin-left: 5px;
+}
+
+
+

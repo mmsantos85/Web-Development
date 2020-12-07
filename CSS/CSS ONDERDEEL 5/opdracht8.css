@@ -1,0 +1,54 @@
+.container-vierkant {
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.container-vierkant2 {
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.flexbox {
+    border: 1px solid black;
+    border-radius: 15%;  
+    text-align: center;
+    font-size: 50px; 
+    font-weight: bold;
+    height: 150px;
+    width: 150px; 
+    padding: 20px;
+}
+
+.flexbox.item1 {
+    background-color: #f7ffaa;
+}
+
+.flexbox.item2 {
+    background-color: hsl(194, 85%, 62%);
+}
+
+.flexbox.item3 {
+    background-color: rgb(127, 230, 132);
+}
+
+.flexbox.item4 {
+    background-color: white;
+}
+
+.flexbox.item5 {
+    background-color:black;
+    color: white;
+}
+
+.flexbox.item6 {
+    background-color: blue;
+    background-image: linear-gradient(to right, #1313b9, rgb(29, 125, 189), rgb(166, 166, 233))
+}
+
+
+
+
+
