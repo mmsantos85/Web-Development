@@ -1,0 +1,41 @@
+.container {
+    position: relative;
+    background-color: rgb(226, 229, 255);
+    border: black solid 3px;
+    width: 530px;
+    height: 400px;
+    margin: 30px;
+}
+
+.vierkant {
+    position: absolute;
+    border: black solid 5px;
+    width: 200px;
+    height: 200px;
+    text-align: left;
+    font-size: 130%;
+    font-weight: bold;
+    background-image: url("tenor.gif");
+}
+
+.square {
+    position: relative;
+    background: rgb(39, 160, 230);
+    height: 205px;
+    width: 205px;
+}
+
+p {
+    position: absolute;
+    top: 130px;
+    left: 70px;
+    color: rgb(133, 253, 97);
+}
+
+#square {
+    transition: transform 2s;
+}
+
+.container:hover #square {
+    transform: rotate(80deg) translateX(250px);
+}

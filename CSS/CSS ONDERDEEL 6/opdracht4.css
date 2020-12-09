@@ -1,0 +1,47 @@
+.container {
+    background-color: #f3edb2;
+    border: solid #921f1f 2px;
+    width: 700px;
+}
+
+.vierkant {
+    height: 30px;
+    width: 30px;
+    border: solid #921f1f 3px;
+    text-align: center;
+    font-size: 150%;
+    line-height: 150%;
+    color: #921f1f;
+    padding: 20px;
+}
+
+.container:hover #box1 {
+    margin-left: 625px;
+    margin-bottom: 100px;
+    transform: translate();
+}
+
+.container:hover #box2 {
+    margin-top: 100px;
+    margin-left: 625px;
+}
+
+.container:hover #box3 {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+#box1 {
+    transition: all 1s ease-in-out;
+}
+
+#box2 {
+    transition-duration: 1s, 1s;
+    transition-delay: 0s, 1s;
+}
+
+#box3 {
+    transition-duration: 2s, 1s, 0.5s, 0.5s;
+    transition-delay: 0s, 0.5s, 1s, 1.5s;
+}
+
