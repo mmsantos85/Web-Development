@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onderdeel 1 Nesting & Variables</title>
+    <link rel="stylesheet" type="text/css" href="./css/opdracht1.css">
+</head>
+
+<body>
+    <h1>Onderdeel 1 Nesting & Variables:</h1>
+    <!--1.  Nesting:
+            Nesting is het proces waarbij selectors binnen het bereik van een andere selector worden
+            geplaatst. In Sass is het handig om het bereik van een selector te beschouwen als de code
+            tussen de accolades die openen en sluiten {}.
+            Selectors die ‘nested’ zijn binnen het bereik van een andere selector, worden ‘children’
+            genoemd. De buitenste selector wordt de ‘parent’ genoemd. Dit is net als de relatie die je
+            terugziet bij HTML-elementen. Door nesting kun je duidelijk de DOM-relatie tussen twee selectors zien en tegelijkertijd de
+            herhaling verwijderen die in CSS in de code zit.
+        
+            Opdrachten:
+            Voor de komende twee SASS onderdelen (Nesting & Variables) zullen we steeds werken met
+            de onderstaande code. Het is handig als je deze code overneemt in je Visual Studio Code.
+            Deze code gebruiken we dus voor alle opdrachten van de bovengenoemde twee SASS
+            onderdelen. Tip: Check steeds na elke opdracht hoe de compiler gewone CSS heeft gemaakt
+            van jouw SCSS code. Bekijk en bestudeer de verschillen.-->
+
+    <h4>Opdracht 1. Nest de slogan selector in de banner selector en geef de slogan selector de volgende values:</h4>
+    <h4>Opdracht 2. Nest de span selector in de slogan selector en geef de span selector de volgende values:</h4>
+    <h4>Opdracht 3. Nest de icon selector in de container selector en geef de icon selector de volgende values:</h4>
+    <p>Antwoorden verwerkt in SCSS bestand.</p>
+   
+   
+        
+    <h1>LEMONADE</h1>
+
+    <div class="banner">
+        <div class="slogan">
+            <span>
+                homemade with fresh
+                ingredients
+            </span>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="icon">
+            fresh lemons
+            <img src="lemon.png">
+        </div>
+        <div class="icon">
+            real sugar
+            <img src="lemon.png">
+        </div>
+        <div class="icon">
+            dad's recipe
+            <img src="lemon.png">
+        </div>
+    </div>
+    <!--2.  Variables:
+            Met variabelen in SCSS kun je een zogenaamde ‘identifier’ naar keuze aan een specifieke
+            waarde toewijzen. Waarom is dat handig? In tegenstelling tot CSS, als je een value moet
+            aanpassen, hoef je deze slechts op één plaats aan te passen en de wijziging wordt
+            toegepast op alle betreffende regels. Hoe groter je website wordt, des te handiger het
+            gebruik van variabelen is. In Sass gebruik je de $ om een variabele te definiëren en ernaar te verwijzen.-->
+
+    <h4>Opdracht 1. Bovenin je .scss document maak je een nieuwe variabele aan met de naam 
+        ‘translucent-white’ en die geef je de waarde ‘rgba(255,255,255,0.3)’.
+        Zorg er nu voor dat de slogan selector een achtergrondkleur krijgt die je in de 
+        bovenstaande variabele hebt gedefinieerd.</h4>
+
+     <h4>Opdracht 2. Er zijn verschillende datatypen die je aan een variabele in CSS kunt toewijzen. 
+         Naast het datatype voor kleur dat we hierboven hebben gezien, zijn er ook:</h4> 
+         <ul>
+            <li>- Numbers, zoals 8.11 of 12 of bijv. 10px. Merk op dat hoewel 10 een eenheid van px heeft, het nog steeds als een getal wordt gelezen.</li>
+            <li>- Strings, met en zonder aanhalingstekens. Enkele voorbeelden zijn "aardappel", 'tomaat' of span.</li>
+            <li>- Booleans, of simpelweg ‘true’ en ‘false’.</li>
+            <li>- Null, wat als een lege waarde wordt beschouwd.</li>
+        </ul>  
+
+    <h4>Bovenin je .scss document maak je een nieuwe variabele aan van het type number met de naam icon-square-length en geef die een waarde 300px. 
+        Zorg er nu voor dat de icon selector een width en height krijgt gelijk aan de hiervoor gedefinieerde variabele.</h4>   
+
+
+
+</body>
+
+</html>
