@@ -1,0 +1,32 @@
+.button {
+  height: 50px;
+  width: 120px;
+  background-color: blue;
+  color: greenyellow;
+  font-size: 20px;
+  font-weight: bold;
+  border: 5px solid greenyellow;
+  border-radius: 10px;
+}
+
+.colorChangingSquare {
+  margin-top: 20px;
+  height: 150px;
+  width: 150px;
+  background-color: blue;
+  border: 5px solid greenyellow;
+}
+
+.button:hover {
+  background-color: greenyellow;
+  color: blue;
+  border: 5px solid blue;
+}
+
+.colorChangingSquare:hover {
+  background-color: greenyellow;
+  border: 5px solid blue;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+/*# sourceMappingURL=main.css.map */
