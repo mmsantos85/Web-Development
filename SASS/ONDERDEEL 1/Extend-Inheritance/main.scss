@@ -1,0 +1,10 @@
+h2{  
+    color: rgb(238, 224, 31);  
+    }  
+    .style{  
+    width: 500px;  
+    @media screen and (orientation: portrait){  
+    width:200px;  
+    margin-left: 80px;  
+    }  
+    }

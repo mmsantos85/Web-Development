@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onderdeel extend en Inheritance</title>
+</head>
+
+<body class="container">
+
+    <h2>This is a Sass @media directive example:</h2>  
+    <img src="mamun.jpg" class="style">
+
+
+    <!--5. Extend and Inheritance 
+       De extend feature van Sass is wellicht de belangrijkste feature die Sass met zich meebrengt. 
+       Door gebruik te maken van deze feature kunnen we styling van de ene class overdragen naar de andere via een regel code.
+       Hieronder volgt een voorbeeld:
+      -->
+
+    <!-- <pre>
+        %button-basic { 
+        border: none; 
+        padding: 15px 30px; 
+        text-align: center; 
+        font-size: 18px; 
+        cursor: pointer; 
+        } 
+
+       .button-report { 
+        @extend %button-basic; 
+        background-color: red; 
+        } 
+
+       .button-submit { 
+        @extend %button-basic; 
+        background-color: green; 
+        color: white; 
+        } 
+       </pre>   -->
+
+    <!--In dit voorbeeld zien we dat we gebruik maken van een % in plaats van een punt voor de button-basic class. 
+        Een % staat voor een placeholder selector. Dit betekent dat we deze styling alleen hebben geschreven voor 
+        de sass en dat het niet terug zal komen in de CSS. Het zal dus alleen terug te vinden zijn in de CSS waar 
+        het gebruikt is en de enige bedoeling hiervan is om het te extenden.
+
+        De Sass code compiled in CSS naar: 
+        .button-report, .button-submit { 
+        border: none; 
+        padding: 15px 30px; 
+        text-align: center; 
+        font-size: 18px; 
+        cursor: pointer; 
+        }
+
+        .button-report { 
+        background-color: red; 
+        } 
+
+        .button-submit { 
+        background-color: green; 
+        color: white; 
+        }
+
+        We zien hier dat de button-basic selector niet in de CSS staat maar dat de code die daarin stond wel geplaatst 
+        is in button-report en button-submit. Vervolgens zien we de toegevoegde code los eronder staan. 
+        Door op deze wijze te werk te gaan hoeven we code maar één keer te schrijven en kunnen we het vervolgens hergebruiken waar nodig. 
+        Dit volgt het DRY principe. We kunnen ook reguliere classes extenden door simpelweg “@extend .classnaam;” te schrijven. 
+        De properties van de class worden dan op dezelfde wijze overgenomen.
+    -->
+    <!-- <h4>Opdracht 1. We hebben nu zowel mixins als extends gezien die beiden styling kunnen overnemen.
+        Lees dit artikel en geef een uitleg wanneer we inheritance gebruiken en wanneer we mixins gebruiken.</h4>
+    
+        - Met Inheritance/Extend syntax kun je een aantal CSS property's delen in twee selectoren. @extend directive is handig 
+        als je bijv. meerderde elementen hebt die op elkaar lijken qua styling met minimale verschillen.
+        The @extend feature of Sass allows classes to share a set of properties with one another. 
+        In complicated CSS where many classes are put together, duplication of properties may occurs. 
+        The @extend features makes your code less and facilitates you to rewrite it repeatedly.
+
+        - Mixins zorgt ervoor dat wij CSS code kunnen schrijven die we kunnen hergebruiken door de website heen. 
+        Het verschilt van partials in de zin dat bij partials we een bestand inladen met voorgeschreven CSS classes. 
+        Bij een mixin nemen we alleen de properties en values over. 
+        We kunnen nu voor elke class waar wij dezelfde styling willen hebben simpelweg @include gebruiken. 
+        Als we een deel van de voorgeschreven mixin willen gebruiken kunnen wij de waardes die wij anders willen hebben na de @include overschrijven.
+ 
+   
+    Opdracht 2. Sass volgt dus het DRY principe. Het DRY principe wordt ook erg mooi meegenomen bij het
+        responsive designen van je website. Om een website responsive te maken met media
+        queries kunnen wij bijvoorbeeld variabelen gebruiken om eenvoud te creëren bij ons
+        responsive design. Lees dit artikel en geef een gecodeerde voorbeeld hoe je hiervan gebruik
+        kan maken in het responsive design. Let op: Focus op variables in queries.
+        Resulaat zie hierboven. -->
+
+</body>
+
+</html>
