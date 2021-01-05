@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Variables</title>
+</head>
+<body>
+<!--Opdrachten over de verschillende data types herkennen.
+
+    Opdracht 5:
+    1. Maak een let variable en noem het datatype.
+    2. Ken de waarde true aan de variable.
+    3. Print vervolgens de variable met console.log(“datatype ” + typeof datatype);
+    Open dit html bestand in jouw browser en kijk in je console. Je zult “datatype boolean” in
+    console zien.
+    4. Wat voor type is de waarde false? Boolean/waarde is 0.-->
+
+    <script>
+        let datatype = true;//false intypen=nog steeds bolean.
+        console.log("datatype " + typeof datatype);
+    </script>
+
+<!--Opdracht 6:
+    1. Herhaal opdracht 5 en geef antwoord op de volgende vragen.
+    Hoe herken je dat een waarde String is? Wanneer de content/gegeven value tekst is, dit geef je aan/kan je herkennen aan/met dubbele quotes. Geef ook een voorbeeld.
+    2. Hoe herken je dat een waarde Number is? Geef ook een voorbeeld.
+    3. Hoe herken je dat een waarde BigInt is? Een BigInt lijkt heel veel op Number. De waarde van BigInt is een getal en
+    eindigt op n. Bijvoorbeeld 3n. Het grootste verschil tussen BigInt en Number is dat BigInt oneindig getallen kan opslaan. Geef ook een voorbeeld.
+    4. Hoe herken je dat een waarde Symbol is? Symbol wordt gebruikt om de waarde een unieke key van te maken. Geef ook een voorbeeld.-->
+
+    <script> //string
+        let firstName = "melisa";
+        console.log("firstName " + typeof firstName);
+    </script>
+
+    <script> //number
+        let age = 35;
+        console.log("age " + typeof age);
+    </script>
+
+    <script> //BigInt
+        let huisNummer = 285n;
+        console.log("huisNummer " + typeof huisNummer);
+    </script>
+
+    <script> //symbol vb. goed
+        let symbol1 = Symbol();
+        console.log(typeof symbol1);
+    </script>
+
+    <script> //symbol vb. fout
+        const s1 = Symbol(); // false
+        const s2 = Symbol();
+        console.log(s1 === s2); 
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Variables</title>
+</head>
+
+<body>
+<!--Opdrachten wat je met Numbers kan doen.
+
+    Opdracht 7:
+    1. Maak twee variables aan met twee verschillende Numbers. Geeft de variables een
+    logische naam waaraan je kunt afleiden wat het inhoudt.
+    2. Eerste variable heeft de waarde 6.
+    3. Tweede variable heeft de waarde 8.
+
+    Tel de twee waardes bij elkaar op. Print het antwoord in jouw browser console. Het
+    antwoordt zal 14 moeten zijn.
+
+    Trek de tweede waarde af van de eerste waarde. Print het antwoord in jouw browser
+    console. Het antwoordt zal 2 moeten zijn.
+
+    Vermenigvuldig de twee waardes. Print het antwoord in jouw browser console. Het
+    antwoordt zal 48 moeten zijn.
+
+    Deel de twee waarde met de eerste waarde. Print het antwoord in jouw browser console. 
+    Het antwoordt zal 1.33 moeten zijn.-->
+
+    <script>
+        const numAdd6 = 6;
+        const numAdd8 = 8;
+        console.log(6 + 8);
+    </script>
+
+    <script>
+        const numSubstract6 = 6;
+        const numSubstract8 = 8;
+        console.log(8 - 6);
+    </script>
+
+    <script>
+        const numMultiply6 = 6;
+        const numMultiply8 = 8;
+        console.log(6 * 8);
+    </script>
+
+    <script>
+        const numDivide6 = 6;
+        const numDivide8 = 8;
+        console.log(8 / 6);
+    </script>
+
+<!--Opdracht 8:
+    1. Wat is het antwoord van de volgende som: 3 + 5 * 10 / 2?
+    2. Print het antwoord in jouw browser console.
+    Open dit html bestand in jouw browser en kijk in je console,-->
+
+    <script>
+        const num3 = 3;
+        const num5 = 5;
+        const num10 = 10;
+        const num2 = 2;
+        console.log("3 + (5 * 10) / 2 = " + (3 + (5 * 10) / 2));// is 28
+    </script>
+
+<!--Opdracht 9:
+    Voor deze opdracht is het handig om je in te lezen over increment {bron:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment} 
+    en decrement (bron: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Decrement).
+    1. Copy de volgende code in jouw VSCode:
+    2. Print uitkomst in jouw browser console.
+    Wat gebeurt er met de uitkomst?-->
+
+    <script>
+        let number = 3;
+        number++;
+        console.log(number++); //= 4
+    </script>
+
+<!-- 3. Wijzig number++ naar number--.
+    4. Wat is de uitkomst van de som? Wat gebeurt met de uitkomst?-->
+
+    <script>
+        let numberr = 3;
+        number--;
+        console.log(numberr--); //=3
+    </script>
+
+<!--5. Copy de volgende code in jouw VSCode:
+    6. Wat is de uitkomst van de som?-->
+
+    <script>
+        let numbero = 3;
+        const sum = numbero++ + 2;
+        console.log(sum); //=5
+    </script>
+
+<!--7. Copy de volgende code in jouw VSCode:
+    8. Wat is de uitkomst van de som?-->
+
+    <script>
+        let numbera = 3;
+        const summ = ++numbera + 2;
+        console.log(summ); //=6
+    </script>
+
+<!--Opdracht 10:
+    1. Copy de volgende code in jouw VSCode:
+    2. Wat is de uitkomst van van de som? = 7.
+    3. Hoe zou je het anders kunnen schrijven en dezelfde uitkomst hebben?
+    Geef een antwoord, geschreven code en uitleg.--> 
+
+    <script>
+        let numbere = 3;
+        numbere += 4;
+        console.log(numbere); //=7
+    </script>
+
+    <script>
+        let x = 3;
+        const y = x++ ;
+        console.log(x + 3);
+    </script>
+
+<!--Opdracht 11:
+    1. Copy de volgende code in jouw VSCode:
+    2. Wat is de uitkomst?-->
+
+    <script>
+        let cijfers = 3;
+        cijfers += 4;
+        cijfers -= 2;
+        cijfers /= 5;
+        cijfers *= 4;
+        console.log(cijfers); //=4
+    </script>
+
+</body>
+
+</html>
