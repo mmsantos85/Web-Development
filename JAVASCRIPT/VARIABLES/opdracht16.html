@@ -14,11 +14,35 @@
     String kan aanroepen.
 
     Maak een eigen voorbeeld van de volgende functies en licht toe wat de functie doet in het blok:
-    1. charAt()
-    2. concat()
-    3. slice()
-    4. split()
-    5. substr()-->
+    1. charAt() 
+    Methode herleid de charAt naar een specifieke index in een string. 
+    De index van de eerste is 0, tweede 1 etc. Zie voorbeeld charAt, ingevoerd 2 = d.
+
+    2. concat() 
+    Word gebruikt om twee of meerdere strings samen te voegen. Zie voorbeeld hieronder.
+
+    3. slice() 
+    Neemt een deel van een string weg. Zie voorbeeld ingevoerd 2 en 9 = letter o en n.
+
+    4. split() 
+    Methode verdeelt een string in een ordered list van sub strings en zet dit in 
+    een nieuwe rij en herleid de rij terug. De verdeling gebeurt doordat er word gezocht naar een patroon. 
+    Zie voorbeeld, geeft een spatie tussen elke letter. 
+
+    5. substr() 
+    Methode neemt delen van een string, beginnend van een character op een specifieke positie en 
+    herleid het weer terug naar gespecificeerde nummer van characters. Zie voorbeeld Haalt de 2e en 7e letter weg.
+    -->
+
+    <script>
+        let stringOne = "Opdrachten met built in string methodes";
+        let stringTwo = "Opdrachten met built in string methodes";
+        console.log(stringOne.charAt(2));
+        console.log(stringOne.concat(stringTwo));
+        console.log(stringTwo.slice(1, 9));
+        console.log(stringTwo.split(""))
+        console.log(stringTwo.substr(2, 7));
+    </script>
     
 </body>
 </html>
