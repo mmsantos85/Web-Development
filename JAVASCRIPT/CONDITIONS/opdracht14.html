@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Conditions</title>
+</head>
+
+<body>
+<!--Opdracht 13:
+    Maak een nieuwe html bestand aan en copy de volgende code naar jouw bestand.
+    Deze applicatie moet het volgende kunnen doen:
+        ● Het vertalen van getallen naar maanden. Bijvoorbeeld, als je het getal 1 invoert dan toon je op het scherm “Januari”.
+            ○ 1 => January.
+            ○ 2 => February.
+            ○ 3 => March.
+            ○ 4 => April.
+            ○ 5 => May.
+            ○ 6 => June.
+            ○ 7 => Juli.
+            ○ 8 => August.
+            ○ 9 => September.
+            ○ 10 => Oktober.
+            ○ 11 => November.
+            ○ 12 => December.
+        
+    Opdracht 14:
+    Maak opdracht 13 opnieuw, maar gebruik nu Switch statement om dezelfde resultaten te maken.-->
+
+    <h1>Translate Months</h1>
+
+    <input type="number" name="number" id="number">
+
+    <button onclick="translateMonth()">translate</button>
+
+    <div id="translatedMonth"></div>
+   
+    <script>
+        function translateMonth() {
+            let inputNumber = document.getElementById('number').value;
+            // const month = document.getElementById('translatedMonth');
+
+            switch(inputNumber) {//switch= een expression.
+                case "1"://start van een switch block.
+                text = "January";//= inhoud.
+                break;//= einde switch block.
+
+                case "2":
+                text = "February";
+                break;
+
+                case "3":
+                text = "March";
+                break;
+
+                case "4":
+                text = "April";
+                break;
+
+                case "5":
+                text = "May";
+                break;
+
+                case "6":
+                text = "June";
+                break;
+
+                case "7":
+                text = "July";
+                break;
+
+                case "8":
+                text = "August";
+                break;
+
+                case "9":
+                text = "September";
+                break;
+
+                case "10":
+                text = "Ocotober";
+                break;
+
+                case "11":
+                text = "November";
+                break;
+
+                case "12":
+                text = "December";
+                break;
+            }
+            document.getElementById("translatedMonth").innerHTML = text;
+        }
+            
+    </script>
+
+    
+
+</body>
+</html>

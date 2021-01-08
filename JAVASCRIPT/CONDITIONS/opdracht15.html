@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Conditions</title>
+    <style>
+        .words button {
+            position: relative;
+            border: 1px solid black;
+            border-radius: .5em;
+            background-color: white;
+            padding: .5em;
+            cursor: pointer;
+            transition: background-color .3s ease-in-out;
+            z-index: 1;
+        }
+
+        .words button:focus {
+            outline: none;
+            background-color: grey;
+        }
+
+        .words .fg {
+            position: absolute;
+            content: '';
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: inherit;
+            background-color: white;
+            z-index: 2;
+            transition: width .3s ease-out;
+            overflow: hidden;
+        }
+
+        .words button:hover .fg {
+            width: 0;
+            z-index: 1;
+        }
+
+        .words button:focus .fg {
+            width: 0;
+        }
+
+        .answer {
+            font-size: 2em;
+            font-weight: 900;
+        }
+    </style>
+</head>
+
+<!--Opdracht 15: Guess the word!
+    Maak een nieuwe html bestand aan en copy de volgende code naar jouw bestand:
+    Analyseer de code en probeer te begrijpen wat er staat.
+    Deze applicatie moet het volgende kunnen doen:
+       ● Het bijhouden van het aantal pogingen voor het raden van het woord.
+       ● Na 3 keer raden is het game over en moet de volgende tekst op het scherm
+    weergegeven worden: “Game Over. The correct word is <het woord dat geraden
+    moest worden>”. De p.label kun je hiervoor gebruiken om de tekst op het scherm
+    weer te geven.
+        ● Als het woord goed geraden is dan toon je de volgende tekst op het scherm: 
+    “”You have guessed the correct word! <het woord dat geraden moest worden>.-->
+
+<body>
+    <h1>Guess the word</h1>
+    <section>
+        <div class="words">
+            <button onclick="guess(this)">
+                <div class="fg">Show</div><span>Together</span>
+            </button>
+            <button onclick="guess(this)">
+                <div class="fg">Show</div><span>Teamwork</span>
+            </button>
+            <button onclick="guess(this)">
+                <div class="fg">Show</div><span>Scrum</span>
+            </button>
+            <button onclick="guess(this)">
+                <div class="fg">Show</div><span>Individual</span>
+            </button>
+            <button onclick="guess(this)">
+                <div class="fg">Show</div><span>Moments</span>
+            </button>
+            <button onclick="guess(this)">
+                <div class="fg">Show</div><span>Like</span>
+            </button>
+            <button onclick="guess(this)">
+                <div class="fg">Show</div><span>Dislike</span>
+            </button>
+            <button onclick="guess(this)">
+                <div class="fg">Show</div><span>Money</span>
+            </button>
+            <button onclick="guess(this)">
+                <div class="fg">Show</div><span>Important</span>
+            </button>
+        </div>
+    </section>
+
+    <div>
+        <span>The number of wrong guessing: <span id="count">0</span></span>
+        <p id="label"></p><!--ID voor tekst-->
+        
+        
+    </div>
+
+    <!--stap 1.
+        function maken. 
+        Een functie is eigenlijk een stukje code/block met een naam, zodat je die code makkelijk 
+        later nog eens kan gebruiken zonder hem helemaal overnieuw te moeten schrijven. 
+        Maar nog belangrijker is dat je de functie zo kan maken dat de code die uitgevoerd 
+        wordt wel hetzelfde is maar telkens net wat anders doet.
+        
+        function guess(obj) {
+            console.log(obj)
+        }
+
+        stap 2:
+
+    -->
+    <script>
+        const words = ["Together", "Teamwork", "Scrum", "Individual", "Moments", "Like", "Dislike",
+            "Money", "Important"];
+        const guessingWord = words[Math.round(Math.random() * 8)];
+        let teller = document.getElementById("count");
+        let label =  document.getElementById("label");
+        teller = 0;
+
+        function guess(obj) {
+            // console.log(obj)
+
+            teller++;//= increment
+            // console.log(teller)
+            document.getElementById("count").innerHTML = teller;
+
+            if (teller > 3) {
+                document.getElementById("label").innerText = "Game over!";
+                // label.innerHTML = "Game Over!";
+            }
+
+
+
+        
+        }
+            
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>

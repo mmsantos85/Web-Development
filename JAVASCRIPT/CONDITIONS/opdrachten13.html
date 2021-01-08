@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Conditions</title>
+</head>
+
+<body>
+<!--Opdracht 13:
+    Maak een nieuwe html bestand aan en copy de volgende code naar jouw bestand.
+    Deze applicatie moet het volgende kunnen doen:
+        ● Het vertalen van getallen naar maanden. Bijvoorbeeld, als je het getal 1 invoert dan toon je op het scherm “Januari”.
+            ○ 1 => January.
+            ○ 2 => February.
+            ○ 3 => March.
+            ○ 4 => April.
+            ○ 5 => May.
+            ○ 6 => June.
+            ○ 7 => Juli.
+            ○ 8 => August.
+            ○ 9 => September.
+            ○ 10 => Oktober.
+            ○ 11 => November.
+            ○ 12 => December.-->
+
+    <h1>Translate Months</h1>
+
+    <input type="number" name="number" id="number">
+
+    <button onclick="translateMonth()">translate</button>
+
+    <div id="translatedMonth"></div>
+
+    <script>
+        function translateMonth() {
+            let inputNumber = document.getElementById('number').value;
+            const month = document.getElementById('translatedMonth');
+
+            if  (inputNumber == 1) {// == betekent gelijk aan.
+                month.innerText = "January";
+            } else if (inputNumber == 2) {
+                month.innerText = "february";
+            } else if (inputNumber == 3) {
+                month.innerText = "March";
+            } else if (inputNumber == 4) {
+                month.innerText = "April";
+            } else if (inputNumber == 5) {
+                month.innerText = "May";
+            } else if (inputNumber == 6) {
+                month.innerText = "June";
+            } else if (inputNumber == 7) {
+                month.innerText = "July";
+            } else if (inputNumber == 8) {
+                month.innerText = "August";
+            } else if (inputNumber == 9) {
+                month.innerText = "September";
+            } else if (inputNumber == 10) {
+                month.innerText = "October";
+            } else if (inputNumber == 11) {
+                month.innerText = "November"; 
+            } else if (inputNumber == 12) {
+                month.innerText = "December";   
+            } else {
+            label.innerText = " ";
+            }  
+        }
+    </script>
+
+</body>
+
+</html>
