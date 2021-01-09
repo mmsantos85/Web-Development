@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Functions</title>
+</head>
+<body>
+
+<!-- Opdracht 5:
+    Schrijf een functie waarbij je een naam kan meegeven aan de functie. De functie moet
+    vervolgens controleren of de naam een bekende is.
+    De namen die bekend zijn:
+        ● John
+        ● Olly
+        ● Mo
+        ● Hendrik
+        ● Tony
+
+    Als het een bekende is, dan toon je het volgende tekst op het scherm: 
+    “Dit is een bekende van ons: <naam die je aan de functie hebt meegegeven>”.
+
+    Als het niet een bekende is, dan toon je het volgende tekst op het scherm “Onbekend in ons systeem!”
+
+    We gaan de applicatie uitbreiden! Je hebt een functie geschreven waarbij je zelf een naam
+    meegeeft aan de functie. Nu willen we dat de naam random gekozen wordt. We gaan
+    gebruik maken van Math.random() en Math.round() functie. Lees je goed in wat beide functies doet.
+
+    Schrijf nu een functie die een random naam teruggeeft. Math.random() geeft een getal terug.
+    Zorg ervoor dat getal en naam samenhang hebben. Bijvoorbeeld getal 1 geeft aan dat het
+    “John” is. Hieronder zie je de getallen en de namen die samenhang met elkaar hebben.
+        ● 1 = John
+        ● 2 = Olly
+        ● 3 = Mo
+        ● 4 = Hendrik
+        ● 5 = Tony
+        ● 6 = Irus
+        ● 7 = Jan
+        ● 8 = Peter
+    
+    Maak een functie die een random naam teruggeeft. Deze naam geef je vervolgens door aan
+    de functie die je voorheen hebt geschreven om te controleren of de naam een bekende is van ons.-->
+ 
+    <p id="answer"></p>
+    <button onclick="controlNames()">click</button> 
+
+    ​<input type="name" name="name" id="name">
+
+    <button id="btn" onclick="checkNames()">Check name!</button>
+
+    <div id="checkNames"></div>
+
+
+    <script>
+        function checkNames() {
+
+        // let name = "John", "Olly", "Mo", "Hendrik", "Tony"
+        let inputName = document.getElementById('name').value;
+        const naamGoed = document.getElementById('checkNames');  
+            
+           if (inputName == John) {
+               naamGoed.innerText = "Dit is een bekende van ons: John";
+            } else if (inputName == Olly) {
+               naamGoed.innerText = "Dit is een bekende van ons: Olly";
+            } else if (inputName == Mo) {
+               naamGoed.innerText = "Dit is een bekende van ons: Mo";
+            } else if (inputName == Hendrik) {
+               naamGoed.innerText = "Dit is een bekende van ons: Hendrik";
+            } else if (inputName == Tony) {
+               naamGoed.innerText = "Dit is een bekende van ons: Tony";
+            } else {
+            label.innerText = " ";
+            } 
+        }
+
+    </script>
+
+</body>
+</html>

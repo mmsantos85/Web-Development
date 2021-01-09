@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Functions</title>
+</head>
+<body>
+
+<!--Opdracht 4:
+    Schrijf een functie die twee getallen met elkaar vermenigvuldigt en geef de waarde van de
+    vermenigvuldiging terug. Geef een goede functie naam ervoor.-->
+
+    <p id="answer"></p>
+    <button onclick="multipy()">click</button>
+
+    <script>
+        let a = 40;
+        let b = 2;
+
+        function multipy(a, b) { // Twee parameters, genaamd a en b.
+            return a * b; // Vermenigvuldig a met b en geef die waarde terug.
+        }
+
+        document.write(multipy(5, 6)); // Uitvoer: 30.
+    //  document.write(multipy(40, 2));   // Uitvoer: 80.
+    </script>
+
+</body>
+</html>
