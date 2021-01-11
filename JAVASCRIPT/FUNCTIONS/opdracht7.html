@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Javascript Functions</title>
+</head>
+
+<body>
+<!--Opdracht 7:
+    Hoe geef je 2 of meer parameters mee aan een functie? Geef een voorbeeld.
+
+    Wat zijn rest parameters? Geef een voorbeeld.
+    Met rest paramters kan je oneindig veel arguments in een function(...) plaatsen hiermee creeer je arrays mee.
+    Arrays is een collectie met elementen. Het houdt een lijst met waardes bij.
+
+    Wat is het verschil tussen rest parameters en expliciete parameters die je aangeeft bij een functie?
+    Rest parameters kan je oneidig veel arguments aanmaken in je function(). 
+    Een parameter is een onbekende variabele waarop een functie zijn uitvoer baseert. 
+    Een parameter wordt dus eigenlijk een argument genoemd zodra de functie wordt aangeroepen en 
+    het dus bekend is welke waarde de parameter heeft.-->
+
+    <p id="answer"></p>
+    <button onclick="multiply()">click</button>
+
+    <script>
+        function multiply(a, b) { // Twee parameters, genaamd a en b.
+            console.log(a * b);
+        }
+
+        multiply(5, 100); // output is 500.
+        multiply(45, 100); // output is 4500.
+        multiply(33, 78); // output is 2574.
+
+        function add(a, ...numbers) { // '...' = rest parameters.
+            console.log(a);
+            console.log(numbers);
+        }
+    
+        const result = add(2, 8, 30);
+        // console.log(result);
+    </script>
+
+
+</body>
+
+</html>

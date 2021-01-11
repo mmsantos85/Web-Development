@@ -38,7 +38,7 @@
             let inputNumber = document.getElementById('number').value;
             const month = document.getElementById('translatedMonth');
 
-            if  (inputNumber == 1) {// == betekent gelijk aan.
+            if  (inputNumber === "1") {// == betekent gelijk aan. === geef je je datatype aan met "".
                 month.innerText = "January";
             } else if (inputNumber == 2) {
                 month.innerText = "february";

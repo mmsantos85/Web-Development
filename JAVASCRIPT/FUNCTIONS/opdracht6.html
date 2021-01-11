@@ -53,11 +53,38 @@
         //     //         break;
         //     //     default: 
         //     //     console.log("Onbekend in ons systeem!");
-        //     //         break;
-        //     // }
+        // //     //         break;
+        // //     // }
 
-            function checkNames(inputName) {
+        //     function checkNames(inputName) {
 
+        //         let nameCorrect = document.getElementById('checkNames');
+
+        //         if (inputName == "John") {
+        //             nameCorrect = "Dit is een bekende van ons: John";
+        //         } else if (inputName == "Olly") {
+        //             nameCorrect = "Dit is een bekende van ons: Olly";
+        //         } else if (inputName == "Mo") {
+        //             nameCorrect = "Dit is een bekende van ons: Mo";
+        //         } else if (inputName == "Hendrik") {
+        //             nameCorrect = "Dit is een bekende van ons: Hendrik";
+        //         } else if (inputName == "Tony") {
+        //             nameCorrect = "Dit is een bekende van ons: Tony";
+        //         } else {
+        //             nameCorrect = "Onbekend in ons systeem!";
+        //         }
+        //         return nameCorrect;
+        //     }
+
+            // function answer() {
+            //     // checkNames("Melisa");
+            //     console.log(checkNames("Olly"));
+
+            const answer = () => { // Opdracht 6 Arrows.
+                console.log(checkNames("John"));
+            }   
+
+            const checkNames = (inputName) => {
                 let nameCorrect = document.getElementById('checkNames');
 
                 if (inputName == "John") {
@@ -75,12 +102,7 @@
                 }
                 return nameCorrect;
             }
-
-            function answer() {
-                // checkNames("Melisa");
-                console.log(checkNames("Olly"));
-                
-            }
+            
     </script>
 
 <!--We gaan de applicatie uitbreiden! Je hebt een functie geschreven waarbij je zelf een naam
@@ -101,6 +123,8 @@
     
     Maak een functie die een random naam teruggeeft. Deze naam geef je vervolgens door aan
     de functie die je voorheen hebt geschreven om te controleren of de naam een bekende is van ons.-->
+
+
 
 </body>
 
