@@ -12,14 +12,30 @@
     Print vervolgens de tekst uit in de console.-->
 
     <p id="answer"></p>
-    <button onclick="tekst()">click</button>
+    <button onclick="hello()">click</button>
 
     <script>
         function tekst() {
-            
             const tekst = "Hallo ik ben melisa en ik ben aan het leren om een programmeur te worden!";
-            console.log(tekst)
+                console.log(tekst)
+                //printout() functie ook een manier om te printen/console.log
+                // return functie aangeven met als parameters.
         }
+
+        function  hello() { // goede manier van de opdracht. Nog 1 zelf maken!
+            a = text1("hello");
+            b = text2("hello world");
+            console.log(a, b);
+        }
+
+        function text1(a) {
+            return a;
+        }
+
+        function text2(b) {
+            return b;
+        }
+    
     </script>
 
 </body>

@@ -63,17 +63,17 @@
         car("v40");
 
     Wat wordt er in de console gelogt? 'Volvo v40'.
-    Hoe is dit anders dan voorgaande opdrachten? 
+    Hoe is dit anders dan voorgaande opdrachten? Leest eerst function
     Lees je meer over closures: Bron: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures -->
 
     <script>
-         function printCar() {
+         function printCar() { //outerFunction. printcar is een outerVariable.
             carBrand = "Volvo";
-            return function(type) { // inner function, a closure.
-        console.log(carBrand + " " + type);
+            return function(type) { // innerFunction, a closure.
+        console.log(carBrand + " " + type); 
         }
     }
-        const car = printCar(); // Global variable.
+        const car = printCar(); // Global variable/ outerFunction + innerfunction = Volvo v40.
         car("v40"); 
         
         
