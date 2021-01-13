@@ -33,12 +33,13 @@
         multiply(45, 100); // output is 4500.
         multiply(33, 78); // output is 2574.
 
-        function add(a, ...numbers) { // '...' = rest parameters.
-            console.log(a);
-            console.log(numbers);
+        function add(a, ...numbers) { // '...' = rest parameters met de benaming numbers.
+            return a + numbers;
+            // console.log(a);
+            // console.log(numbers);
         }
     
-        const result = add(2, 8, 30);
+        console.log(add(2, 30)); // = evoking statement.
         // console.log(result);
     </script>
 

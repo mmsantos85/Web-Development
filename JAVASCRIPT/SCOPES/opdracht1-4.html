@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Scopes</title>
+</head>
+<body>
+
+<!--Scopes
+
+    Scopes geeft de context aan waar de variables gedeclareerd worden. Dit geeft de
+    toegankelijkheid van de variables aan. Afhankelijk van de scope kan je dus toegang krijgen
+    tot de waarde van de variable.
+
+    Leerdoelen
+        ● Global scopes
+        ● Block scopes
+
+    Opdracht 1:
+    Kijkend naar de volgende code:
+
+        function printCar() {
+            const carBrand = "Volvo";
+        }
+        console.log(carBrand);
+
+    Wat wordt er in de console gelogt? Volvo, maar krijg error carBrand is niet defined. 
+    Wat voor scoping heb je hier te maken? Block/Function Scope.
+
+    Opdracht 2:
+    Kijkend naar de volgende code:
+
+        let carName;
+        function printCar() {
+        carBrand = "Volvo";
+        }
+        console.log(carBrand);
+
+        Wat wordt er in de console gelogt? Error, carBrand is niet defined, heeft geen value .
+
+    Opdracht 3:
+    Kijkend naar de volgende code:
+
+        function printCar() {
+        carBrand = "Volvo";
+        }
+        printCar();
+        console.log(carBrand);
+
+        Wat wordt er in de console gelogt? Volvo, logged carBrand met een value Volvo.
+
+    Opdracht 4:
+    Kijkend naar de volgende code:
+
+        function printCar() {
+            carBrand = "Volvo";
+            return function(type) {
+        console.log(carBrand + " " + type);
+        }
+    }
+        const car = printCar();
+        car("v40");
+
+    Wat wordt er in de console gelogt? 'Volvo v40'.
+    Hoe is dit anders dan voorgaande opdrachten? 
+    Lees je meer over closures: Bron: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures -->
+
+    <script>
+         function printCar() {
+            carBrand = "Volvo";
+            return function(type) { // inner function, a closure.
+        console.log(carBrand + " " + type);
+        }
+    }
+        const car = printCar(); // Global variable.
+        car("v40"); 
+        
+        
+    </script>
+    
+</body>
+</html>

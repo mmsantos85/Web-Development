@@ -22,68 +22,9 @@
     Als het een bekende is, dan toon je het volgende tekst op het scherm: 
     “Dit is een bekende van ons: <naam die je aan de functie hebt meegegeven>”.
 
-    Als het niet een bekende is, dan toon je het volgende tekst op het scherm “Onbekend in ons systeem!”-->
+    Als het niet een bekende is, dan toon je het volgende tekst op het scherm “Onbekend in ons systeem!”
 
-    <p id="answer"></p>
-    <button onclick="answer()">click</button> 
-
-    <script>
-        // const name = "Olly";
-        // nameCheck(name); // = statement.
-
-        // function nameCheck(namesKnown) {// info tussen () = parameters.
-
-        //     const tekst = "Dit is een bekende van ons: ";
-
-        //     // switch (namesKnown) { // herkent alleen wat in de function gebeurt.
-        //     //     case 'John':
-        //     //         console.log(tekst + 'John');
-        //     //         break;
-        //     //     case "Olly":
-        //     //         console.log(tekst + "Olly");
-        //     //         break;
-        //     //     case "Mo":
-        //     //         console.log(tekst + "Mo");
-        //     //         break;
-        //     //     case "Hendrik":
-        //     //         console.log(tekst + "Hendrik");
-        //     //         break;
-        //     //     case  "Tony":
-        //     //         console.log(tekst + "Tony");
-        //     //         break;
-        //     //     default: 
-        //     //     console.log("Onbekend in ons systeem!");
-        //     //         break;
-        //     // }
-
-            function checkNames(inputName) {
-
-                let nameCorrect = document.getElementById('checkNames');
-
-                if (inputName == "John") {
-                    nameCorrect = "Dit is een bekende van ons: John";
-                } else if (inputName == "Olly") {
-                    nameCorrect = "Dit is een bekende van ons: Olly";
-                } else if (inputName == "Mo") {
-                    nameCorrect = "Dit is een bekende van ons: Mo";
-                } else if (inputName == "Hendrik") {
-                    nameCorrect = "Dit is een bekende van ons: Hendrik";
-                } else if (inputName == "Tony") {
-                    nameCorrect = "Dit is een bekende van ons: Tony";
-                } else {
-                    nameCorrect = "Onbekend in ons systeem!";
-                }
-                return nameCorrect;
-            }
-
-            function answer() {
-                // checkNames("Melisa");
-                console.log(checkNames("Olly"));
-                
-            }
-    </script>
-
-<!--We gaan de applicatie uitbreiden! Je hebt een functie geschreven waarbij je zelf een naam
+    We gaan de applicatie uitbreiden! Je hebt een functie geschreven waarbij je zelf een naam
     meegeeft aan de functie. Nu willen we dat de naam random gekozen wordt. We gaan
     gebruik maken van Math.random() en Math.round() functie. Lees je goed in wat beide functies doet.
 
@@ -101,6 +42,82 @@
     
     Maak een functie die een random naam teruggeeft. Deze naam geef je vervolgens door aan
     de functie die je voorheen hebt geschreven om te controleren of de naam een bekende is van ons.-->
+
+    <p id="answer"></p>
+    <button onclick="compareName()">click</button>
+    <div id="notification"></div>
+
+    <script>
+        const name = "Olly";
+        nameCheck(name); // = statement.
+
+        function nameCheck(namesKnown) {// info tussen () = parameters.
+            const tekst = "Dit is een bekende van ons: ";
+
+            switch (namesKnown) { // herkent alleen wat in de function gebeurt.
+                case 'John':
+                    console.log(tekst + 'John');
+                    break;
+                case "Olly":
+                    console.log(tekst + "Olly");
+                    break;
+                case "Mo":
+                    console.log(tekst + "Mo");
+                    break;
+                case "Hendrik":
+                    console.log(tekst + "Hendrik");
+                    break;
+                case "Tony":
+                    console.log(tekst + "Tony");
+                    break;
+                default:
+                    console.log("Onbekend in ons systeem!");
+                    break;
+                }
+                // 
+                return nameCheck;
+            }
+  
+        function compareName() {
+            const randomNumber = Math.floor(Math.random() * 10);
+            const name = "Olly";
+            //console.log(randomNumber); //= Voorbeeld hoe een math.floor/math.round werkt.
+
+            switch (randomNumber) {
+                case 1:
+                    console.log(randomNumber + " " + "John");
+                    break;
+                case 2:
+                    console.log(randomNumber + " " + "Olly");
+                    break;
+                case 3:
+                    console.log(randomNumber + " " + "Mo");
+                    break;
+                case 4:
+                    console.log(randomNumber + " " + "Hendrik");
+                    break;
+                case 5:
+                    console.log(randomNumber + " " + "Tony");
+                    break;
+                case 6:
+                    console.log(randomNumber + " " + "Irus");
+                    break;
+                case 7:
+                    console.log(randomNumber + " " + "Jan");
+                    break;
+                case 8:
+                    console.log(randomNumber + " " + "Peter");
+                    break;
+                default:
+                    console.log("")
+                    break;
+                }
+                return randomNumber + name + tekst;
+            }
+    </script>
+
+
+
 
 </body>
 
