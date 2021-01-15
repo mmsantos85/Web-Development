@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Loops & Iterators</title>
+</head>
+
+<body>
+
+<!--Opdracht 1:
+    Maak gebruik van een loop en itereer de sports array heen. Print het 1 voor 1 uit in jouw console.
+-->
+
+    <div id="answer"></div>
+
+    <script>
+        const sports = ["voetbal", "basketbal", "volleybal", "hockey", "honkbal", "zwemmen", "kortbal"]
+        
+        for (sport of sports) {
+            console.log(sport);
+        }
+    </script>
+
+<!--Opdracht 2:
+    Maak een for-loop die alleen even getallen van 0 t/m 20 in je console uitprint.
+
+    for loop bestaat uit 3 statements: 
+    - initialExpression, hier word een initialised variable gedeclareerd.
+    - Condition, bij 1 < 5, zolang het klopt, gaat de loop door.
+    - IncrementExpression, increment operator  bijv i++ (++ = incremented by 1).
+
+    Operators:
+    % = Modulos (division remainder).
+    !== not equal value or not equal type.
+    != not equal.
+-->  
+    
+    <script>
+        for (let i = 0; i <= 20; i++) { // i Staat voor Index, ook wel een loop variable genoemd.
+            if (i % 2 !== 1) console.log(i);
+    }
+    </script>
+
+<!--Opdracht 3:
+    Maak gebruik van een loop en itereer door de sports array heen. Itereer de loop met even
+    getallen en print de waarde in jouw console uit.
+-->    
+
+
+</body>
+
+</html> 

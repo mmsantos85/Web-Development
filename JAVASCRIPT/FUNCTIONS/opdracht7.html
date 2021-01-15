@@ -19,7 +19,8 @@
     Rest parameters kan je oneidig veel arguments aanmaken in je function(). 
     Een parameter is een onbekende variabele waarop een functie zijn uitvoer baseert. 
     Een parameter wordt dus eigenlijk een argument genoemd zodra de functie wordt aangeroepen en 
-    het dus bekend is welke waarde de parameter heeft.-->
+    het dus bekend is welke waarde de parameter heeft.
+    *Zoek explicite en implicite, andere manier om met rest parameters te coderen.-->
 
     <p id="answer"></p>
     <button onclick="multiply()">click</button>
@@ -33,7 +34,7 @@
         multiply(45, 100); // output is 4500.
         multiply(33, 78); // output is 2574.
 
-        function add(...numbers) { // '...' = rest parameters met de benaming numbers. dit gebruik je optioneel als je een tweede parameter
+        function add(a, ...numbers) { // '...' = rest parameters met de benaming numbers. dit gebruik je optioneel als je meerdere rest parameters wilt meegeven.
             return a + numbers;
             // console.log(a);
             // console.log(numbers);
