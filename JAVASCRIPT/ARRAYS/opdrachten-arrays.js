@@ -23,19 +23,17 @@ console.log(fruitSoorten[1]); // Uitvoer is Aardbei.
 // 2. Gebruik de Math.random() methode om te bepalen welke waarde uit de eerste array wordt gehaald.
 
 // Notities:
-// Math.random selecteert random getallen tussen o en 1. bijv. 0,12334 0,98876 etc.
+// math.random selecteert random getallen tussen o en 1. bijv. 0,12334 0,98876 etc.
 // math.floor, rond altijd af naar beneden. Bijv. 2,9 = 2.
-// math.round rond af op de normale manier.
+// math.round rond af op de normale manier, bijv 7,4 is 7, 7,5 is 8.
+// modulo bijv 11 / 2 = 5 met een restwaarde van 1, 1 = modulo.
  
 let compare = randomNumbers[Math.floor(Math.random()*randomNumbers.length)]; // returns a random integer from 0 to 9.
 
 if (compare >= 5) {
-    compare %= 2;
-console.log(fruitSoorten[compare]);
+        compare %= 2;
+            console.log(fruitSoorten[compare]);
 }
-
-
-
 
 // Helaas, de getallen 5 t/m 10 uit de eerste array zullen een undefined teruggeven als je 
 // dat als index bij de fruit array zal gebruiken. Hiervoor kun je de modulo (%) gebruiken.
