@@ -22,6 +22,12 @@ console.log(fruitSoorten[1]); // Uitvoer is Aardbei.
 // 1. De eerste array bepaalt welke fruitsoort er geprint moet worden. 
 // 2. Gebruik de Math.random() methode om te bepalen welke waarde uit de eerste array wordt gehaald.
 
+// Helaas, de getallen 5 t/m 10 uit de eerste array zullen een undefined teruggeven als je 
+// dat als index bij de fruit array zal gebruiken. Hiervoor kun je de modulo (%) gebruiken.
+
+// 4. Zoek uit hoe modulo werkt en pas dat toe aan de waarde van de eerste array. 
+// 5. Als resultaat zal er altijd een fruitsoort uitgeprint worden.
+
 // Notities:
 // math.random selecteert random getallen tussen o en 1. bijv. 0,12334 0,98876 etc.
 // math.floor, rond altijd af naar beneden. Bijv. 2,9 = 2.
@@ -34,11 +40,6 @@ if (compare >= 5) {
         compare %= 2;
             console.log(fruitSoorten[compare]);
 }
-
-// Helaas, de getallen 5 t/m 10 uit de eerste array zullen een undefined teruggeven als je 
-// dat als index bij de fruit array zal gebruiken. Hiervoor kun je de modulo (%) gebruiken.
-// 4. Zoek uit hoe modulo werkt en pas dat toe aan de waarde van de eerste array. 
-// 5. Als resultaat zal er altijd een fruitsoort uitgeprint worden.
 
 
 // Opdracht 6:
@@ -86,22 +87,19 @@ console.log(fruitsoorten3.length); // length is 7.
 // De bestaande values van de array kan je ook aanpassen. Zoek uit hoe je op een specifieke index de waarde kan aanpassen. 
 // Pas de value “Peer” naar “Sinaasappel”.
 let fruit = ["Mango", "Aardbei", "Appel", "Peer", "Passievrucht"];
-let replacedFruit = fruit.slice(fruit.indexOf("Peer"), 1, "Sinaasappel");
+let replacedFruit = fruit.splice(fruit.indexOf('Peer'), 1, 'Sinaasappel');
 
-console.log(replacedFruit); 
-console.log(fruit); 
-
-
-let items = ['JS', 'PHP', 'RUBY'];
-let replacedItem = items.splice(items.indexOf('RUBY'), 1, 'PYTHON')
-
-console.log(replacedItem) //['RUBY']
-console.log(items) //['JS', 'PHP', 'PYTHON']
+console.log(replacedFruit); // Peer.
+console.log(fruit); // "Mango", "Aardbei", "Appel", "Sinaasappel", "Passievrucht".
 
 
 // Opdracht 9:
 // Kijkend naar de fruits array. Hoe draai je de values “Aardbei” en “Mandarijn” om in de array door gebruik te maken van indices (index).
 let fruit2 = ["Mango", "Aardbei", "Appel", "Peer", "Passievrucht", "Mandarijn"];
 
+fruit2[1] = "Mandarijn";
+fruit2[5] = "Aardbei";
+
+console.log(fruit2);
 
 
