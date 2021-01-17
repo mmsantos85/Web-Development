@@ -16,7 +16,7 @@
     <div id="answer"></div>
 
     <script>
-        const sports = ["voetbal", "basketbal", "volleybal", "hockey", "honkbal", "zwemmen", "kortbal"]
+        const sports = ["voetbal", "basketbal", "volleybal", "hockey", "honkbal", "zwemmen", "kortbal"];
         
         for (sport of sports) {
             console.log(sport);
@@ -36,7 +36,6 @@
     !== not equal value or not equal type.
     != not equal.
 -->  
-    
     <script>
         for (let i = 0; i <= 20; i++) { // i Staat voor Index, ook wel een loop variable genoemd.
             if (i % 2 !== 1) console.log(i);
@@ -47,6 +46,55 @@
     Maak gebruik van een loop en itereer door de sports array heen. Itereer de loop met even
     getallen en print de waarde in jouw console uit.
 -->    
+    <script>
+        for (let i = 0; i < sports.length; i++) {
+            // console.log(sports[i]);
+            if (i % 2 == 1) console.log(sports[i]); 
+        }
+    </script>
+
+<!--Opdracht 4:
+    Maak opdracht 1, maar maak nu gebruik van een while loop.
+-->
+    <script>
+        sport = 0;
+
+        while (sport <= sports.length) {
+                console.log(sports[sport]);
+                sport++;
+            if (sport > 7) {
+                break;
+            }
+        }
+    </script>
+
+<!--Opdracht 5:
+    Maak opdracht 1, maar maak nu gebruik van een for...in loop.
+-->
+    <script>
+        const sports2 = { a:"voetbal", b:"basketbal", c:"volleybal", d:"hockey", e:"honkbal", f:"zwemmen", g:"kortbal"}; // sports = object.
+
+        for (const key in sports2) {
+            if (sports.hasOwnProperty.call(sports2, key)) {
+                const element = sports2[key];
+                console.log(sports2[key]);
+            }
+        }
+    </script>
+
+<!--Opdracht 6:
+    Maak opdracht 1, maar maak nu gebruik van een for...of loop.
+-->
+    <script>
+        let text = sports;
+
+        for (const iterator of sports) {
+
+            //console.log(iterator);
+        }
+        document.getElementById("answer").innerHTML = text;
+    </script>
+
 
 
 </body>
