@@ -58,14 +58,17 @@
 <!--Opdracht 15: Guess the word!
     Maak een nieuwe html bestand aan en copy de volgende code naar jouw bestand:
     Analyseer de code en probeer te begrijpen wat er staat.
+
     Deze applicatie moet het volgende kunnen doen:
        ● Het bijhouden van het aantal pogingen voor het raden van het woord.
        ● Na 3 keer raden is het game over en moet de volgende tekst op het scherm
-    weergegeven worden: “Game Over. The correct word is <het woord dat geraden
-    moest worden>”. De p.label kun je hiervoor gebruiken om de tekst op het scherm
-    weer te geven.
+    weergegeven worden: “Game Over. 
+    The correct word is <het woord dat geraden moest worden>”. 
+        
+    De p.label kun je hiervoor gebruiken om de tekst op het scherm weer te geven.
         ● Als het woord goed geraden is dan toon je de volgende tekst op het scherm: 
-    “”You have guessed the correct word! <het woord dat geraden moest worden>.-->
+    “”You have guessed the correct word! <het woord dat geraden moest worden>.
+-->
 
 <body>
     <h1>Guess the word</h1>
@@ -103,25 +106,22 @@
 
     <div>
         <span>The number of wrong guessing: <span id="count">0</span></span>
-        <p id="label"></p><!--ID voor tekst-->
-        
-        
+        <p id="label"></p> 
     </div>
 
-    <!--stap 1.
-        function maken. 
-        Een functie is eigenlijk een stukje code/block met een naam, zodat je die code makkelijk 
-        later nog eens kan gebruiken zonder hem helemaal overnieuw te moeten schrijven. 
-        Maar nog belangrijker is dat je de functie zo kan maken dat de code die uitgevoerd 
-        wordt wel hetzelfde is maar telkens net wat anders doet.
+<!--stap 1.
+    function maken. 
+    Een functie is eigenlijk een stukje code/block met een naam, zodat je die code makkelijk 
+    later nog eens kan gebruiken zonder hem helemaal overnieuw te moeten schrijven. 
+    Maar nog belangrijker is dat je de functie zo kan maken dat de code die uitgevoerd 
+    wordt wel hetzelfde is maar telkens net wat anders doet.
         
         function guess(obj) {
             console.log(obj)
         }
 
-        stap 2:
-
-    -->
+    stap 2:
+-->
     <script>
         const words = ["Together", "Teamwork", "Scrum", "Individual", "Moments", "Like", "Dislike",
             "Money", "Important"];
@@ -138,20 +138,11 @@
             document.getElementById("count").innerHTML = teller;
 
             if (teller > 3) {
-                document.getElementById("label").innerText = "Game over!";
+                document.getElementById("label").innerText = "Game over!"; 
                 // label.innerHTML = "Game Over!";
             }
-
-
-
-        
         }
-            
-
-
-
-
-
+    
     </script>
 
 </body>

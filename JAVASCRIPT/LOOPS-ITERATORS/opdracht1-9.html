@@ -28,7 +28,7 @@
 
     for loop bestaat uit 3 statements: 
     - initialExpression, hier word een initialised variable gedeclareerd.
-    - Condition, bij 1 < 5, zolang het klopt, gaat de loop door.
+    - Condition, bijv. 1 < 5, zolang het klopt, gaat de loop door.
     - IncrementExpression, increment operator  bijv i++ (++ = incremented by 1).
 
     Operators:
@@ -40,6 +40,7 @@
         for (let i = 0; i <= 20; i++) { // i Staat voor Index, ook wel een loop variable genoemd.
             if (i % 2 !== 1) console.log(i);
     }
+
     </script>
 
 <!--Opdracht 3:
@@ -72,7 +73,7 @@
     Maak opdracht 1, maar maak nu gebruik van een for...in loop.
 -->
     <script>
-        const sports2 = { a:"voetbal", b:"basketbal", c:"volleybal", d:"hockey", e:"honkbal", f:"zwemmen", g:"kortbal"}; // sports = object.
+        const sports2 = {a:"voetbal", b:"basketbal", c:"volleybal", d:"hockey", e:"honkbal", f:"zwemmen", g:"kortbal"}; // sports = object.
 
         for (const key in sports2) {
             if (sports.hasOwnProperty.call(sports2, key)) {
@@ -88,12 +89,67 @@
     <script>
         let text = sports;
 
-        for (const iterator of sports) {
-
+            for (const iterator of sports) {
             //console.log(iterator);
         }
         document.getElementById("answer").innerHTML = text;
     </script>
+
+<!--Opdracht 7:
+    ● Maak een while loop die 3x itereert.
+    ● Binnen de while loop maak je een for-loop die 10x itereert.
+    ● Bij de eerste while iteratie wil ik dat de getallen 1,2,3,4,5,6,7,8,9,10 in je console uitgeprint wordt.
+    ● Bij de tweede while iteratie wil ik dat de getallen 2,4,6,8,10,12,14,16,18,20 in je console uitgeprint wordt.
+    ● Bij de derde while iteratie wil ik dat de getallen 3,6,9,12,15,18,21,24,27,30 in je console uitgeprint wordt.
+-->
+
+    <script>
+        let i = 0;
+
+        while (i < 3) { // eerste ronde start op 0, 2e ronde (++ increment plus 1) start op 1 en ronde derde ronde start op 2.
+        // console.log(i);
+            i++; 
+
+        for (let x = 1; x <= 10; x++) { // variable aangemaakt met value 1, 
+          console.log(x * i);
+          // console.log(i, x, x, i); 
+        }
+        console.log("break");
+      }
+  
+    </script>
+
+<!--Opdracht 8:
+    Maak een for loop die van 0 t/m 50 itereert. Een hele bekende oefening is de fibonacci reeks. 
+    Lees je in hoe fibonacci reeks werkt: https://www.fibonicci.com/nl/rij-van-fibonacci/.
+    Neem zelf eerst de tijd om dit uit te coderen, want op internet staat letterlijk het antwoord.
+    Het gaat hier om het aanleren van bepaalde denkwijze om dit op te lossen. Maak hiervoor
+    een stappenplan en werkt dit uit in code.
+
+    Stappenplan:
+    1
+
+    check trello voor opdracht 9.
+-->   
+
+    <script>
+        for (let index = 0; index < array.length; index++) {
+            const element = array[index];
+            
+        }
+    </script>
+
+<!--Opdracht 9:
+    Stel je hebt het volgende array met random getallen:
+        ● [2,7,5,10,4,9,3,1,8,6]
+    Bubble sort is een hele bekende sorterings algoritme. Hiermee kun je de array met random
+    getallen sorteren van klein naar groot. Je mag bij deze oefening geen gebruik maken van de
+    sort() functie. Lees je in hoe Bubble sort werkt: https://en.wikipedia.org/wiki/Bubble_sort en
+    codeer de sorterings algoritme uit.
+
+    check trello voor opdracht 9.
+-->
+
 
 
 
