@@ -2,8 +2,7 @@ const board = {
     player1: "X",
     player2: "O",
     currentTurn: "x"
-    allBoxFilled: true,
-    someonehaswon: false
+    
 }
 
 const winningConditions = [

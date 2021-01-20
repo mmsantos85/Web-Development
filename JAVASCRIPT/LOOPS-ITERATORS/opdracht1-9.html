@@ -9,7 +9,7 @@
 
 <body>
 
-    <!--Opdracht 1:
+<!--Opdracht 1:
     Maak gebruik van een loop en itereer de sports array heen. Print het 1 voor 1 uit in jouw console.
 -->
 
@@ -17,15 +17,14 @@
 
     <script>
         console.log("Opdracht 1");
-
+        
         const sports = ["voetbal", "basketbal", "volleybal", "hockey", "honkbal", "zwemmen", "kortbal"];
-
         for (sport of sports) {
             console.log(sport);
         } 
     </script>
 
-    <!--Opdracht 2:
+<!--Opdracht 2:
     Maak een for-loop die alleen even getallen van 0 t/m 20 in je console uitprint.
 
     for loop bestaat uit 3 statements: 
@@ -47,7 +46,7 @@
 
     </script>
 
-    <!--Opdracht 3:
+<!--Opdracht 3:
     Maak gebruik van een loop en itereer door de sports array heen. Itereer de loop met even
     getallen en print de waarde in jouw console uit.
 -->
@@ -60,7 +59,7 @@
         }
     </script>
 
-    <!--Opdracht 4:
+<!--Opdracht 4:
     Maak opdracht 1, maar maak nu gebruik van een while loop.
 -->
     <script>
@@ -76,7 +75,7 @@
         }
     </script>
 
-    <!--Opdracht 5:
+<!--Opdracht 5:
     Maak opdracht 1, maar maak nu gebruik van een for...in loop.
 -->
     <script>
@@ -91,7 +90,7 @@
         }
     </script>
 
-    <!--Opdracht 6:
+<!--Opdracht 6:
     Maak opdracht 1, maar maak nu gebruik van een for...of loop.
 -->
     <script>
@@ -104,7 +103,7 @@
         // document.getElementById("answer").innerHTML = text;
     </script>
 
-    <!--Opdracht 7:
+<!--Opdracht 7:
     ● Maak een while loop die 3x itereert.
     ● Binnen de while loop maak je een for-loop die 10x itereert.
     ● Bij de eerste while iteratie wil ik dat de getallen 1,2,3,4,5,6,7,8,9,10 in je console uitgeprint wordt.
@@ -114,20 +113,20 @@
 
     <script>
         console.log("Opdracht 7");
-
+        
         let i = 0;
         while (i < 3) { // eerste ronde start op 0, 2e ronde (++ increment plus 1) start op 1 en ronde derde ronde start op 2.
             // console.log(i);
-            i++;
-            for (let x = 1; x <= 10; x++) { // variable aangemaakt met value 1, 
-                console.log(x * i);
-                // console.log(i, x, x, i); 
+            i++; // plus 1 erbij.
+            for (let x = 1; x <= 10; x++) { // variable aangemaakt met value 1. x random benaming voor variable.
+                console.log(x * i); // i = 1.
+                // console.log(i, x, x, i); test om verschil te zien wat elke while dus i,x,x,i doet.
             }
             console.log("break");
         }
     </script>
 
-    <!--Opdracht 8:
+<!--Opdracht 8:
     Maak een for loop die van 0 t/m 50 itereert. Een hele bekende oefening is de fibonacci reeks. 
     Lees je in hoe fibonacci reeks werkt: https://www.fibonicci.com/nl/rij-van-fibonacci/.
     Neem zelf eerst de tijd om dit uit te coderen, want op internet staat letterlijk het antwoord.
@@ -154,7 +153,7 @@
         }
     </script>
 
-    <!--Opdracht 9:
+<!--Opdracht 9:
     Stel je hebt het volgende array met random getallen:
         ● [2,7,5,10,4,9,3,1,8,6]
     Bubble sort is een hele bekende sorterings algoritme. Hiermee kun je de array met random

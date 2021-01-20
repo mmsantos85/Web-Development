@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Objects</title>
+</head>
+
+<body>
+
+    <!--Objects
+    Objects zijn essentiële building blocks om data te groeperen. Bijvoorbeeld, je hebt te maken
+    met klanten. Bij ieder klant houd je de naam, achternaam, leeftijd en hobby bij. Een manier
+    van object aanmaken om de klantgegevens bij te houden is:
+-->
+    <script>
+        const Customer = function (name, surname, age, hobby) {
+            this.name = name;
+            this.surname = surname;
+            this.age = age;
+            this.hobby = hobby;
+            console.log(this); // This is een key word.
+        }
+        const customer1 = new Customer("Kim Sing", "Cheng", "34",
+            "Gaming");
+        const customer2 = new Customer("Floris", "Dam", "27",
+            "Schaken");
+        const customer3 = new Customer("Tess", "Monis", "41",
+            "Winkelen");
+
+    //Customer.customer1(); // objectName.methodName() en evoke function. Krijg error?
+    </script>
+
+    <!--Objecten in javascript kun je op meerdere manieren aanmaken, namelijk:
+        ● Object Constructor
+        ● Literal constructor
+        ● Function Based
+        ● Prototype Based
+        ● Function and Prototype Based
+        ● Singleton Based
+
+    Lees je meer in op:
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initial
+    izer#:~:text=An%20object%20initializer%20is%20an,data%20types%20or%20other%20objects.
+
+    Voorbeelden van de verschillende manieren hoe je objecten creëer:
+    https://stackoverflow.com/questions/6843951/which-way-is-best-for-creating-an-object-in-jav
+    ascript-is-var-necessary-befor#:~:text=There%20is%20no%20best%20way,is%20called%20the%20constructor%20function.
+    
+    Er is helaas geen “beste” manier om objecten te maken. Ieder manier van object aanmaken
+    heeft zijn pros en cons. Wij leggen de focus op Object constructor en Literal constructors.
+
+    This key word:
+    The JavaScript this keyword refers to the object it belongs to. It has different values depending on where it is used:
+    -In a method, this refers to the owner object.
+    -Alone, this refers to the global object.
+    -In a function, this refers to the global object.
+    -In a function, in strict mode, this is undefined.
+    -In an event, this refers to the element that received the event.
+    -Methods like call(), and apply() can refer this to any object.
+
+    Opdracht 1:
+    Maak een Object die club informatie bijhoudt:
+        ● Naam van de club
+        ● Type sport
+        ● Aantal leden
+    
+    Notities:
+    - Camel Notation: oneTwoThreeFour
+    - Pascal Notation
+-->
+    <div id="clubs" class="clubs"></div>
+
+    <script>
+        const infoClub = {
+            naamClub: "Body and Health",
+            sport: ["Hot Yoga", "Power Yoga", "Bikram Yoga", "Pilates"],
+            leden: "25",
+        };
+        console.log(infoClub.naamClub);
+        console.log(infoClub.leden);
+        console.log(infoClub.sport);
+    </script>
+
+    <!--Opdracht 2:
+    Maak een Object van contactgegevens en voeg dat ook toe aan de club object:
+        ● Contactgegevens
+        ○ Adres
+        ○ Telefoonnr
+        ○ Contactpersoon
+-->
+    <script>
+        // Constructor function voor Contactgegevens objects:
+        const Contactgegevens = function (Club, Sport, Leden, Adres, Telefoonnr, Contactpersoon) {
+            this.Club = Club;
+            this.Sport = Sport;
+            this.Leden = Leden;
+            this.Adres = Adres;
+            this.Telefoonnr = Telefoonnr;
+            this.Contactpersoon = Contactpersoon;
+            console.log(this);
+        }
+        // create contactGegevens objects:
+        const contactGegevens1 = new Contactgegevens("Body and Health", "Hot Yoga, Power Yoga, Bikram Yoga, Pilates",
+            "34", "Paradijslaan 39", "06-12345678", "Mvr. dos Santos");
+
+        const infoClub1 = {
+            naamClub: [{ naamClub0: "Body and Health" }, { naamClub1: "Rocycle rotterdam" },
+            { naamClub3: "GymTastic" }, { naamClub4: "fitNOtforFree" }],
+
+            sport: ["Hot Yoga", "Power Yoga", "Bikram Yoga", "Pilates"],
+            leden: "25", };
+
+        for (let i = 0; i < infoClub1.naamClub.length; i++) {
+            console.log(infoClub1.naamClub[i]);
+        }  
+    </script>
+
+    <!--Opdracht 3:
+    Het is heel gebruikelijk dat dezelfde objecten in een lijst staan. Maak een lijst aan en voeg 4
+    Club objecten toe aan de lijst. Itereer over de lijst heen en print de verschillende clubnamen
+    uit op jouw pagina.
+
+    Zie antwoord verwerkt hierboven.
+-->
+
+    <!--Opdracht 4:
+    Gegeven deze code hieronder. Sorteer persons op leeftijd van klein naar groot.
+-->
+    <script>
+        const Person = function (name, age) {
+            this.name = name;
+            this.age = age;
+            //console.log(this);
+        }
+        let persons = [
+            new Person("Jan", 24),
+            new Person("Klaas", 15),
+            new Person("Yanis", 42),
+            new Person("Rupel", 55),
+            new Person("Hendrik", 32),
+            new Person("Mono", 28),
+            new Person("West", 23),
+        ]
+
+        persons.sort(function (a, b) { // parameters a is < dan b.
+            return a.age - b.age
+        });
+        console.log(persons);
+
+    </script>
+
+    <!--Opdracht 5:
+    Maak nu een Person object door gebruik te maken van Object initializers. Wat zou eventueel
+    de voor en nadelen t.o.v Object constructors?
+-->
+
+    <!--Opdracht 6:
+    De nieuwe manier van objecten creëren kan je ook gebruik maken van classes. Lees je in over classes:
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#:~:text=Classes%20are%20a%20template%20for,shared%20with%20ES5%20classalike%20semantics.
+    Zet opdracht 4 om in classes i.p.v object constructors.
+-->
+
+</body>
+
+</html>
