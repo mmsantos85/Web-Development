@@ -9,12 +9,13 @@
 
 <body>
 
-<!--Objects
+    <!--Objects
     Objects zijn essentiële building blocks om data te groeperen. Bijvoorbeeld, je hebt te maken
     met klanten. Bij ieder klant houd je de naam, achternaam, leeftijd en hobby bij. Een manier
     van object aanmaken om de klantgegevens bij te houden is:
 -->
     <script>
+        console.log("<<Voorbeeld moduul object>>");
         const Customer = function (name, surname, age, hobby) {
             this.name = name;
             this.surname = surname;
@@ -32,7 +33,7 @@
     //Customer.customer1(); // objectName.methodName() en evoke function. Krijg error?
     </script>
 
-<!--Objecten in javascript kun je op meerdere manieren aanmaken, namelijk:
+    <!--Objecten in javascript kun je op meerdere manieren aanmaken, namelijk:
         ● Object Constructor
         ● Literal constructor
         ● Function Based
@@ -74,6 +75,8 @@
     <div id="clubs" class="clubs"></div>
 
     <script>
+        console.log('<<Opdracht 2>>');
+
         const infoClub = {
             naamClub: "Body and Health",
             sport: ["Hot Yoga", "Power Yoga", "Bikram Yoga", "Pilates"],
@@ -84,7 +87,7 @@
         console.log(infoClub.sport);
     </script>
 
-<!--Opdracht 2:
+    <!--Opdracht 2:
     Maak een Object van contactgegevens en voeg dat ook toe aan de club object:
         ● Contactgegevens
         ○ Adres
@@ -92,6 +95,8 @@
         ○ Contactpersoon
 -->
     <script>
+        console.log('<<Opdracht 3>>');
+
         // Constructor function voor Contactgegevens objects:
         const Contactgegevens = function (Club, Sport, Leden, Adres, Telefoonnr, Contactpersoon) {
             this.Club = Club;
@@ -107,27 +112,31 @@
             "34", "Paradijslaan 39", "06-12345678", "Mvr. dos Santos");
 
         // Opdracht 3: check Object.assign. bron: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
-        const infoClub1 = {Club0: "Body and Health" , Club1: "Rocycle rotterdam", 
-            Club3: "GymTastic", Club4: "fitNOtforFree" };
+        const infoClub1 = {
+            Club0: "Body and Health", Club1: "Rocycle rotterdam",
+            Club3: "GymTastic", Club4: "fitNOtforFree"
+        };
 
         Object.assign(contactGegevens1, infoClub1);
         console.log(contactGegevens1);
     </script>
 
-<!--Opdracht 3:
+    <!--Opdracht 3:
     Het is heel gebruikelijk dat dezelfde objecten in een lijst staan. Maak een lijst aan en voeg 4
     Club objecten toe aan de lijst. Itereer over de lijst heen en print de verschillende clubnamen uit op jouw pagina.
     Zie antwoord verwerkt hierboven.
 -->
 
-<!--Opdracht 4:
+    <!--Opdracht 4:
     Gegeven deze code hieronder. Sorteer persons op leeftijd van klein naar groot.
 -->
     <script>
+        console.log('<<Opdracht 4>>');
+
         const Person = function (name, age) {
             this.name = name;
             this.age = age;
-            //console.log(this);
+            console.log(this);
         }
         let Newperson = [
             new Person("Jan", 24),
@@ -145,7 +154,7 @@
         console.log(Newperson);
     </script>
 
-<!--Opdracht 5:
+    <!--Opdracht 5:
     Maak nu een Person object door gebruik te maken van Object initializers. Wat zou eventueel
     de voor en nadelen t.o.v Object constructors?
     Cons:
@@ -153,18 +162,53 @@
     Pros:
 -->
     <script>
+        console.log('<<Opdracht 5>>');
+
         const User = {
             Firstname: "Melisa",
             Lastname: "dos Santos",
             Age: 35
-            }; console.log(User);
+        }; console.log(User);
     </script>
 
-<!--Opdracht 6:
+    <!--Opdracht 6:
     De nieuwe manier van objecten creëren kan je ook gebruik maken van classes. Lees je in over classes:
     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#:~:text=Classes%20are%20a%20template%20for,shared%20with%20ES5%20classalike%20semantics.
     Zet opdracht 4 om in classes i.p.v object constructors.
+
+    Opdracht 7: Aparte HTML bestand.
+
+    Opdracht 8:
+    JSON is een hele bekende concept binnen developers. Zoek naar een aantal artikelen over JSON. Belangrijk concept om te kennen.
 -->
+
+    <script>
+        console.log('<<Opdracht 6>>');
+    
+        class Userr {
+            constructor(name, age){
+                this.name = name;
+                this.age = age;
+            }
+        }
+
+        const userOne = new Userr("Jan", 24);
+        const userTwo = new Userr("Klaas", 15);
+        const userThree = new Userr("Yanis", 42);
+        const userFour = new Userr("Rupel", 55);
+        const userFive = new Userr("Hendrik", 32);
+        const userSix= new Userr("Mono", 28);
+        const userSeven = new Userr("West", 23);
+
+        console.log(userOne, userTwo, userThree);
+    </script>
+
+    <!-- Notes opdracht 6:
+        - The 'new' is een keyword.
+        - Creates a new empty object{}.
+        - Sets the value of 'this' to be the new empty object.
+        - Calls the constructor method.
+    -->
 
 </body>
 

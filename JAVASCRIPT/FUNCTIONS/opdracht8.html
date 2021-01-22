@@ -344,6 +344,71 @@
         </tr>    
     </table>
 </div>
+
+<script> // javascript opdracht 8.
+    //window.onload = init();
+
+    let gradeArray =  document.getElementsByClassName("grade");
+    let wisArray =  document.getElementsByClassName("wisgrade");
+    let natArray =  document.getElementsByClassName("natgrade");
+    let nedArray =  document.getElementsByClassName("nedgrade");
+    let engArray =  document.getElementsByClassName("enggrade");
+    let betaArray =  document.getElementsByClassName("beta");
+    let talenArray =  document.getElementsByClassName("talen");
+    let comboArray =  document.getElementsByClassName("combo");
+    console.log(gradeArray) // controleren alles
+
+    function init() {
+    // console.log(wisArray[0].value); 
+     // console.log(natArray[0].value); 
+    // console.log(betaArray[0]); 
+
+     //betaArray[0].innerText = (NUmber(wisArray[0].value) + Number(natArray[0].value / 2)); // index 0 is willem. Number of parseInt gebruiken.
+        for (let i = 0; i < wisArray.length; i++) {
+            betaArray[i].innerText = (Number(wisArray[1].value) + Number(natArray[1].value)) / 2;
+            betaArray[i].innerText = (Number(nedArray[1].value) + Number(nedArray[1].value)) / 2;
+        }
+
+        checkinit();
+
+        passOrfail();
+    }
+
+    function passOrfail() {
+        for (let i = 0; i < comboArray.length; i++) {
+            let combinedgrade = (Number(talenArray[i].innerText) + Number(betaArray[i].innerText)) / 2
+            console.log(combinedgrade);
+            if (combinedgrade < 6.5) {
+                comboArray[i].textContent = "ja"
+            } else {
+                comboArray[i].textContent = "nee"
+            }
+        }
+    }
+
+    function checkInit() {
+        for (let i = 0; i < gradeArray.length; i++) {
+            checkValue(gradeArray[i]);
+        }
+    }
+
+    //init();
+
+    function checkValue(obj) { // functie om cijfer te veranderen.
+        //console.log(obj)
+        //console.log(obj.value)
+       // console.log(obj.innerText)
+       if (obj.value) {
+       } if (obj.value < 5.5) { // textContent opzoeken.
+            obj.style.backgroundColor = "red";
+        }else if (obj.value < 8) {
+            obj.style.backgroundColor = "lightgreen";
+        } else {
+            obj.style.backgroundColor = "green";
+        }
+    }
+
+</script>
     
 </body>
 </html>

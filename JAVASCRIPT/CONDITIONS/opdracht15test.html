@@ -4,7 +4,7 @@
 <head>
     <meta charset=“UTF-8">
     <meta name=“viewport” content=“width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Javascript Conditions</title>
     <style>
         .words button {
             position: relative;
@@ -24,7 +24,7 @@
 
         .words .fg {
             position: absolute;
-            content: ‘’;
+            content: "";
             display: flex;
             justify-content: center;
             align-items: center;
@@ -58,97 +58,93 @@
 <body>
     <h1>Gues the word</h1>
     <section>
-        <!-- <div class=“words”>
-            <button onclick=“guess(this)“>
-                <div class=“fg”>Show</div>
-                <span>Together</span>
-            </button>
-            <button onclick=“guess(this)“>
-                <div class=“fg”>Show</div>
-                <span>Teamwork</span>
-            </button>
-            <button onclick=“guess(this)“>
-                <div class=“fg”>Show</div>
-                <span>Scrum</span>
-            </button>
-            <button onclick=“guess(this)“>
-                <div class=“fg”>Show</div>
-                <span>Individual</span>
-            </button>
-            <button onclick=“guess(this)“>
-                <div class=“fg”>Show</div>
-                <span>Moments</span>
-            </button>
-            <button onclick=“guess(this)“>
-                <div class=“fg”>Show</div>
-                <span>Like</span>
-            </button>
-            <button onclick=“guess(this)“>
-                <div class=“fg”>Show</div>
+        <div class="words">
+            <button onclick="guess(this)">
+                <div class=" fg">Show
+        </div>
+        <span>Together</span>
+        </button>
+        <button onclick="guess(this)">
+                <div class="fg">Show</div>
+            <span>Teamwork</span>
+        </button>
+        <button onclick="guess(this)">
+                <div class="fg">Show</div>
+            <span>Scrum</span>
+        </button>
+        <button onclick="guess(this)">
+                <div class="fg">Show</div>
+            <span>Individual</span>
+        </button>
+        <button onclick="guess(this)">
+            <div class="fg">Show</div>
+            <span>Moments</span>
+        </button>
+        <button onclick="guess(this)">
+            <div class="fg">Show</div>
+            <span>Like</span>
+        </button>
+        <button onclick="guess(this)">
+                <div class="fg">Show</div>
                 <span>Dislike</span>
             </button>
-            <button onclick=“guess(this)“>
-                <div class=“fg”>Show</div>
-                <span>Money</span>
-            </button>
-            <button onclick=“guess(this)“>
-                <div class=“fg”>Show</div>
-                <span>Important</span>
-            </button>
-        </div> -->
+            <button onclick="guess(this)">
+                <div class="fg">Show</div>
+            <span>Money</span>
+        </button>
+        <button onclick="guess(this)">
+                <div class="f">Show</div>
+        </button>
+        </div>
     </section>
+
     <div>
-        <span>The number of wrong guessing: <span id=“count”>0</span>
+        <span>The number of wrong guessing: <span id="count">0</span>
         </span>
-        <p id=“label”></p>
+        <p id="label"></p>
     </div>
-    <!-- <script>
-        const words = [
-        “Together”,
-        “Teamwork”,
-        “Scrum”,
-        “Individual”,
-        “Moments”,
-        “Like”,
-        “Dislike”,
-        “Money”,
-        “Important”
-        ];
+
+    <script>
+        const words = ["Together", "Teamwork", "Scrum", "Individual", "Moments",
+            "Like", "Dislike", "Money", "Important"];
         const guessingWord = words[Math.round(Math.random() * 8)];
         console.log(guessingWord);
+        
         // VARIABELEN
-        let count = document.getElementById(“count”).innerHTML;
+        let count = document.getElementById("count").innerHTML;
         // console.log(count);
         const levens = 3;
-        const gewonnen = “You have guessed the correct word!“;
-        const verkeerd = “You have guessed the wrong word”;
-        const verloren = “Game Over! The correct word is”;
+        const gewonnen = "You have guessed the correct word!";
+        const verkeerd = "You have guessed the wrong word";
+        const verloren = "Game Over! The correct word is";
+
         function guess(obj) {
-            let words = obj.querySelector(‘span’).innerHTML;
+            let words = obj.querySelector("span").innerHTML;
             if
                 (words == guessingWord) {
                 alert(gewonnen + guessingWord);
             }
             else {
                 count++
-                document.getElementById(“count”).innerHTML = count;
+                document.getElementById("count").innerHTML = count;
                 alert(verkeerd);
                 if (count == levens) {
                     alert(verloren + guessingWord);
                     location.reload();
                 }
             }
-        } -->
-            <!-- // Variabelen vasstellen
-            // value geven aan variabele
-            // variable aanmaken count: met 3 keer klikken
-            // condition geven
-            // conditie waar / niet waar
-            // waar: You have asnwered the correct word!
-            // niet waar: bij houden hoe vaak fout geklikt.
-            // condtitie toevoegen in de niet waar: na 3 X klikken, voer dit uit
-            // -->
+        } 
     </script>
+
+<!--Variabelen vasstellen
+    value geven aan variabele
+    variable aanmaken count: met 3 keer klikken
+    condition geven
+    conditie waar / niet waar
+    waar: You have asnwered the correct word!
+    niet waar: bij houden hoe vaak fout geklikt.
+    condtitie toevoegen in de niet waar: na 3 X klikken, voer dit uit.
+    -->
 </body>
 
 </html>
