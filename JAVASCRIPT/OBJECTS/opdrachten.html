@@ -9,7 +9,7 @@
 
 <body>
 
-    <!--Objects
+<!--Objects
     Objects zijn essentiële building blocks om data te groeperen. Bijvoorbeeld, je hebt te maken
     met klanten. Bij ieder klant houd je de naam, achternaam, leeftijd en hobby bij. Een manier
     van object aanmaken om de klantgegevens bij te houden is:
@@ -32,7 +32,7 @@
     //Customer.customer1(); // objectName.methodName() en evoke function. Krijg error?
     </script>
 
-    <!--Objecten in javascript kun je op meerdere manieren aanmaken, namelijk:
+<!--Objecten in javascript kun je op meerdere manieren aanmaken, namelijk:
         ● Object Constructor
         ● Literal constructor
         ● Function Based
@@ -84,7 +84,7 @@
         console.log(infoClub.sport);
     </script>
 
-    <!--Opdracht 2:
+<!--Opdracht 2:
     Maak een Object van contactgegevens en voeg dat ook toe aan de club object:
         ● Contactgegevens
         ○ Adres
@@ -106,27 +106,21 @@
         const contactGegevens1 = new Contactgegevens("Body and Health", "Hot Yoga, Power Yoga, Bikram Yoga, Pilates",
             "34", "Paradijslaan 39", "06-12345678", "Mvr. dos Santos");
 
-        const infoClub1 = {
-            naamClub: [{ naamClub0: "Body and Health" }, { naamClub1: "Rocycle rotterdam" },
-            { naamClub3: "GymTastic" }, { naamClub4: "fitNOtforFree" }],
+        // Opdracht 3: check Object.assign. bron: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
+        const infoClub1 = {Club0: "Body and Health" , Club1: "Rocycle rotterdam", 
+            Club3: "GymTastic", Club4: "fitNOtforFree" };
 
-            sport: ["Hot Yoga", "Power Yoga", "Bikram Yoga", "Pilates"],
-            leden: "25", };
-
-        for (let i = 0; i < infoClub1.naamClub.length; i++) {
-            console.log(infoClub1.naamClub[i]);
-        }  
+        Object.assign(contactGegevens1, infoClub1);
+        console.log(contactGegevens1);
     </script>
 
-    <!--Opdracht 3:
+<!--Opdracht 3:
     Het is heel gebruikelijk dat dezelfde objecten in een lijst staan. Maak een lijst aan en voeg 4
-    Club objecten toe aan de lijst. Itereer over de lijst heen en print de verschillende clubnamen
-    uit op jouw pagina.
-
+    Club objecten toe aan de lijst. Itereer over de lijst heen en print de verschillende clubnamen uit op jouw pagina.
     Zie antwoord verwerkt hierboven.
 -->
 
-    <!--Opdracht 4:
+<!--Opdracht 4:
     Gegeven deze code hieronder. Sorteer persons op leeftijd van klein naar groot.
 -->
     <script>
@@ -135,7 +129,7 @@
             this.age = age;
             //console.log(this);
         }
-        let persons = [
+        let Newperson = [
             new Person("Jan", 24),
             new Person("Klaas", 15),
             new Person("Yanis", 42),
@@ -145,19 +139,28 @@
             new Person("West", 23),
         ]
 
-        persons.sort(function (a, b) { // parameters a is < dan b.
+        Newperson.sort(function (a, b) { // parameter a is < dan parameter b.
             return a.age - b.age
         });
-        console.log(persons);
-
+        console.log(Newperson);
     </script>
 
-    <!--Opdracht 5:
+<!--Opdracht 5:
     Maak nu een Person object door gebruik te maken van Object initializers. Wat zou eventueel
     de voor en nadelen t.o.v Object constructors?
+    Cons:
+    -
+    Pros:
 -->
+    <script>
+        const User = {
+            Firstname: "Melisa",
+            Lastname: "dos Santos",
+            Age: 35
+            }; console.log(User);
+    </script>
 
-    <!--Opdracht 6:
+<!--Opdracht 6:
     De nieuwe manier van objecten creëren kan je ook gebruik maken van classes. Lees je in over classes:
     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#:~:text=Classes%20are%20a%20template%20for,shared%20with%20ES5%20classalike%20semantics.
     Zet opdracht 4 om in classes i.p.v object constructors.
