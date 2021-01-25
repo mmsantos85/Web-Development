@@ -57,7 +57,7 @@ function isWinner(selection, opponentSelection) {
     return selection.beats === opponentSelection.name
 }
 
-function randomSelection {
+function randomSelection(){
     const randomIndex = Math.floor(Math.random() * SELECTIONS.length)
     return SELECTIONS[randomIndex]
 }
