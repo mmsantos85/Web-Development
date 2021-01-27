@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <div class="quotes">
+          <p id="par"></p>
+        </div>
+      
+        <button class="btn" onClick="randomQuote()">button</button>
+      </div>
+
+
+    <script>
+        var array = [0, 1];
+        var cpt = 0;
+
+        //Init the 'par' div before click
+        document.querySelector("#par").innerHTML = array[cpt];
+
+        function randomQuote() {
+            if (cpt < array.length - 1)
+                cpt++;
+            else
+                cpt = 0;
+
+            document.querySelector("#par").innerHTML = array[cpt];
+        }
+
+    </script>
+
+</body>
+
+</html>

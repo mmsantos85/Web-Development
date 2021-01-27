@@ -1,0 +1,10 @@
+stappenplan:
+
+1 HTML en CSS maken.
+2 Variables aanmaken in JS.
+3 Button met nummers connecten met display.
+4 Meerdere nummers kunnen weergeven in mijn display.
+5 AC button, zorgen dat de display clear komt te staan.
+6 Button AC naar C wanneer een getal is ingevoerd.
+7 Button plus minus werkende krijgen door ingevoerde getal positief of negatief te krijgen.
+
