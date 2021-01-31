@@ -1,12 +1,20 @@
 Stappenplan Calculator:
 
-1. HTML en CSS maken.
+1. HTML en CSS maken. Maandag af.
 2. Variables aanmaken in JS.
-3. Button met nummers connecten met display.
-4. Meerdere nummers kunnen weergeven in mijn display.
-5. AC button, zorgen dat de display clear/leeg komt te staan.
-6. Button AC naar C wanneer een getal is ingevoerd.
-7. Button plus minus werkende krijgen door ingevoerde getal positief of negatief te krijgen.
-8. Procent button werkende krijgen.
-9. Delen/Modulo button werkende krijgen.
+3. Button met nummers op display kunnen weergeven.
+   - Onclick functie aan toevoegen. 
+4. Meerdere nummers kunnen weergeven op display.
+5. Onclick functie aanmaken voor mijn operators.
+6. De basis berekeningen zoals, optellen, aftrekken, vermenigvuldigen en delen.
+   - beginnen met optellen etc.
+   - Functions maken.
+7. Wanneer een rekenkundig symbol (/, X, -, +, =) is geklikt, dan wordt de
+   achtergrondkleur van dat symbool wit en wordt de tekst kleur oranje.
+8. AC button, zorgen dat de display clear/leeg komt te staan.
+. Button AC naar C wanneer een getal is ingevoerd.
+. Button plus minus werkende krijgen door ingevoerde getal positief of negatief te krijgen.
+. Procent button werkende krijgen.
+. Delen/Modulus button werkende krijgen.
+. De AC of C symbol reset jouw rekenmachine.
 

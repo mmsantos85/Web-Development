@@ -47,9 +47,10 @@ button {
 }
 
 .button-orange {
-    background-color: #f57600;
+    background-color: orange;
     font-size: 35px;
     color: white;
+    justify-content: center;
 }
 
 .button-Lgrey {
@@ -62,8 +63,6 @@ button {
 .button-span {
     width: 182px;
     border-radius: 60px;
-    justify-content: right;
-    padding-left: 35px;
     grid-column: 1 / span 2;
 }
 
