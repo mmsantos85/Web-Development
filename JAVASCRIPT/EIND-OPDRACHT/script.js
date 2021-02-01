@@ -81,14 +81,19 @@ function operatormodulos(nummerInput) {
 //     }
 // }
 
+// function operatorPlusMin(nummerInput) {
+//     var getal1 = document.getElementById('1').innerHTML;
+//     var getal2 = document.getElementById('2').innerHTML;
+//     const plusMin = document.getElementById("plusMinus").innerHTML;
+//     document.getElementsByClassName("display").innerHTML = parseFloat(getal1) - parseFloat(getal2) * 2;
+//     numbersList.push(nummerInput.innerHTML);
+//     //document.form1.submit();
+// }
 
 function operatorPlusMin(nummerInput) {
-    var getal1 = document.getElementById('1').innerHTML;
-    var getal2 = document.getElementById('2').innerHTML;
-    const plusMin = document.getElementById("plusMinus").innerHTML;
-    document.getElementsByClassName("display").innerHTML = parseFloat(getal1) - parseFloat(getal2) * 2;
-    numbersList.push(nummerInput.innerHTML);
-    //document.form1.submit();
+    const  plusMin = document.getElementById("plusMinus").innerHTML;
+    document.getElementById("display").innerHTML = screen() + plusMin;
+    numbersList.push(nummerInput.innerHTML);   
 }
 
 // function resultaat:
