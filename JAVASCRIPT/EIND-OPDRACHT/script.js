@@ -10,8 +10,8 @@ const displayOutput = document.getElementsByClassName("display-output");
 const buttonNumber = document.getElementsByClassName("button-number");
 
 // alleen bij = uitkomsten gebruiken.
-let one = "";
-let two = "";
+let getal = "";
+//let two = "";
 let numbersList = [];
 
 // Display aanroepen.
@@ -59,28 +59,42 @@ function operatordivide(nummerInput) {
 }
 
 function operatormultiply(nummerInput) {
-    const vermenigvuldig = document.getElementById("multiply").innerHTML;
+    const vermenigvuldig = document.getElementById("*").innerHTML;
     document.getElementById("display").innerHTML = screen() + vermenigvuldig;
     numbersList.push(nummerInput.innerHTML);
+    console.log(numbersList);
 }
+
 function operatormodulos(nummerInput) {
     const modulo = document.getElementById("%").innerHTML;
     document.getElementById("display").innerHTML = screen() + modulo;
     numbersList.push(nummerInput.innerHTML);
-    console.log(modulo);
 }
 
+// function operatorPlusMin(nummerInput) {
+//     const plusMin = document.getElementById("plusMinus").innerHTML;
+//     const uikomst = document.getElementById("display").innerHTML = screen() + plusMin;
+//     numbersList.push(nummerInput.innerHTML);
+
+//     if (plusMin = getal()) {
+//         uitkomst.innerHTML = getal() - getal() * 2;  
+//     }
+// }
+
+
 function operatorPlusMin(nummerInput) {
+    var getal1 = document.getElementById('1').innerHTML;
+    var getal2 = document.getElementById('2').innerHTML;
     const plusMin = document.getElementById("plusMinus").innerHTML;
-    document.getElementById("display").innerHTML = screen() + plusMin;
+    document.getElementsByClassName("display").innerHTML = parseFloat(getal1) - parseFloat(getal2) * 2;
     numbersList.push(nummerInput.innerHTML);
-    console.log();
+    //document.form1.submit();
 }
 
 // function resultaat:
 function operatorresultaat() {
     let resultaat = document.getElementById("display").innerHTML;
-    resultaat = eval(resultaat);
+    resultaat = eval(resultaat).toFixed(2);
     document.getElementById("display").innerHTML = resultaat; 
 }
 
