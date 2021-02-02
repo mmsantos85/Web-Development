@@ -1,59 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 body {
-    background-color: black;
-    font-family: monospace;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-ul {
+#nav-bar {
     list-style-type: none;
     margin: 0;
     padding: 0;
 } 
 
- li {
+li {
     display: inline;
 } 
 
-.nav-bar {
+header {
     font-size: 10px;
-    color: black;
     text-align: right;
-    margin: 5px;
+    margin: 9px;
 }
 
-h1 {
-    font-size: 20px;
-}
-
-.naam {
-    font-size: 20px;
-}
-
-#about ::before {
-    display: flex;
-    justify-content: space-around;
-    width: 30px;
-    height: 30px;
-    float: right;
+header a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 4px;
 }
 
 .container-1 {
-   flex-direction: column;
-    width: 40%;
-    height: 700px;
-    background-color: whitesmoke;
-    margin-top: 70px;
-    margin-left: 80px;
+    flex-direction: column;
+    width: 700px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    margin-top: 80px;
+    margin-left: 60px;
     float: left;
+}
 
+.main-profiel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.box1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-top: 50px;
+}
+
+.box2 {
+    
+}
+
+.box2 {
+    background-color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-left: 15px;
+    color: rgb(255, 0, 0);
+    font-weight: 20px;
+}
+
+.box3 {
+    background-color:rgb(255, 255, 255);
+    font-size: small;
+    margin-right: 18px;
+}
+
+#naam {
+    font-size: 25px;
+}
+
+#traject {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+ #melis {
+    height: 250px;
+    width: 220px;
+    margin-left: 20px;
+ }
+
+.main-skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.box4 {
+    /* height: 200px; */
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 20px;
+    margin-left: 15px;
+}
+
+#skill-lijst {
+    font-size: medium;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.skill-verticaal {
+    display: block;
+    font-weight: 30px;
+}
+
+.box5 {
+    background-color: rgb(255, 255, 255);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-right: 18px;
+    text-align: right;
+    font-size: 35px;
+    color: rgb(0, 26, 255);
+    font-weight: 30px;
 }
 
 .container-2 {
     flex-direction: column;
-    width: 40%;
+    width: 700px;
     height: 700px;
-    background-color: whitesmoke;
+    background-color: white;
     float: right;
-    margin-right: 80px;
+    margin-right: 60px;
     margin-top: 0px;
 }
 
