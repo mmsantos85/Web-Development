@@ -7,28 +7,6 @@ body {
     padding: 0;
 }
 
-#nav-bar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-} 
-
-li {
-    display: inline;
-} 
-
-header {
-    font-size: 10px;
-    text-align: right;
-    margin: 9px;
-}
-
-header a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    padding: 4px;
-}
-
 .container-1 {
     flex-direction: column;
     width: 700px;
@@ -39,6 +17,28 @@ header a {
     float: left;
 }
 
+.navigatie {
+    font-size: 10px;
+    text-align: right;
+    margin: 9px;
+}
+
+.navigatie a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 4px;
+}
+
+#nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+} 
+
+li {
+    display: inline;
+} 
+
 .main-profiel {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -46,43 +46,98 @@ header a {
 }
 
 .box1 {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    margin-top: 50px;
-}
-
-.box2 {
-    
-}
-
-.box2 {
+    width: 200px;
+    grid-column: 1/2;
+    grid-row: 1/2;
     background-color: rgb(255, 255, 255);
-    font-size: 40px;
-    margin-left: 15px;
-    color: rgb(255, 0, 0);
-    font-weight: 20px;
 }
 
-.box3 {
-    background-color:rgb(255, 255, 255);
-    font-size: small;
-    margin-right: 18px;
+.dot-half {
+    width: 120px;
+    height: 60px; /* as the half of the width */
+    background-color: black;
+    border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+    border-top-right-radius: 110px;
+    display: inline-block;
+    margin-left: 20px;
+    margin: 20px;
+}
+
+.dot-big {
+    height: 120px;
+    width: 120px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 20px;
+    margin: 20px;
+}
+
+/* #melis-img {
+    height: 230px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 20px;
+} */
+
+.box2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: rgb(255, 255, 255);
 }
 
 #naam {
+    margin-top: 50%;
+    margin-right: 30px;
     font-size: 25px;
+    text-align: right;
 }
 
 #traject {
     font-size: 20px;
-    margin-top: 0;
+    text-align: right;
+    margin-right: 30px;
 }
 
- #melis {
-    height: 250px;
-    width: 220px;
-    margin-left: 20px;
- }
+/* .border-foto {
+    height: 300px;
+    width: 270px;
+    border: red 10px solid;
+} */
+
+.box3 {
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 2/3;    
+    background-color: rgb(255, 255, 255);
+    text-align: right;
+    margin-top: 150px;
+    margin-right: 15px;
+}
+
+#about {
+    color: rgb(255, 0, 0);
+    margin-top: 100px;
+    font-weight: 20px;
+    font-size: 40px;
+}
+
+.box4 {
+    display: block;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color:rgb(255, 255, 255);
+    font-size: small;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+p {
+    font-size: 15px;
+    color: black;
+    font-weight: 900px;
+    margin-left: 15px;
+}
 
 .main-skills {
     display: grid;
@@ -90,16 +145,18 @@ header a {
     grid-template-rows: 1fr 1fr;
 }
 
-.box4 {
-    /* height: 200px; */
+.box5 {
+    grid-column: 1/2;
+    grid-row: 1/2;
     background-color: rgb(255, 255, 255);
-    font-size: 25px;
-    font-weight: 20px;
+    font-size: 30px;
+    margin-top: 50px;
     margin-left: 15px;
 }
 
 #skill-lijst {
-    font-size: medium;
+    font-size: 18px;
+    font-weight: 100px;
     padding: 5px;
     margin-top: 5px;
 }
@@ -109,18 +166,39 @@ header a {
     font-weight: 30px;
 }
 
-.box5 {
+.hr-line {
+    border: 1px solid black;
+    margin: 8px;
+    margin-right: 25px;
+}
+
+.dot-small {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 270px;
+}
+
+.box7 {
+    grid-column: 2/3;
+    grid-row: 2/3;
     background-color: rgb(255, 255, 255);
-    grid-column-start: 1;
-    grid-column-end: 3;
     margin-right: 18px;
     text-align: right;
+}
+
+#work {
     font-size: 35px;
     color: rgb(0, 26, 255);
-    font-weight: 30px;
+    font-weight: 100px;
 }
 
 .container-2 {
+    background-image: url("cirkel-background-port.png");
+    background-color: rgb(190, 202, 255);
+    background-size: 1075px;
     flex-direction: column;
     width: 700px;
     height: 700px;
@@ -128,6 +206,19 @@ header a {
     float: right;
     margin-right: 60px;
     margin-top: 0px;
+}
+
+#educatie {
+    font-size: 30px;
+    color: rgb(0, 26, 255);
+    font-weight: 100px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.hr-line2 {
+    border: 1px solid black;
+    margin-top: 30px;
 }
 
 
