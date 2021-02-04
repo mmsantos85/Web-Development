@@ -41,65 +41,71 @@ li {
 } 
 
 .main-boven {
+    /* position: relative; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
 
 .box1 {
+    /* position: absolute; */
     width: 200px;
     grid-column: 1/2;
     grid-row: 1/3;
 }
 
 .dot-half {
-    width: 120px;
-    height: 60px; /* as the half of the width */
+    /* position: absolute; */
+    width: 100px;
+    height: 50px; /* as the half of the width */
     background-color: black;
     border-top-left-radius: 110px;  /* 100px of height + 10px of border */
     border-top-right-radius: 110px;
     display: inline-block;
-    margin: 10px 10px 10px 30px;
+    margin: 10px 10px 5px 30px;
 }
 
 .dot-big {
-    height: 120px;
-    width: 120px;
+    /* position: absolute; */
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     background-color: black;
     display: inline-block;
-    margin: 10px 10px 10px 30px;
+    margin: 10px 10px 5px 30px;
 }
 
-/* #melis-img {
-    height: 230px;
-    width: 200px;
-    margin-top: 50px;
-    margin-left: 20px;
-} */
-
 .box2 {
+    /* position: relative; */
     grid-column: 1/3;
-    grid-row: 1/2;
+    grid-row: 1/3;
 }
 
 img {
-    width: 450px;
-    height: 400px;
-    filter: grayscale(100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 700px;
+    height: 460px;
+    margin: -150px 0px 0px 0px; 
+    filter: brightness(130%) grayscale(100%);
 }
 
 #naam {
+    /* position: absolute; */
     font-size: 25px;
     font-weight: bold;
-    margin-top: 50%;
+    color: rgb(255, 0, 0);
+    margin-top: 50px;
     margin-right: 30px;
     text-align: right;
 }
 
 #traject {
+    /* position: absolute; */
     font-size: 20px;
     font-weight: bold;
+    color: rgb(255, 0, 0);
     text-align: right;
     margin-right: 30px;
 }
@@ -146,7 +152,7 @@ img {
     font-size: 25px;
     color: rgb(2, 19, 168);
     font-weight: bold;
-    margin: 80px 0px 0px 30px;
+    margin: 80px 0px 20px 30px;
 }
 
 #opleidingen {
@@ -164,7 +170,7 @@ img {
 .dot-small {
     height: 50px;
     width: 50px;
-    border: 2px solid black;
+    background-color: black;
     border-radius: 50%;
     display: inline-block;
     margin-left: 270px;
@@ -194,7 +200,7 @@ img {
     font-size: 20px;
     font-weight: bold;
     color: rgb(2, 19, 168);
-    margin: 30px 0px 0px 30px;
+    margin: 40px 0px 0px 30px;
 }
 
 .skill-talen {
@@ -204,16 +210,12 @@ img {
     margin-left: 5px;
 }
 
-#talen {
-    font-size: 18px;
-    color: rgb(2, 19, 168);
-    margin-left: 5px;
-}
-
-.nl-eng {
-    font-size: 15px;
-    color: black;
-    font-weight: bold;
+#dot-sm-black {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
 }
 
 .box9 {
