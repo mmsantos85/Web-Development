@@ -1,0 +1,121 @@
+*** 2 Waarom is testen belangrijk?
+
+Software Testen is belangrijk omdat eventuele bugs of fouten in de software vroegtijdig kunnen worden opgespoord en kunnen worden opgelost 
+voordat het softwareproduct wordt geleverd. Een goed getest softwareproduct heeft betrouwbaarheid, veiligheid en hoge prestaties, die verder resulteren in tijdwinst, 
+kosteneffectiviteit en klanttevredenheid garanderen.
+
+
+Geef antwoord op de volgende vragen:
+
+Opdracht 1:
+Waarom is testen belangrijk in het proces van software development?
+Software wordt door softwareontwikkelaars ontworpen voor een bepaalde toepassing. Dit lijkt op zich eenvoudig, maar door de complexiteit van software en 
+de omgeving waarin software werkt, is het praktisch onmogelijk om foutloos software te maken. Dit maakt het testen van software zo belangrijk.
+
+Vanuit de leverancier, producent, 
+- gezien is het doel van het testen, het leveren van het bewijs dat het ontwikkel- en programmeerwerk goed gedaan is zodat de factuur ingediend en betaald kan worden.
+
+Vanuit de opdrachtgever, klant, gebruiker gezien zijn er meerdere doelen.
+- Ten eerste wil men weten of de leverancier heeft gedaan wat is afgesproken.
+- Ook wil men de risico's in kunnen schatten bij het gebruik van de software. Men wil weten of de gebruikers met het systeem willen en kunnen gaan werken.
+- Ook wil men fouten vinden, en wel zo snel mogelijk, want hoe later fouten gevonden worden hoe duurder het wordt om ze te herstellen.
+- Ook wil men fouten voorkomen, dat gebeurt bijvoorbeeld met statisch testen.
+
+Software wordt vóór het operationeel gebruik getest, niet om alle fouten weg te halen, maar om het risico op problemen tijdens het gebruik op een acceptabel niveau te houden. 
+Als het al uitvoerbaar zou zijn, zou het maken van foutloze software een onevenredige hoeveelheid tests en kosten betekenen.
+De invoering van het systeem heeft allerlei gevolgen voor de omgeving. Deze gevolgen wil men goed kunnen inschatten. Het gaat om de gevolgen op Commercieel, Organisatorisch, 
+Personeel, Administratief, Financieel en Technisch gebied.
+
+
+
+Bronnen: 
+https://nl.wikipedia.org/wiki/Testen_(software)
+
+
+Opdracht 2:
+Zoek op het internet naar voorbeelden van waar software mogelijk niet goed genoeg getest was en geef ook aan wat de gevolgen daarvan waren.
+
+
+Bronnen: 
+
+
+
+
+
+
+
+
+
+***3 Wat is de toegevoegde waarden van testen?
+Geef antwoord op de volgende vragen:
+
+
+Opdracht 1: 
+Zoek op wat de voordelen zijn van testen?
+
+- Testen geeft inzicht in de risico’s bij ingebruikname en laat het zien waar verbeteringen kunnen plaatsvinden.
+- Fouten die na ingebruikname van de software worden geconstateerd zijn vele malen duurder om te herstellen dan fouten in de ontwikkelfase. 
+- Door middel van goed testen kunnen fouten vroegtijdig worden geconstateerd. Daardoor kunnen een hoop onnodige kosten kunnen voorkomen, 
+  en een hoop frustraties. Software moet namelijk een oplossing zijn!
+
+Bronnen: 
+https://www.sysqa.nl/waarom-is-het-testen-van-je-it-systemen-belangrijk/
+
+
+Opdracht 2 : Wat zijn de kosten?
+Testen kost tijd en geld, daarom moet er nagedacht worden over wat er getest wordt en hoe uitgebreid dit gebeurt. Hoe uitgebreid er getest wordt is dan ook afhankelijk 
+van het budget en van de risico's die men wil inschatten. 
+In het ideale geval wordt er niet getest, want dat is het goedkoopst, maar vaak durft men dat niet omdat men bepaalde risico's niet wil lopen. 
+Door te testen krijgt men inzicht in die risico's. Daarom moet er een impliciete of expliciete risico-inschatting gemaakt worden. Het testen kost tussen de 10 en 
+30% van het totale projectbudget. 
+Eventueel kan men met bijvoorbeeld een testpuntanalyse een inschatting maken.
+
+Bronnen: 
+https://nl.wikipedia.org/wiki/Testen_(software)
+
+Opdracht 3 : Wat zijn de baten?
+
+Bronnen: 
+
+Opdracht 4 : Formuleer dit verder in wat de Test Opbrengst kan zijn.
+
+Bronnen: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+4 Wie voert de testen uit?
+Binnen de IT hebben we verschillende rollen en taken. Denk aan projectleiders, scrum masters, development teams, etc. Maar hoe zit dat binnen de test proces? 
+
+Aan jou de taak om dat te onderzoeken. Geef antwoord op de volgende vragen:
+
+Opdracht 1: Testen is niet alleen uitvoeren. Wat  komt er nog meer bij kijken bij het testproces?
+
+Opdracht 2: Beschrijf de verschillende manieren van testen.
+
+Opdracht 3: Wie test er?
+
+Opdracht 4: Vind informatie over het Test- en systeemontwikkelproces en beschrijf de invloeden van het V-Model.
+
+Opdracht 5: Beschrijf de linkerkant van het V-model en geef de definitie aan van toetsen. Waarmee kan het resultaat vergeleken worden bij het toetsen?
+
+Opdracht 6: Welke testsoorten en -verantwoordelijkheden zijn er in een systeemontwikkeltraject?
+
+Opdracht 7: Vind nu informatie over de rechterkant van het V-model en beschrijf welke testsoorten hier plaatsvinden en de verantwoordelijke. 
+
+Opdracht 8: Wat is een testbasis? 
+
+Opdracht 9: Welke test vormen zijn er? Wat is een testvorm? Wat is een regressietest?
+
+Opdracht 10: Wat is gestructureerd testen? Geef hierbij de nadelen van ongestructureerd testen en de voordelen van een gestructureerd testaanpak.
+
+Opdracht 11: Wat zijn de kenmerken van een gestructureerde testaanpak?

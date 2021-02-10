@@ -1,0 +1,134 @@
+Module 1: Software testen:
+
+Wat is Software Testen? Definitie, Basis & types.
+
+Software Testen is een methode om te controleren of het daadwerkelijke softwareproduct overeenkomt met de 
+verwachte vereisten en om ervoor te zorgen dat het softwareproduct defect vrij is. 
+Het omvat de uitvoering van software / systeemcomponenten met behulp van handmatige of geautomatiseerde tools om één ​​of 
+meer van belang zijnde eigenschappen te evalueren. Het doel van software tests is om fouten, 
+hiaten of ontbrekende vereisten te identificeren in tegenstelling tot daadwerkelijke vereisten.
+Sommigen zeggen liever dat softwaretesten White Box en Black Box Testen zijn. 
+Simpel gezegd betekent software test de verificatie van de applicatie wat getest dient te worden. (Application Under Test*AUT). 
+
+In dit handboek gaan we een introductie doen op testen waarbij we het volgende leren en antwoord kunnen geven op het volgende: 
+
+Wat is testen?
+Waarom is testen belangrijk?
+Wat is de toegevoegde waarde van testen?
+Wie voert de testen uit?
+Welke Test types zijn er?
+Wat is testen in software 
+engineering?
+
+*** 1 Wat is Testen??
+
+In de IT industrie zijn er 2 certificaten die jou als officiële gecertificeerde tester zullen maken. 
+Namelijk TMAP en ISTQB. We gaan eerst ons verdiepen in een paar elementen van TMap en daarna ISTQB.
+
+TMAP is een acroniem voor Test Management Approach. Het is een methode voor het testen van softwaresystemen 
+op gestructureerde en waar mogelijk geautomatiseerde wijze, die zich meer richt in Nederland. 
+
+
+Opdracht 1: 
+Zoek op en geef antwoord op de volgende vragen:
+Wat is de geschiedenis van TMAP?
+Wat is de kracht van TMAP?
+Wat biedt TMAP?
+Waarbij helpt TMAP?
+
+Bespreek de uitkomsten met je groep en eventuele bronnen.
+
+1. Wat is de geschiedenis van TMAP?
+Test Management Approach, gewoonlijk kortweg TMAP genoemd, is een testmethode voor software die ontwikkeld is door de 
+Nederlandse tak van het IT-bedrijf Sogeti door Martin Pol, Ruud Teunissen en Erik van Veenendaal. De eerste versie werd geintroduceerd in 1995, 
+eind 2006 werd een nieuwe versie geintroduceerd: Tmap next. Tmap is eigendom van het Nederlandse tak van het IT bedrijf Sogeti, onderdeel van Capgemini.
+
+2. Wat is de kracht van TMAP?
+TMAP is een breed en uitgebreid proces. De basis voor deze aanpak voor software testing worden in vier essenties uitgelegd.
+
+De 4 essenties van TMAP:
+- TMAP is gebaseerd op Business Driven Test Managment aanpak.
+- TMAP beschrijft een gestructureerd test proces.
+- TMAP bevat een complete gereedschapskist.
+- TMAP is een adaptive/aangepaste methode.
+
+3. Wat biedt TMAP?
+TMAP biedt bedrijven een proces georienteerde test aanpak met de nadruk op business objectives.
+De op structuur gebaseerde aanpak voor software biedt een aantal voordelen op:
+
+- Extensieve//uitvoerig/grondig inzicht op risico's door software kwaliteit.
+- Transparante test proces.
+- Overzichtelijk in termen van tijd, kosten en kwaliteit.
+- Geeft waarschuwingen in gevallen van slechte kwaliteit.
+- Korte testperiode.
+- Consequente/consistent standaardisatie/opleggen van een bepaalde norm.
+
+4. Waarbij helpt TMAP?
+TMAP/ Test Management Approach is een leidende aanpak binnen het testen van Software.
+Deze gestructureerde Test Management Approach kan helpen in het sneller leveren van complexe en hoge kwaliteits niveau Software.
+Doormiddel van deze structuur laat het bedrijven toe om geld en tijd te besparen. TMAP biedt een toolbox voor het instellen en 
+uitvoeren van testen in combinatie met handleidingen en instructies. Het aanpak van gestructeerd testen bestaat uit vier verschillende
+essentiele componenten. Het time-tested methode is gebaseerd op de onderzoen van Sogeti en onderzoken naar gebruikers ervaring. 
+De flexibele aanpak maakt het interessante keuze voor verschillende bedrijven, organisaties en industrieen. 
+Vele grote bedrijven maken gebruik van het TMAP als een standaard test aanpak.
+
+Vragen voor de groep:
+- What do you think? Are you familiar with the explanation of TMap?
+- Test Management approach? What do you believe are pros and cons of this approach? 
+- Do you have any tips or additional comments?
+
+Bronnen:
+https://www.toolshero.com/information-technology/tmap-test-management-approach
+https://nl.wikipedia.org/wiki/Test_Management_Approach
+
+
+Opdracht 2A:
+Wat is de definitie van testen?
+'Testen' kan worden gedefinieerd als:
+- Een verzameling activiteiten die uitgevoerd wordt om een of meer kenmerken van een product, proces of dienst vast te stellen volgens een gespecificeerde procedure. 
+  [ISO/ IEC, 1991]
+- Een proces dat inzicht geeft in, en adviseert over, de kwaliteit van de software en de daaraan gerelateerde risico's.
+- Het methodische proces van het aantonen van afwijkingen tussen de werkelijke werking versus de verwachte werking van een systeem of product.
+- De activiteit waarbij de kwaliteit van het gehele systeem of product wordt gecontroleerd.
+- Het proces waarmee de correcte werking van een systeem of product wordt aangetoond.
+- Activiteiten zoals meten, onderzoeken, beproeven, keuren met kalibers van één of meer kenmerken van een product of dienst en het vergelijken van de 
+  uitkomsten met de gestelde eisen, 
+- om te bepalen of aan deze voorwaarde is voldaan. (Definitie volgens de standaard ISO 8402.)
+
+TMAP en ISTQB test definities:
+- Eerste TMAP boek uit 1995 geeft de volgende definitie: 
+ ‘Testen is het proces van plannen, voorbereiden en meten, dat tot doel heeft de kenmerken van een informatiesysteem vast te 
+ stellen en het verschil tussen de actuele en de vereiste status aan te tonen.’
+
+- Twee nieuwe definities in 2006 TMap NEXT en van ISTQB:
+ ‘Testen is een proces dat inzicht geeft in – en adviseert over de kwaliteit en de daaraan gerelateerde risico’s.’ 
+
+- ISTQB publiceerde ongeveer in 2007 de volgende definitie die tot op de dag van vandaag ongewijzigd is gebleven: 
+  ‘The process consisting of all lifecycle activities, both static and dynamic, concerned with planning, preparation and evaluation of software products and 
+  related work products to determine that they satisfy specified requirements, to demonstrate that they are fit for purpose and to detect defects.‘
+
+- Maart 2020 is het nieuwste boek uit de TMAP reeks uitgekomen, Quality for DevOps teams, waarin de nieuwste definitie staat: 
+  ‘Testing consists of verification, validation and exploration activities that provide information about the quality and the related risks, 
+  to establish the level of confidence that a test object will be able to deliver the pursued business value.‘
+
+Bronnen:
+https://nl.wikipedia.org/wiki/Testen_(software)
+https://nieuws.testnet.org/artikelen/de-geschiedenis-van-de-definitie-van-testen/
+https://www.toets-je-parate-kennis-over.nl/software-testen/
+
+
+Opdracht 2B:
+Wat is het verschil tussen Testen en Toetsen?
+Testen en toetsen zijn detectieve kwaliteitsmaatregelen die er op gericht zijn vast te stellen of bepaalde problemen of tekortkomingen zich (toch) manifesteren. 
+Waarbij toetsen het beoordelen van tussenproducten tijdens het ontwikkelingsproces is. Testen is het aantonen of het opgeleverde 
+product voldoet aan de gestelde specificaties.
+
+
+Opdracht 3:
+Wat zijn eventuele valkuilen die je in de praktijk kan tegenkomen?
+
+
+
+
+
+

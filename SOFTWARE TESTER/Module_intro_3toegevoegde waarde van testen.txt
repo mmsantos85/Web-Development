@@ -1,0 +1,34 @@
+***3 Wat is de toegevoegde waarden van testen?
+Geef antwoord op de volgende vragen:
+
+
+Opdracht 1: 
+Zoek op wat de voordelen zijn van testen?
+
+- Testen geeft inzicht in de risico’s bij ingebruikname en laat het zien waar verbeteringen kunnen plaatsvinden.
+- Fouten die na ingebruikname van de software worden geconstateerd zijn vele malen duurder om te herstellen dan fouten in de ontwikkelfase. 
+- Door middel van goed testen kunnen fouten vroegtijdig worden geconstateerd. Daardoor kunnen een hoop onnodige kosten kunnen voorkomen, 
+  en een hoop frustraties. Software moet namelijk een oplossing zijn!
+
+Bronnen: 
+https://www.sysqa.nl/waarom-is-het-testen-van-je-it-systemen-belangrijk/
+
+
+Opdracht 2 : Wat zijn de kosten?
+Testen kost tijd en geld, daarom moet er nagedacht worden over wat er getest wordt en hoe uitgebreid dit gebeurt. Hoe uitgebreid er getest wordt is dan ook afhankelijk 
+van het budget en van de risico's die men wil inschatten. 
+In het ideale geval wordt er niet getest, want dat is het goedkoopst, maar vaak durft men dat niet omdat men bepaalde risico's niet wil lopen. 
+Door te testen krijgt men inzicht in die risico's. Daarom moet er een impliciete of expliciete risico-inschatting gemaakt worden. Het testen kost tussen de 10 en 
+30% van het totale projectbudget. 
+Eventueel kan men met bijvoorbeeld een testpuntanalyse een inschatting maken.
+
+Bronnen: 
+https://nl.wikipedia.org/wiki/Testen_(software)
+
+Opdracht 3 : Wat zijn de baten?
+
+Bronnen: 
+
+Opdracht 4 : Formuleer dit verder in wat de Test Opbrengst kan zijn.
+
+Bronnen: 
