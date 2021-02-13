@@ -127,6 +127,43 @@ product voldoet aan de gestelde specificaties.
 Opdracht 3:
 Wat zijn eventuele valkuilen die je in de praktijk kan tegenkomen?
 
+- Ontbreken van kennis om gestructureerd te kunnen testen;
+  er worden geen testcases gemaakt;
+  er wordt niet gewerkt via vast protocollen;
+  hierdoor kost het testwerk waarschijnlijk onnodig veel tijd;
+  dus loopt men het gevaar bepaalde onderdelen niet te testen en andere juist dubbel.
+
+- Geen rekening houden met testenwerkzaamheden in het budget en daarom voor onverwachte verrassingen komen te staan;
+
+- Het feit dat het effect van testen pas later merkbaar is. Op het moment dat de applicatie in gebruik genomen wordt en deze op de pijnbank komt te liggen wordt 
+  het effect van testen merkbaar;
+
+- Tunnelvisie van de ontwikkelaar. Iedereen test zijn eigen gebied, echter niemand test de samenhang van de onderdelen;
+
+- Te beperkt testen. Vaak wordt testen beperkt tot het klikken op knopjes en kijken of het geen blauwe schermen oplevert. 
+  Dit gebeurd vaak ongestructureerd en uitgevoerd wordt door personen die niet zijn opgeleid als professioneel tester;
+  
+- Onderschatten van het belang van testen. Met de gedachte ‘de ontwikkelaars doen hun werk vast wel goed’, wordt testen vaak overbodig geacht.
+
+- Je werkt steeds onder tijdsdruk:
+  Niet weten wanneer iets af moet zijn en hoeveel tijd je mag besteden door het ontbreken van een planning en begroting,
+  Niet weten of je de juiste werkwijze hanteert door het ontbreken van een beschreven aanpak,
+  Onnodig tijd besteden aan bijvoorbeeld het afhandelen van bevindingen door het ontbreken van procedures.
+
+- Geen inzicht in de kwaliteit van het informatiesysteem:
+  Je hebt geen inzicht in de risico’s, door het ontbreken van een teststrategie en procedures,
+  Je kunt niet inschatten of de juiste dingen zijn getest met de gewenste diepgang, door het ontbreken van een teststrategie,
+  Door het niet gebruiken van testontwerptechnieken kun je niet aantonen wat je hebt getest.
+
+- Inefficiënt en ineffectief door:
+  Je hebt niet het juiste getest, door het ontbreken van afstemming tussen betrokken partijen,
+  Je test regelmatig op de verkeerde versie van de software, door het ontbreken van processen voor configuratie- en wijzigingsbeheer,
+  Je weet niet in welke volgorde je moet testen, door het ontbreken van prioriteiten.
+
+Bronnen:
+https://blog.technosoft.nl/qa-testing/de-voordelen-van-testen-in-de-praktijk
+https://www.toets-je-parate-kennis-over.nl/software-testen/kennisbank/software-testen/
+
 
 
 

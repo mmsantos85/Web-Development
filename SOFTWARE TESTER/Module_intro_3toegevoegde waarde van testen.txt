@@ -2,16 +2,31 @@
 Geef antwoord op de volgende vragen:
 
 
-Opdracht 1: 
-Zoek op wat de voordelen zijn van testen?
+Opdracht 1: Zoek op wat de voordelen zijn van testen?
 
+Steeds meer organisaties kunnen zich een langdurige stagnatie van hun bedrijfsproces als gevolg van storingen in de informatievoorziening niet permitteren. 
+Het risico van storingen is vooral hoog nadat nieuwe of gewijzigde applicaties in productie genomen zijn. Een gestructureerde test biedt inzicht in deze risico’s 
+en verschaft handvatten voor een beheersbare voortgang van het bedrijfsproces. De TMap® Next methode biedt organisaties houvast bij het opzetten, uitvoeren en 
+beheersen van een gestructureerde test.
+
+Voordelen testen:
 - Testen geeft inzicht in de risico’s bij ingebruikname en laat het zien waar verbeteringen kunnen plaatsvinden.
 - Fouten die na ingebruikname van de software worden geconstateerd zijn vele malen duurder om te herstellen dan fouten in de ontwikkelfase. 
 - Door middel van goed testen kunnen fouten vroegtijdig worden geconstateerd. Daardoor kunnen een hoop onnodige kosten kunnen voorkomen, 
   en een hoop frustraties. Software moet namelijk een oplossing zijn!
 
+De voordelen van gestructureerd testen:
+- Is inzetbaar in elke situatie,
+- Geeft inzicht in- en advies over risico’s,
+- Vindt fouten in een vroeg stadium,
+- Voorkomt fouten,
+- Testen zo kort mogelijk op het kritieke pad,
+- De testproducten (testware) zijn herbruikbaar,
+- Testproces is inzichtelijk en beheersbaar.
+
 Bronnen: 
 https://www.sysqa.nl/waarom-is-het-testen-van-je-it-systemen-belangrijk/
+https://www.toets-je-parate-kennis-over.nl/software-testen/kennisbank/software-testen/
 
 
 Opdracht 2 : Wat zijn de kosten?
@@ -25,9 +40,12 @@ Eventueel kan men met bijvoorbeeld een testpuntanalyse een inschatting maken.
 Bronnen: 
 https://nl.wikipedia.org/wiki/Testen_(software)
 
-Opdracht 3 : Wat zijn de baten?
+
+Opdracht 3 : Wat zijn de baten? (gunstige gevolgen van testen)
+
 
 Bronnen: 
+
 
 Opdracht 4 : Formuleer dit verder in wat de Test Opbrengst kan zijn.
 

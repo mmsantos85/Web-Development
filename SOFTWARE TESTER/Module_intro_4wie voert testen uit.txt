@@ -1,0 +1,102 @@
+***4 Wie voert de testen uit?
+
+Binnen de IT hebben we verschillende rollen en taken. Denk aan projectleiders, scrum masters, development teams, etc. 
+Maar hoe zit dat binnen de test proces? 
+
+Aan jou de taak om dat te onderzoeken. Geef antwoord op de volgende vragen:
+
+
+Opdracht 1: Testen is niet alleen uitvoeren. Wat komt er nog meer bij kijken bij het testproces?
+
+Testen komt al voor de start van een project om de hoek kijken, namelijk bij het opstellen van de acceptatiecriteria. Deze criteria bevatten de verschillende testonderdelen en de 
+voorwaarden waaraan de software moet voldoen. De tester controleert of de criteria deugen: zijn het reële wensen of verwachtingen en kan de software straks eigenlijk wel 
+datgene uitvoeren waarvoor hij bedoeld is? Deze manier van werken voorkomt verrassingen bij de acceptatietest aan het eind van het traject. 
+Bij de acceptatietest loopt de opdrachtgever of de gebruiker door de applicatie, website of webshop heen. Als er dan nog fouten aan het licht komen, moet je weer een stap terug in 
+het ontwikkelproces. Voor je het weet, zijn er dan weer twee tot drie weken verstreken. Dankzij de acceptatiecriteria weten we zeker dat de software straks 100% gebruiksvriendelijk 
+is en precies doet wat de opdrachtgever wil. Dat biedt alle partijen houvast en voorkomt vertraging.
+
+Bronnen:
+https://www.avivasolutions.nl/onze-verhalen/8-manieren-om-software-te-testen
+
+
+Opdracht 2: Beschrijf de verschillende manieren van testen.
+
+DevOps:
+Staat letterlijk voor het samenbrengen en optimaliseren van ontwikkeling (Dev) en operaties (Ops). Dit procesmodel beoogt ontwikkeling, kwaliteitsborging en 
+exploitatie samen te laten smelten tot een continue eenheid van processen. 
+Deze methodologie is een essentiële uitbreiding van de agile ontwikkeling systematiek en continuous delivery.
+
+Testautomatisering:
+Zowel geautomatiseerd testen als testautomatisering zijn belangrijke onderdelen van een continu test proces. De twee soorten lijken op elkaar maar zijn niet hetzelfde.
+Geautomatiseerd testen is een automatische uitvoering van specifieke testen (bijvoorbeeld een aantal regressietesten).
+Testautomatisering is de automatisering van het proces van het beheren en bewaken van verschillende tests.
+
+Agile testen:
+Binnen een Agile ontwikkelmethodiek is het niet noodzakelijk om alle functionaliteiten van tevoren te beschrijven. Op basis van de User Stories wordt de 
+ontwikkeling aangevangen en als het agile proces goed in elkaar zit zal er gedurende de sprint goed worden gedocumenteerd wat er precies functioneel wordt gebouwd. 
+Door het testen in dit proces te integreren zal er continu gewerkt worden aan het omschrijven van functionaliteiten, het creëren van test cases, 
+het uitvoeren van testen en het evalueren van de uitkomsten. Hierdoor wordt functioneel testen niet een sessie na afloop van de ontwikkeling, maar een continue cirkel van beschrijven, 
+testen, evalueren en verbeteren. Wanneer hier professionele testers op in worden gezet, is het prima mogelijk (en vaak beter) om functioneel testen uit te besteden.
+
+Bronnen:
+https://www.technosoft.nl/qa-testing
+
+
+Opdracht 3: Wie test er?
+Een testproces wordt uitgevoerd door mensen en behoeft daarom organisatie. Enerzijds is er de organisatie binnen het testteam, waar ieder zijn taken en
+verantwoordelijkheden moet krijgen en de inbedding van het testteam in de projectorganisatie. Anderzijds dient aandacht te worden besteed aan de implementatie
+van gestructureerd testen binnen de organisatie. Voor iedere test moet beschreven zijn wie hem uitvoert, wie er verantwoordelijk voor is, wie controleert dat de test goed
+verloopt en aan wie de resultaten worden doorgegeven. Op organisatorisch nivo dienen testfuncties te zijn gedefinieerd met bijbehorende taken en opleidingseisen.
+
+Opdracht 4: Vind informatie over het Test- en systeemontwikkelproces en beschrijf de invloeden van het V-Model.
+Bronnen:
+
+Opdracht 5: Beschrijf de linkerkant van het V-model en geef de definitie aan van toetsen. Waarmee kan het resultaat vergeleken worden bij het toetsen?
+Bronnen:
+
+Opdracht 6: Welke testsoorten en -verantwoordelijkheden zijn er in een systeemontwikkeltraject?
+Bronnen:
+
+Opdracht 7: Vind nu informatie over de rechterkant van het V-model en beschrijf welke testsoorten hier plaatsvinden en de verantwoordelijke. 
+Bronnen:
+
+Opdracht 8: Wat is een testbasis? 
+Bronnen:
+
+Opdracht 9: Welke test vormen zijn er? Wat is een testvorm? Wat is een regressietest?
+Bronnen:
+
+Opdracht 10: Wat is gestructureerd testen? Geef hierbij de nadelen van ongestructureerd testen en de voordelen van een gestructureerd testaanpak.
+
+De voordelen van gestructureerd testen:
+- Is inzetbaar in elke situatie,
+- Geeft inzicht in- en advies over risico’s,
+- Vindt fouten in een vroeg stadium,
+- Voorkomt fouten,
+- Testen zo kort mogelijk op het kritieke pad,
+- De testproducten (testware) zijn herbruikbaar,
+- Testproces is inzichtelijk en beheersbaar.
+
+Waar je als tester tegen aanloopt bij ongestructureerd testen:
+Je werkt steeds onder tijdsdruk:
+- Niet weten wanneer iets af moet zijn en hoeveel tijd je mag besteden door het ontbreken van een planning en begroting
+- Niet weten of je de juiste werkwijze hanteert door het ontbreken van een beschreven aanpak
+- Onnodig tijd besteden aan bijvoorbeeld het afhandelen van bevindingen door het ontbreken van procedures
+
+Geen inzicht in de kwaliteit van het informatiesysteem:
+- Je hebt geen inzicht in de risico’s, door het ontbreken van een teststrategie en procedures,
+- Je kunt niet inschatten of de juiste dingen zijn getest met de gewenste diepgang, door het ontbreken van een teststrategie,
+- Door het niet gebruiken van testontwerptechnieken kun je niet aantonen wat je hebt getest,
+
+Inefficiënt en ineffectief door:
+- Je hebt niet het juiste getest, door het ontbreken van afstemming tussen betrokken partijen,
+- Je test regelmatig op de verkeerde versie van de software, door het ontbreken van processen voor configuratie- en wijzigingsbeheer,
+- Je weet niet in welke volgorde je moet testen, door het ontbreken van prioriteiten.
+
+Bronnen:
+https://www.toets-je-parate-kennis-over.nl/software-testen/kennisbank/software-testen/
+http://www.erikvanveenendaal.nl/NL/files/Checklist%20gestructureerd%20testen.pdf
+
+
+Opdracht 11: Wat zijn de kenmerken van een gestructureerde testaanpak?
+Bronnen:

@@ -1,0 +1,127 @@
+***5 Welke test Types zijn er?
+
+In de vorige opdrachten kwamen wij al verschillende soorten testvormen tegen. Deze worden natuurlijk omgevormd naar types. 
+Testen wordt onderscheiden in 3 soorten categorie typen, namelijk:
+
+- Functioneel testen
+- Niet-functioneel testen of Performance testen.
+- Onderhoud testen (regressie en onderhoud).
+
+Opdracht 1: Zoek van de categorie Functioneel testen minimaal 5 types en geef hiervan een beschrijving.
+
+Functioneel testen is het testen van software op basis van de functionele omschrijving van de software om de kwaliteit hiervan te beoordelen en 
+mogelijke fouten op te sporen. Het gaat hier om het testen van een (vooraf) beschreven situatie. Je controleert als het ware de uitkomst van de 
+ontwikkeling met wat je hier van tevoren over hebt opgeschreven.
+
+1. Unit testing. 
+Deze testen worden meestal uitgevoerd door de softwareontwikkelaars zelf. Zij testen de code die ze maken op zaken als volledigheid en methode. 
+In het kader van functioneel testen gaat het hierbij of de code goed geschreven wordt en dus functioneert.
+
+2. Smoke testing. 
+Dit is een eerste test die moet aangeven of de basisfunctionaliteiten in orde zijn. 
+Door middel van een aantal test cases wordt gekeken of deze versie van de software stabiel is en klaar om verder ontwikkeld en getest te worden.
+
+3. Sanity testing. 
+Wordt meestal na de smoke test gedaan om te kijken of alle grote en belangrijke functies van de code functioneren ("zijn ze wel goed bij hun hoofd...").
+
+4. Regressie testen. 
+Met een regressietest wordt gekeken of alle systeemonderdelen nog goed blijven functioneren nadat er wijzigingen in de software zijn aangebracht.  
+De focus is vaak op de onderdelen die mogelijk beïnvloed zijn door de aanpassingen aan de software of waar fouten in de software zijn gevonden.
+
+5. Integratie testen. 
+Wanneer verschillende onderdelen van de software moeten samenwerken, moet er getest worden of deze samenwerking goed werkt. 
+Oftewel; zijn ze goed geïntegreerd met elkaar?
+
+6. Acceptatietest. 
+Ook wel beta test of usability test genoemd. Deze manier van testen is er voor bedoeld om te achterhalen of de software uiteindelijk doet wat er van verwacht wordt. 
+In een opdrachtgever situatie gaat het dus om een test die uitwijst of de softwareontwikkeling geaccepteerd wordt op basis van de geformuleerde functionele eisen. 
+Binnen Agile ontwikkeling kan hiervoor gebruik worden gemaakt van de User Stories.
+
+
+Opdracht 2: Zoek van de categorie Niet-functioneel testen 5 types en geef hiervan een beschrijving van wat deze type inhoud. 
+
+Niet-functioneel testen richt zich op de applicatie als een geheel. Hoe goed presteert de applicatie in gegeven situaties en is dit voldoende in relatie tot het gewenste gebruik? 
+Het gaat hierbij dus niet zozeer om de business requirements of het zoeken naar fouten, maar meer om de vraag of het product goed is in het gebruik. 
+Is er een voldoende goede gebruikerservaring, is het veilig, snel genoeg, prettig in gebruik etc? Simpel gezegd; voldoet het aan de verwachtingen van de uiteindelijke gebruiker?
+
+1. Performance/load testen. 
+De software wordt getest onder een bepaalde belasting (load), waarbij wordt gekeken of de prestaties van de software binnen bepaalde normen blijven. 
+
+2. Stress testen. 
+Hierbij wordt een hogere (extreme) belasting van de applicatie getest om te kijken hoe de software hierop reageert en wat er maximaal voor belasting mogelijk is. 
+Bij performance testing wordt dus getest met de maximale belasting die gevraagd wordt, terwijl stress testen meer dan de maximale belasting test en kijkt wat er gebeurt.
+
+3. Failover testen.
+Software heeft vaak redundante systemen die ingeschakeld worden wanneer er een fout optreed of het systeem overbelast raakt. 
+Failover testen hoe deze systemen werken en hoe de basis applicatie zich hersteld, nadat het weer in functie is.
+
+4. Soak testen. 
+Hierbij wordt de software over langere periode getest met een bepaalde workload. 
+Hoe gedraagt het systeem zich in de praktijk tijdens langdurig en intensief gebruik. Is het tegen de dagelijkse praktijk opgewassen?
+
+5. Security testen. 
+Wat gebeurt er met de software wanneer er vijandige acties worden ondernomen? Hoe goed is de beveiliging en hoe reageert de software (na de aanval)?
+
+6. Usability testen. 
+Hoe gemakkelijk is de software in gebruik? Hoe wordt er om gegaan met specifieke gebruik situaties en hoe makkelijk is de software in het gebruik? 
+Het gaat hier voornamelijk om de UI test.
+
+
+***Verschil tussen functioneel en niet-functioneel testen***
+
+Waar functioneel testen zich richt op het vergelijk tussen de vooraf opgestelde functies van een applicatie, richt het niet-functionele testen zich meer op de 
+applicatie als een geheel. Hoe goed presteert de applicatie in gegeven situaties en is dit voldoende in relatie tot het gewenste gebruik?
+
+Functionele testen gaan dus over eisen en functionaliteiten (wat doet het), terwijl niet-functioneel testen gaat over verwachtingen en prestaties onder bepaalde omstandigheden. 
+Functioneel testen is vaak handmatig uit te voeren, terwijl niet-functioneel testen vaak gesimuleerd moet worden.
+
+In het proces van opstellen van wensen en eisen wordt niet-functioneel testen vaak vergeten. Over de functionaliteiten valt veel te vertellen, 
+maar wat er verwacht wordt binnen bepaalde situaties van de software als geheel is lastiger te omschrijven of aan te geven wat er verwacht wordt.
+
+
+Opdracht 3: Zoek van de categorie Onderhoud test de voorbeelden en maak hier een beschrijving van.
+
+Onderhoud is het wijzigen of aanvullen van een bestaand informatiesysteem en kan ad-hoc of planmatig worden uitgevoerd. Ad-hoc onderhoud vindt plaats bij het oplossen van fouten 
+die geen uitstel kunnen verdragen, omdat deze onacceptabele schade aanricht in productie. Hieronder valt alleen correctief onderhoud. Onder planbaar onderhoud vallen alle overige 
+soorten onderhoud. Deze worden conform reguliere ontwikkelprocessen releasematig uitgevoerd, waarbij meestal wordt gestart met een impactanalyse. 
+Er zijn ook vormen van correctief onderhoud die planmatig uitgevoerd kunnen worden. Dit betreft fouten, die niet direct opgelost hoeven te worden, omdat ze acceptabele- of geen 
+schade aanrichten in productie.
+Er vind veel onderhoud plaats op bestaande systemen die vervolgens getest moeten worden. Onderhoudstesten heeft betrekking op het testen van wijzigingen in een bestaand systeem.
+
+1. Correctief onderhoud:
+Correctief onderhoud is het meest lastige onderdeel van software onderhoud. Hierbij worden ontwerpen, code en implementatie fouten opgelost, die er niet hadden mogen zijn. 
+Bijvoorbeeld een foutieve berekening in het systeem. Gewoonlijk is correctief onderhoud het gevolg van een dringende situatie die onmiddellijk aandacht nodig heeft. 
+De fouten kunnen zitten in de software, hardware en het netwerk.
+
+2. Preventief onderhoud:
+Bij preventief onderhoud – ook wel proactief onderhoud genoemd – wordt er een periodieke inspectie en beoordeling van het systeem uitgevoerd om eventuele toekomstige problemen op te 
+lossen of de onderhoudbaarheid te verhogen. Je kunt hierbij denken aan het opschonen van schijven.
+
+3. Adaptief onderhoud:
+Wanneer er wijzigingen moeten worden doorgevoerd in een systeem om te blijven voldoen aan veranderingen in de verwerking van gegevens of nieuwe / gewijzigde requirements, 
+dan is er sprake van adaptief onderhoud. Deze wijzigingen kunnen van binnen de organisatie komen, maar ook veroorzaakt worden door bijvoorbeeld wetswijzigingen.
+
+4. Perfectief onderhoud:
+Hierbij gaat het om aanpassing van de software na oplevering. Dit voor bijvoorbeeld het verbeteren van de performance of andere kwaliteitseigenschappen, zonder de functionaliteit te wijzigen.
+Bijvoorbeeld het anders indexeren van tabellen waardoor de SQL query’s sneller werken
+
+
+Bronnen:
+https://www.technosoft.nl/qa-testing/functioneel-testen	
+https://www.technosoft.nl/qa-testing/niet-functioneel-testen
+https://www.toets-je-parate-kennis-over.nl/software-testen/kennisbank/4-soorten-onderhoud-software/
+
+
+
+***Extra info:
+
+Agile testen. 
+Binnen een Agile ontwikkelmethodiek is het niet noodzakelijk om alle functionaliteiten van tevoren te beschrijven. Op basis van de User Stories wordt de 
+ontwikkeling aangevangen en als het agile proces goed in elkaar zit zal er gedurende de sprint goed worden gedocumenteerd wat er precies functioneel wordt gebouwd. 
+Door het testen in dit proces te integreren zal er continu gewerkt worden aan het omschrijven van functionaliteiten, het creëren van test cases, 
+het uitvoeren van testen en het evalueren van de uitkomsten. Hierdoor wordt functioneel testen niet een sessie na afloop van de ontwikkeling, maar een continue cirkel van beschrijven, 
+testen, evalueren en verbeteren. Wanneer hier professionele testers op in worden gezet, is het prima mogelijk (en vaak beter) om functioneel testen uit te besteden.
+
+
+
+

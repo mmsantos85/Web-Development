@@ -1,8 +1,8 @@
 *** 2 Waarom is testen belangrijk?
 
 Software Testen is belangrijk omdat eventuele bugs of fouten in de software vroegtijdig kunnen worden opgespoord en kunnen worden opgelost 
-voordat het softwareproduct wordt geleverd. Een goed getest softwareproduct heeft betrouwbaarheid, veiligheid en hoge prestaties, die verder resulteren in tijdwinst, 
-kosteneffectiviteit en klanttevredenheid garanderen.
+voordat het softwareproduct wordt geleverd. Een goed getest softwareproduct heeft betrouwbaarheid, veiligheid en hoge prestaties, 
+die verder resulteren in tijdwinst, kosteneffectiviteit en klanttevredenheid garanderen.
 
 
 Geef antwoord op de volgende vragen:
@@ -25,61 +25,67 @@ Software wordt vóór het operationeel gebruik getest, niet om alle fouten weg t
 Als het al uitvoerbaar zou zijn, zou het maken van foutloze software een onevenredige hoeveelheid tests en kosten betekenen.
 De invoering van het systeem heeft allerlei gevolgen voor de omgeving. Deze gevolgen wil men goed kunnen inschatten. Het gaat om de gevolgen op Commercieel, Organisatorisch, 
 Personeel, Administratief, Financieel en Technisch gebied.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Softwaretesten is een cruciaal onderdeel van de ontwikkeling van softwareproducten, omdat het de consistentie en prestaties verbetert. Het belangrijkste voordeel van het testen 
+is de identificatie en daaropvolgende verwijdering van de fouten. Echter testen helpt ontwikkelaars en testers ook om de werkelijke en verwachte resultaten te vergelijken om de 
+kwaliteit te verbeteren. Als de softwareproductie plaatsvindt zonder deze te testen, het kan nutteloos of soms gevaarlijk zijn voor klanten. 
+Dus, een tester moet dragen een unieke hoed die de betrouwbaarheid van de software beschermt en maakt het veilig om te gebruiken in real-life scenario's.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Er zijn een aantal ontwikkelingen die vragen om meer aandacht voor testen.
 
+- Het gebruik van web-applicaties. Hierdoor moet de applicatie in theorie op alle gangbare browsers werken. Echter, de praktijk wijst vaak anders uit.
+-De intrede van mobiele apparaten. 
+ Door de komst van de tablet en de smartphone zullen steeds meer online applicaties en websites met deze apparaten benaderd worden. 
+ Door de veelvoud van verschillende modellen neemt de complexiteit toe in de compatibiliteit. Ieder type apparaat zal separaat getest moeten worden.
+-Agile-software-ontwikkeling. 
+ Steeds meer applicaties worden volgens de Agile-methodiek ontwikkeld. Hierdoor is het noodzakelijk om het testen juist parallel te laten lopen met de ontwikkelingen.
 
+Naast de externe factoren die van invloed zijn op het testen is het ook niet zinvol om ontwikkelaars zelf te laten testen.
+Dit is niet efficiënt en werkt dus zeker niet productief. Ontwikkelaars willen van nature werken aan nieuwe en uitdagende projecten. 
+In een tijd waarbij er gevochten wordt om goede ontwikkelaars is het belangrijk om de capaciteit van de ontwikkelaar het meest optimaal te benutten. 
+Laten de ontwikkelaars daarom doen waar zij goed in zijn, analyseren en programmeren. Hieronder valt meestal niet het uitvoeren van testwerkzaamheden. 
+Dit heeft ook een positieve werking op de medewerker tevredenheid. 
+Door het testen uit te laten voeren door gespecialiseerde testers profiteert u meer van het voordeel van testen.
 
 Bronnen: 
 https://nl.wikipedia.org/wiki/Testen_(software)
+https://www.toolsqa.com/software-testing/istqb/why-is-testing-necessary/#:~:text=The%20testing%20is%20important%20since,and%20high%2Dperformance%20software%20operation.
+https://www.yourtestprofessionals.nl/waarom-software-testen-steeds-belangrijker-wordt/
+https://blog.technosoft.nl/qa-testing/de-voordelen-van-testen-in-de-praktijk
 
 
 Opdracht 2:
 Zoek op het internet naar voorbeelden van waar software mogelijk niet goed genoeg getest was en geef ook aan wat de gevolgen daarvan waren.
 
+- Veiligheid:
+Software fouten Boeing 737 MAX.
+Fout: Vliegtuigmaker Boeing heeft toegegeven dat er fouten zaten in de software van de vluchtsimulator voor de Boeing 737 MAX. 
+Ook fouten in software die het vliegtuig automatisch naar beneden vliegen.
+Gevolgen: 2 fatale vliegtuig ongelukken. Ongeveer 400 toestellen staan nu al ruim een jaar aan de grond.
+
+Vliegtuig crash Ethopië. 
+Fout: fout in de software, die de punt van het vliegtuig naar beneden bleef drukken.
+Gevolgen: 157 inzittenden overleden.
+
+Vlietuig crash Jakarta, 29-10-18.
+Fout: fout in de software, die de punt van het vliegtuig naar beneden bleef drukken.
+Gevolgen: 189 inzittenden overleden.
+
+- Nieuwe software updates:
+Windows 10 update, 2018.
+Fout: fout in de installatie update van windows 10. 
+Gevolgen: Bestanden van de eindgebruiker werden van de computer verwijderd.
+
+-Gehacked:
+GGD, gegevens van Privégegevens van Nederlanders die in twee coronasystemen van de GGD staan, worden illegaal verhandeld. 
+Het gaat onder meer om burgerservicenummers
+Fout:
+Gevolgen: Persoonlijke gegevens uitgelekt en doorverkocht.
+
 
 Bronnen: 
-
-
-
-
-
-
-
-
-
-***3 Wat is de toegevoegde waarden van testen?
-Geef antwoord op de volgende vragen:
-
-
-Opdracht 1: 
-Zoek op wat de voordelen zijn van testen?
-
-- Testen geeft inzicht in de risico’s bij ingebruikname en laat het zien waar verbeteringen kunnen plaatsvinden.
-- Fouten die na ingebruikname van de software worden geconstateerd zijn vele malen duurder om te herstellen dan fouten in de ontwikkelfase. 
-- Door middel van goed testen kunnen fouten vroegtijdig worden geconstateerd. Daardoor kunnen een hoop onnodige kosten kunnen voorkomen, 
-  en een hoop frustraties. Software moet namelijk een oplossing zijn!
-
-Bronnen: 
-https://www.sysqa.nl/waarom-is-het-testen-van-je-it-systemen-belangrijk/
-
-
-Opdracht 2 : Wat zijn de kosten?
-Testen kost tijd en geld, daarom moet er nagedacht worden over wat er getest wordt en hoe uitgebreid dit gebeurt. Hoe uitgebreid er getest wordt is dan ook afhankelijk 
-van het budget en van de risico's die men wil inschatten. 
-In het ideale geval wordt er niet getest, want dat is het goedkoopst, maar vaak durft men dat niet omdat men bepaalde risico's niet wil lopen. 
-Door te testen krijgt men inzicht in die risico's. Daarom moet er een impliciete of expliciete risico-inschatting gemaakt worden. Het testen kost tussen de 10 en 
-30% van het totale projectbudget. 
-Eventueel kan men met bijvoorbeeld een testpuntanalyse een inschatting maken.
-
-Bronnen: 
-https://nl.wikipedia.org/wiki/Testen_(software)
-
-Opdracht 3 : Wat zijn de baten?
-
-Bronnen: 
-
-Opdracht 4 : Formuleer dit verder in wat de Test Opbrengst kan zijn.
-
-Bronnen: 
+https://www.yourtestprofessionals.nl/waarom-software-testen-steeds-belangrijker-wordt/
+https://www.nu.nl/buitenland/5827560/boeing-topman-erkent-fouten-in-software-gecrashte-737-max-toestellen.html
 
 
 
@@ -93,29 +99,12 @@ Bronnen:
 
 
 
-4 Wie voert de testen uit?
-Binnen de IT hebben we verschillende rollen en taken. Denk aan projectleiders, scrum masters, development teams, etc. Maar hoe zit dat binnen de test proces? 
 
-Aan jou de taak om dat te onderzoeken. Geef antwoord op de volgende vragen:
 
-Opdracht 1: Testen is niet alleen uitvoeren. Wat  komt er nog meer bij kijken bij het testproces?
 
-Opdracht 2: Beschrijf de verschillende manieren van testen.
 
-Opdracht 3: Wie test er?
 
-Opdracht 4: Vind informatie over het Test- en systeemontwikkelproces en beschrijf de invloeden van het V-Model.
 
-Opdracht 5: Beschrijf de linkerkant van het V-model en geef de definitie aan van toetsen. Waarmee kan het resultaat vergeleken worden bij het toetsen?
 
-Opdracht 6: Welke testsoorten en -verantwoordelijkheden zijn er in een systeemontwikkeltraject?
 
-Opdracht 7: Vind nu informatie over de rechterkant van het V-model en beschrijf welke testsoorten hier plaatsvinden en de verantwoordelijke. 
 
-Opdracht 8: Wat is een testbasis? 
-
-Opdracht 9: Welke test vormen zijn er? Wat is een testvorm? Wat is een regressietest?
-
-Opdracht 10: Wat is gestructureerd testen? Geef hierbij de nadelen van ongestructureerd testen en de voordelen van een gestructureerd testaanpak.
-
-Opdracht 11: Wat zijn de kenmerken van een gestructureerde testaanpak?

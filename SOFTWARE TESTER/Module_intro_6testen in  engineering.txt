@@ -1,0 +1,70 @@
+***6 Wat is testen in software engineering?
+Heel veel informatie opgezocht en beschreven in deze hand-out? We gaan vanaf nu er nog dieper op in!
+
+Opdracht 1: Maak een korte samenvatting van 6 punten wat testen inhoud voor de IT.
+1. 
+
+
+Opdracht 2: Vind de defecten in het volgende voorbeeld en wees gedetailleerd in je antwoord.
+
+Indicatie hoeveel defecten:
+0 - 4 defecten => Slecht 
+5 - 6 defecten => gemiddeld 
+7 - 8 defecten => Goed 
+9 - 10 defecten => Uitstekend 
+10+ defecten => Beste tester!
+Maar 1 goede onderbouwing en cruciale defect aangeven is ook een goede tester.
+
+13 mogelijke errors:
+1. 'New Realstratic'? niet echt leesbaar, laatste letter, font keuze?
+2. Enter user id, plaatsing ID en Id.
+3. Enter password plaatsing, spacing sterretjes?
+4. om je gegevens veilig te stellen: password zonder hoofdletter, cijfers, min. aantal characters,
+5. speciale characters zoals streep, underscore etc.
+6. Spatie in naam, 2 namen ingevoerd?
+7. (Requires verification. Will not be published.)
+8. Een punt na published.)
+9. 'country' mag visueel beter geplaatst worden, background color terweijl de rest wit is.
+10. Verification, enter number, staat een letter.
+11. register met spatie.
+12. Niks ingevoerd bij email.
+13. &, s, _ teken zijn geen special character die is toegestaan.
+
+
+Opdracht 3: Vind de defects in het volgende scherm. Dit is een oude google page. 
+(Lay-out inconsistenties, spelling error, etc.)
+
+23 mogelijke errors:
+Boven:
+- Combi google-mozilla firefox
+- Kruis, rechts boven mist een streep.
+- Untitled), zonder '('.
+- klein zwart driehoekje, uiterst rechts bovenaan.
+- Spatie tussen bookmarks en help.
+- web zonder streep, geen link.
+- hopping ipv shopping
+- News, plaatsing.
+- More zonder hoofdletter.
+- blauw driehoek, moet naar beneden wijzen.
+- Sign in, in met een hoofdletter I.
+- || 
+- en |, 
+- en spaties niet consistent.
+- horizontale lijn, onderbroken.
+- iGoogle bestaat niet
+
+Rechts zijkant:
+- side scrollbar, pijl omlaag, 1 teveel.
+- vage streepjes op de scrollbar, functie?
+
+Midden:
+- How many.. zin how zonder hoofdletter h.
+- Gooogle search.
+- zoekbalk, textfield mist een streep links.
+- Language verkeerd gespeld.
+- I'm feeling unlucky, met hoofdletters.
+- balk i'm feeling, ander kleur, oranje-ish?
+
+Onder:
+- 2x done.
+- Vaag rechthoekje, uiterst rechts onder.
