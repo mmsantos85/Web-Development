@@ -1,37 +1,88 @@
 body {
-    background-color: white;
     font-family: 'Open Sans', sans-serif;
     height: 100vh;
 }
 
-.navigatie {
-    font-size: 15px;
+.navbar__container {
     text-align: right;
-    margin: 9px;
 }
 
-.navigatie a {
-    color: rgb(0, 0, 0);
+.navbar__menu a {
+    color: #252525;
+    text-align: right;
     text-decoration: none;
-    padding: 4px;
+    padding: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 9px;
+    list-style-type: none;
 }
 
-#nav-bar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-} 
-
-li {
+.navbar__home {
     display: inline;
 } 
 
-.main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+.navbar__links:hover {
+    color: #0755c9;
+    transition: all 0.3s ease;
 }
 
-.box2 {
-    
+img.background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    filter: grayscale(100%) brightness(130%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    z-index: -1;
 }
+
+ .dots__big {
+    position: absolute;
+    width: 200px;
+    z-index: 1;
+} 
+
+.dot-half {
+    position: relative;
+    width: 100px;
+    height: 50px; /* as the half of the width */
+    background-color:  #252525;
+    border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+    border-top-right-radius: 110px;
+    display: block;
+    margin: 30px 30px 45px 30px;
+}
+
+.dot-big {
+    position: relative; 
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color:  #252525;
+    display: block;
+    margin: 10px 30px 45px 30px;
+}
+
+.naam__functie {
+    position: absolute;
+    color: #0445a7;
+    z-index: 1;
+}
+
+#naam {
+    font-size: 70px;
+    margin: 170px 0 0 170px;
+}
+
+#functie {
+    font-size: 30px; 
+    margin-left: 170px; 
+    margin-top: -16px;
+}
+
+
+
+  

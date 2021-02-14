@@ -119,7 +119,7 @@ img {
 }
 
 #about {
-    color: rgb(255, 0, 0);
+    color: #ff0000;
     font-size: 36px;
     text-align: bottom right;
     margin: 330px 15px 0px 0px;
@@ -163,7 +163,7 @@ img {
 
 #educatie {
     font-size: 25px;
-    color: rgb(2, 19, 168);
+    color: #0213a8;
     font-weight: bold;
     margin: 80px 0px 20px 30px;
 }
