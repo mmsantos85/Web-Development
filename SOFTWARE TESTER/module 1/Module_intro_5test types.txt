@@ -8,7 +8,6 @@ Testen wordt onderscheiden in 3 soorten categorie typen, namelijk:
 - Onderhoud testen (regressie en onderhoud).
 
 Opdracht 1: Zoek van de categorie Functioneel testen minimaal 5 types en geef hiervan een beschrijving.
-
 Functioneel testen is het testen van software op basis van de functionele omschrijving van de software om de kwaliteit hiervan te beoordelen en 
 mogelijke fouten op te sporen. Het gaat hier om het testen van een (vooraf) beschreven situatie. Je controleert als het ware de uitkomst van de 
 ontwikkeling met wat je hier van tevoren over hebt opgeschreven.
@@ -39,7 +38,6 @@ Binnen Agile ontwikkeling kan hiervoor gebruik worden gemaakt van de User Storie
 
 
 Opdracht 2: Zoek van de categorie Niet-functioneel testen 5 types en geef hiervan een beschrijving van wat deze type inhoud. 
-
 Niet-functioneel testen richt zich op de applicatie als een geheel. Hoe goed presteert de applicatie in gegeven situaties en is dit voldoende in relatie tot het gewenste gebruik? 
 Het gaat hierbij dus niet zozeer om de business requirements of het zoeken naar fouten, maar meer om de vraag of het product goed is in het gebruik. 
 Is er een voldoende goede gebruikerservaring, is het veilig, snel genoeg, prettig in gebruik etc? Simpel gezegd; voldoet het aan de verwachtingen van de uiteindelijke gebruiker?
@@ -121,6 +119,23 @@ ontwikkeling aangevangen en als het agile proces goed in elkaar zit zal er gedur
 Door het testen in dit proces te integreren zal er continu gewerkt worden aan het omschrijven van functionaliteiten, het creëren van test cases, 
 het uitvoeren van testen en het evalueren van de uitkomsten. Hierdoor wordt functioneel testen niet een sessie na afloop van de ontwikkeling, maar een continue cirkel van beschrijven, 
 testen, evalueren en verbeteren. Wanneer hier professionele testers op in worden gezet, is het prima mogelijk (en vaak beter) om functioneel testen uit te besteden.
+
+In een testtraject is het onmogelijk om alles volledig te testen. Voorafgaand aan het opstellen van een teststrategie wordt een product risico analyse uitgevoerd. In deze product risico analyse worden de verschillende risico’s onderkend en gecategoriseerd. Op basis van deze risico’s kunnen strategische keuzes gemaakt worden met welke testsoorten, diepgang en middelen de testen worden uitgevoerd. Bij de hiervoor genoemde keuzes spelen de aangeleverde acceptatiecriteria ook een belangrijke rol. Daarnaast is het mogelijk om met een teststrategie de beschikbare middelen (tijd, geld en IT-middelen) zo efficiënt mogelijk in te zetten. Dus de hoogst haalbare dekkingsgraad op het juiste moment in het testtraject.
+
+Doel teststrategie
+De teststrategie geeft een totaal overzicht van wat er getest wordt binnen welke testsoort en met welke diepgang. Hiermee kan voorkomen worden dat onderdelen in meerdere testsoorten met dezelfde diepgang en op basis van dezelfde specifiaties worden getest.
+
+De teststrategie moet besproken worden met en geaccordeerd worden door de opdrachtgever van het testtraject, liefst onderbouwd met statistische informatie. De opdrachtgever moet de risico’s van de gepresenteerde teststrategie goed onderkennen en moet zien dat de optimale balans is gehaald in de kwaliteit van testen, tijd en geld.
+
+Het opstellen en accorderen is een onderdeel van de fase “Planning” van TMap® Next
+
+Opstellen teststrategie
+Heb jij dat ook, dat je bij het opstellen van een teststrategie denkt:
+
+Hoe zit het ook al weer met testsoorten en testvormen?
+Welke kwaliteitsattributen zijn er en wat is de bijbehorende definitie?
+Met welke testontwerptechniek kan een bepaalde kwaliteitsattribuut worden getest?
+Wij hebben de antwoorden voor je opgenomen in één document. Een handig naslagwerk voor bij het opstellen van een teststrategie.
 
 
 
