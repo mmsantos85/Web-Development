@@ -1,0 +1,114 @@
+***2. Gestructureerd testproces***
+
+We gaan nu leren over de volgende onderwerpen:
+- Mastertestplan,
+- Acceptatie en systeemtesten,
+- Ontwikkeltesten.
+
+***Mastertestplan. Geef antwoord op de volgende vragen:
+
+Opdracht 1. Wat is het mastertestplan en andere TMap processen?
+Het mastertestplan geeft inzicht in de diverse toe te passen test- en toets soorten. Er zijn verschillende Fases binnen TMap.
+
+In een software- ontwikkeltraject worden meerdere producten gemaakt. Je kunt daarbij denken aan: functionele en technische specificaties, software-modules, 
+handleidingen, beheersoftware, code etc. Ieder van deze producten kan op de één of andere manier getest worden, en soms zijn er meerdere testsoorten voor één product nodig.
+
+Zo is er een groot scala aan testsoorten mogelijk: 
+- unittests, systeemtests, 
+- documentcontroles, systeemtest, 
+- acceptatietests, code-reviews, 
+- productietests, ketentesten, etc.
+
+In het mastertestplan wordt het totaaloverzicht van de verdeling over de testsoorten vastgelegd. Welke testsoorten zijn van toepassing en wat, wanneer, hoe zwaar moet worden 
+getest binnen een testsoort. De benodigde invulling van al van de verschillende testsoorten wordt op hoofdlijnen vastgesteld. Daarna worden de testsoorten ook op 
+hoofdlijnen bestuurt. De preciese invullingen van de testsoorten wordt overgelaten aan de verantwoordelijke testcoordinator van de betreffende testsoort, 
+die de verdere invulling uitwerkt in een detailtestplan.
+
+Voordelen Mastertestplan:
+- De totale verzameling testsoorten is optimaal te kiezen binnen budget, tijd en andere beperkingen,
+- Voorkomen kan worden dat er dubbel wordt getest of dat er onderdelen worden vergeten,
+- Coördinatie is mogelijk tussen alle testsoorten met het oog op aandachtsgebieden en looptijd,
+- Hergebruik en gezamenlijk gebruik kunnen worden ingecalculeerd (test-infrastructuren, testscripts- en -data, personeel, procedures, etc),
+- Geeft de mogelijkheid tot het hanteren van uniforme processen voor bijvoorbeeld bevindingen beheer,
+- Gecoördineerde afstemming is mogelijk met het software-ontwikkeltraject.
+
+Bronnen:
+https://www.toets-je-parate-kennis-over.nl/software-testen/kennisbank/mastertestplan/
+
+
+***Het mastertestplan geeft inzicht in de diverse toe te passen test- en toets soorten. Er zijn verschillende Fases binnen TMap.
+
+
+Opdracht 2. Welke fases zijn er binnen TMap? Geef voor elke fase een korte beschrijving wat het inhoudt. En plaats de fases in het volgend figuur op de juiste plek.
+Zie afbeelding voor antwoorden.
+
+Een gestructureerd testproces bestaat uit een aantal verschillende activiteiten. Binnen TMap® Next wordt voor het inzichtelijk maken van de onderlinge 
+samenhang en de afhankelijkheden tussen activiteiten gebruik gemaakt van een faseringsmodel. In het faseringsmodel van TMap® Next zijn de testactiviteiten 
+verdeeld over een zevental fasen: Planning, Beheer, Inrichting en beheer infrastructuur, Voorbereiding, Specificatie, Uitvoering en Afronding. 
+Elke fase is vervolgens onderverdeeld in verschillende activiteiten.
+
+1. Plannen:
+In de eerste fase wordt de volledige teststrategie bepaald, op basis van een risicoanalyse. Daaruit vloeit een aanpak voort, die wordt opgenomen in het testplan. 
+Daar worden later de begroting en procedures aan toegevoegd. Het complete testplan en aanpak wordt vervolgens gepresenteerd aan de stakeholders. 
+Als zij het plan dragen wordt door de opdrachtgever het plan geaccordeerd.
+
+2. Beheer:
+Vaak blijkt dat niet alle onderdelen uit het testplan ook daadwerkelijk uitgevoerd kunnen worden. Daarom wordt tijdens het proces alles beheerd. 
+In de fase beheer, een doorlopende fase, worden de activiteiten uit het plan beheerd, bewaakt en eventueel bijgestuurd. 
+De opdrachtgever wordt gedurende het hele proces op de hoogte gehouden van de ontwikkelingen, en over de voortgang en kwaliteit van de testen.
+
+3. Inrichting & Infrastructuur:
+Om efficiënt te testen moeten verschillende aanpassingen gedaan worden. Een goede testomgeving is belangrijk, samen met de beschikbaarheid van testtools en 
+goede werkplekken. Tijdens deze fasen worden alle activiteiten uitgevoerd die hiermee te maken hebben.
+
+Tussen stap Voorbereiding:
+Voorbereiding specificatie. Uitvoering- AfrondingFase Voorbereiding- 
+
+4. Specificatie:
+In de fases specificatie worden testcases opgesteld op basis van technieken die zijn opgenomen in het testplan. 
+Tijdens deze fase wordt exact duidelijk wat er getest wordt, en aan welke voorwaarden voldaan moet worden.
+
+5. Uitvoering:
+Tijdens de uitvoeringsfase worden de testcases uitgevoerd, en worden de bevindingen vastgelegd. Vaak worden er tijdens het testen problemen vastgesteld. 
+Deze worden gedocumenteerd, samen met alle situationele kenmerken. Uiteindelijk wordt na analyse duidelijk hoe het gesteld is met de kwaliteit van het testobject.
+
+6. Afronding:
+Tijdens de fase afronding wordt de test afgerond. Een gedetailleerd testrapport wordt opgesteld met daarin alle resultaten, en verschillende laatste activiteiten 
+worden uitgevoerd om zoveel mogelijk gegevens te conserveren. 
+Als laatste geeft test management approach Next de mogelijkheid om het uitgevoerde testproces te evalueren.
+
+Bronnen:
+https://www.toolshero.nl/informatie-technologie/tmap-test-management-approach/
+https://www.toets-je-parate-kennis-over.nl/software-testen/kennisbank/faseringsmodel-tmap-next/
+
+
+ ***Extra info verschillende testfases uit het faseringsmodel TMap® Next. Website toets je kennis.
+
+Fase planning:
+In de fase Planning wordt, door de testcoördinator, op basis van een risico analyse de teststrategie bepaald. De daaruit voortvloeiende aanpak wordt vastgelegd in een testplan. 
+Vervolgens wordt ook de planning, begroting en procedures (bijvoorbeeld de bevindingen procedure) opgesteld en vastgelegd in het plan. 
+De aanpak wordt gepresenteerd aan en gereviewed door de stakeholders, waardoor er een gedragen aanpak voor het testproces ontstaat. 
+Vervolgens dient de gekozen aanpak door de opdrachtgever geaccordeerd te worden.
+
+Fase beheer:
+In de praktijk blijkt dat de in het testplan opgenomen aanpak niet altijd volledig kan worden uitgevoerd. Tijdens de fase Beheer worden de activiteiten uit het testplan uitgevoerd, 
+bewaakt en eventueel bijgestuurd. Hierdoor wordt het mogelijk om de opdrachtgever adequaat te informeren over de voortgang en kwaliteit van het testen en het testobject.
+
+Fase inrichting en beheer infrastructuur:
+Voor het testen zijn onder andere testomgevingen, testtools en werkplekken nodig. Tijdens de fase Inrichting en beheer infrastructuur worden activiteiten uitgevoerd 
+die er voor moeten zorgen dat de benodigde infrastructuur tijdig wordt ingericht en beheerd kan worden.
+
+Fase voorbereiding:
+In het testplan is onder andere vastgelegd wat de te hanteren testbasis is. De fase Voorbereiding heeft met name als doel om vast te stellen of de testbasis van 
+voldoende kwaliteit is, om met de gekozen testontwerptechnieken de testgevallen af te kunnen leiden.
+
+Fase specificatie:
+Tijdens de fase specificatie worden de testgevallen opgesteld op basis van de in het testplan bepaalde testontwerptechnieken.
+
+Fase uitvoering:
+Tijdens de fase uitvoering worden de opgestelde testgevallen uitgevoerd en worden eventuele verschillen (bevindingen, issues) vastgelegd. Uiteindelijk geeft deze fase inzicht 
+in de kwaliteit van het testobject.
+
+Fase afronding:
+Tijdens de fase Afronding wordt de testopdracht afgerond. Naast het opstellen van een testrapport, worden ook activiteiten uitgevoerd om de beschikbare testware te conserveren 
+ten behoeve van hergebruik. Als laatste is er de mogelijkheid om het uitgevoerde testproces te evalueren.

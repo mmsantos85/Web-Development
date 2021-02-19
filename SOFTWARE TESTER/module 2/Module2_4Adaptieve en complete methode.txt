@@ -1,0 +1,121 @@
+***Adaptieve en complete methode***
+
+Het adaptiviteit van TMap kan worden samengevat in vier adaptiviteit kenmerken:
+- Reageer op verandering,
+- Hergebruik van producten en processen,
+- Leer van ervaringen,
+- Probeer voor gebruik.
+
+***Extra info  Adaptieve mthode:
+TMap is een aanpak die in alle testsituaties en in combinatie met elke willekeurige systeemontwikkelmethode toepasbaar is. Het biedt de tester een breed 
+scala aan elementen om te gebruiken  tijdens een test. Dit betekent dat de tester moet kiezen wat hij daadwerkelijk gebruikt, afhankelijk van de specifieke situatie. 
+In één test elf verschillende testontwerptechnieken toepassen is vrij-wel zeker overkill! 
+Bij het juist en effectief toepassen van TMap dient de tester dus goed na te denken welke TMap elementen hij inzet, 
+alert te zijn op veranderende omstandigheden en daarop te reageren en te leren van zijn ervaringen en van die van anderen.
+
+Een van de voordelen die TMap biedt ten opzichte van andere testmethoden is dat het kan worden aangepast aan omgevingen waarin andere methoden worden gebruikt, 
+zoals Agile en Scrum.
+
+Bronnen:
+https://docplayer.nl/42816627-Tmap-process-template-voor-visual-studio-het.html
+
+
+Opdracht: Geef voor elk punt een beschrijving van wat hiermee wordt bedoeld en hoe zou je het implementeren voor een project bij TechGrounds?
+
+Bronnen:
+
+
+***Oefeningen
+
+Oefening 1: [Failed Shot Test] 
+Een vrouw schiet op haar man met een pistool, maar de man ging niet dood. Maak een lijst met alle mogelijke redenen waarom de man niet doodging.
+
+- 'de man' kan ook iemand anders zijn, staat niet dat het 'haar man' is,
+- Word niet vermeld dat ze hem ook daadwerkelijk heeft geraakt,
+- Hij kon net op tijd opzij springen/kogel ontwijken of wegrennen etc.
+- Kogelvrije vest,
+- Wel geraakt maar geen fatale verwonding opgelopen.
+- Wel geraakt maar op tijd medische hulp gekregen/ hulp door omstanders/ zelf naar een ziekenhuis kunnen gaan.
+
+
+Oefening 2: [Room Test]
+Maak een lijst met alle defects/verbeteringen in de ruimte waar je je nu in bevindt. 
+Bijv. Er is een vlek op de muur. Belichting kan beter.
+
+Woonkamer:
+- Geverfde vloer, stukjes geen verf meer. ook door niet netjes de vloer te verven verfvlekken op de plinten.
+- Thermometer werkt niet naar behoren,
+- Vlekjes op de muur.
+- 1 lamp met drie spots in 1 ruimte. net te weinig licht.
+- 
+
+
+
+Oefening 3: [Tandenpoetsen]
+Baby Groot wilt graag een les van jou hoe hij zijn tanden moet poetsen. Ga ervanuit dat hij ook tanden heeft als een mens en even slim is als jij. 
+Maar maak een stap-voor-stap instructie. Wees zo gedetailleerd mogelijk in je beschrijving.
+
+Met een handtandenborstel:
+- Je zorgt dat je een tandenborstel en tandpasta bij de hand hebt,
+- Je draait de dop van de tandpasta open en doet een dotje op je tandenborstel. 
+- Naar smaak kan je je tandenborstel kort onder de kraan houden,
+- Open je mond,
+- Stop vervolgens de tandenborstel in je mond, met de haartjes richting je tanden.
+- Zet de borstel schuin (45 graden) op het tandvlees en heen en weer gaande bewegingen, zonder al te hard te duwen.
+- Poets de buitenkant van al je tanden, zowel boven als onder, heen en weer gaande bewegingen.
+- herhaal dezelfde stappen om je tanden aan de binnenkant te poetsen.
+- Poets de bovenkant van je kiezen.
+- Om de binnenkant van je tanden te poetsen, kan je je tandenborstel het beste verticaal houden en van boven naar beneden op en neer bewegen.
+- eventueel poetsen van je tong, met de haartjes richting je tong, heen en weer bewegingen.
+- Spuug vervolgens de overige tandpaste uit je mond,
+- Spoel eventueel je mond na met water, spuug dit vervolgens uit,
+- Droog je mond af met een handdoek.
+
+Met een elektrische tandenborstel;
+- Je zorgt dat je een tandenborstel en tandpasta bij de hand hebt,
+- Je draait de dop van de tandpasta open en doet een dotje op je tandenborstel. 
+- Naar smaak kan je je tandenborstel kort onder de kraan houden,
+- Open je mond,
+- Stop vervolgens de elektrische tandenborstel in je mond, met de haartjes richting je tanden,
+- Zet de borstel onder een kleine hoek op het tandoppervlak net over de tandvleesrand. Gebruik weinig druk,
+- Houd de borstel enkele seconden stil op de tand of kies. De borstel maakt zelf de poetsbeweging,
+- Beweeg de borstel om deze naar de volgende tand of kies te brengen. Volg daarbij de vorm van je tanden en kiezen, waardoor de borstel ook tussen je tanden en kiezen komt,
+- Houd een vaste poetsvolgorde aan en let ook op de achterkant van de laatste kiezen en de binnenkant van je gebit,
+- Spuug vervolgens de overige tandpaste uit je mond,
+- Spoel eventueel je mond na met water, spuug dit vervolgens uit,
+- Droog je mond af met een handdoek.
+
+
+Oefening 4: [De pen]
+Neem een ballpoint pen. Identificeer de types testen die je op deze pen kan uitvoeren om het van zo hoog mogelijke kwaliteit te maken.
+
+- Accepptatie test:
+gebruikersvriendelijk is
+beheerbaar is
+voldoet aan de performance eisen
+voldoet aan de security eisen
+correct samenwerkt met andere systemen (interfaces met andere systemen)
+conversie procedure goed werkt
+beheerprocedures goed werken (bijvoorbeeld backup en recovery)
+etc.
+
+**Niet-functioneel testen
+1. Performance/load testen. 
+De software wordt getest onder een bepaalde belasting (load), waarbij wordt gekeken of de prestaties van de software binnen bepaalde normen blijven. 
+
+4. Soak testen. 
+Hierbij wordt de software over langere periode getest met een bepaalde workload. 
+Hoe gedraagt het systeem zich in de praktijk tijdens langdurig en intensief gebruik. Is het tegen de dagelijkse praktijk opgewassen?
+
+6. Usability testen. 
+Hoe gemakkelijk is de software in gebruik? Hoe wordt er om gegaan met specifieke gebruik situaties en hoe makkelijk is de software in het gebruik? 
+Het gaat hier voornamelijk om de UI test.
+
+
+
+
+Smoke testing. Dit is een eerste test die moet aangeven of de basisfunctionaliteiten in orde zijn. 
+Door middel van een aantal test cases wordt gekeken of deze versie van de software stabiel is en klaar om verder ontwikkeld en getest te worden.
+
+https://www.toets-je-parate-kennis-over.nl/software-testen/kennisbank/testsoorten-en-v-model/
+

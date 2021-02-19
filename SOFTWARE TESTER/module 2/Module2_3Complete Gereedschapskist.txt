@@ -1,0 +1,116 @@
+***3 Complete Gereedschapskist***
+
+Het goed kunnen uitvoeren van het gestructureerde van het testproces, wordt door TMap ondersteund door een complete gereedschapskist. 
+
+Deze gereedschapskist richt zich op de invulling van de onderwerpen:
+- Technieken: hoe wordt er getest?
+- Infrastructuur: waar en waarmee wordt er getest?
+- Organisatie: wie testen er?
+
+De diverse ‘gereedschappen’ worden in TMap op het moment dat ze kunnen worden gebruikt in meer details beschreven. Met deze gereedschapskist beschikt de 
+tester over een groot aantal mogelijkheden om elke test uitdaging succesvol aan te kunnen gaan.
+
+***Technieken:
+
+Opdracht 1: Welke technieken zijn er? Plaats vervolgens de diverse technieken in welke fases wij die kunnen gebruiken.
+
+TMap-aanpak word geleverd met tools en procedures. De toolbox helpt de gebruiker met: 
+- Testdiagnoses,
+- Beheer van defecten,
+- Selecteren of opstellen en bijhouden van statistieken en variabelen,
+- Productrisicoanalyse,
+- Productevaluatie.
+
+Deze schatkist richt zich op invulling van de onderwerpen:
+
+(FASE BEHEER + FASE PLANNING.)
+Technieken: HOE wordt getest: 
+- begroten van de test. Dit bestaat uit inventariseren van het beschikbare materiaal, het kiezen van begrotingstechnieken, het vaststellen van de uiteindelijke
+  begroting en het presenteren van de uitkomst. 
+- beheren van bevindingen; FASE BEHEER.
+- opstellen van metrics, door bijvoorbeeld de Goal-Question-Metrict (GQM) methode.
+- analyseren en onderkennen van productierisico‟s (productrisicoanalyse, PRA);
+- ontwerpen van tests. TMap beschrijft dekkingsvormen en testontwerptechnieken.
+- toetsen van producten. TMap beschrijft en gebruikt inspecteren, reviewen en walkthrough. 
+
+(FASE BEHEER)
+Infrastructuur: WAAR en WAARMEE wordt getest. Voor het uitvoeren van tests zijn de volgende zaken nodig:
+- Testomgevingen: een samenstelling van onderdelen waarin een test wordt uitgevoerd. 
+- Testtools: een geautomatiseerd hulpmiddel dat ondersteuning biedt aan één of meer testactiviteiten. 
+- Werkplekken voor testers. 
+
+Organisatie: WIE testen er. De organisatie van gestructureerd testen vraagt om:
+- Testbeleid: hoe gaat een organisatie om met mensen, middelen en methoden rondom het testproces.
+- Permanente testorganisatie: hier wordt invulling gegeven over alle testprojecten heen.
+- Testorganisatie in projecten: rollen, taken, bevoegdheden en verantwoordelijkheden voor het testproject worden gedefinieerd.
+- Testprofessional.
+- Testrollen: een rol is een beschrijving van één of meer taken met de gewenste kennis en vaardigheden.
+
+Bronnen:
+https://www.examenvragen.nl/downloads/tmap-voorbeeld.pdf
+
+
+Opdracht 2: Geef voor elke techniek een gedetailleerd beschrijving wat je mogelijkheden zijn.
+
+Bronnen:
+
+
+***Infrastructuur
+
+Om tests te kunnen uitvoeren zijn testomgevingen, testtools en werkplekken nodig.
+
+Opdracht 3: Antwoord het volgende: 
+
+3a. Wat is een testomgeving?
+Een testomgeving is een samenstel van onderdelen zoals hard- en software, koppelingen, omgevingsdata, beheertools 
+en processen waarin een test wordt uitgevoerd.
+
+Waar moet je aan denken bij het opzetten van een testomgeving:
+- moet representatief zijn voor de testsoort die je uitvoert, dus klein voor minimale testen en groot voor volume testen,
+- moet beheersbaar en beheerbaar zijn, waardoor duidelijk is hoe de testomgeving er op welk moment uitziet en uitzag,
+- moet flexibel zijn ingericht, moet zich kunnen aanpassen aan veranderende omstandigheden binnen het project of organisatie,
+- moet beschikbaar zijn. Wanneer de testomgeving benodigd is voor de uitvoering van de testen moet de omgeving volledig ingericht zijn en beschikbaar zijn voor de testers.
+
+Mogelijke problemen bij testomgevingen. Er komen op testomgevingen vaak problemen voor die te voorkomen zijn:
+- configuratie niet in lijn met het gewenste,
+- omgeving niet correct geconfigureerd,
+- software niet volledig geïnstalleerd,
+- koppelingen werken niet correct/niet goed ingericht,
+- onaangekondigde wijzigingen op de testomgeving,
+- geen tooling om de omgeving te kunnen inspecteren.
+
+3b. Wat is een testtool?
+Een testtool is een hulpmiddel dat gebruikt kan worden bij het uitvoeren van testen. Omdat deze tools worden gebruikt bij het testen van de software, moeten ze technisch 
+kunnen samenwerken met de software en de gebruikte infrastructuur.  Het is niet zo dat elke testtool voor iedere software oplossing gebruikt kan worden. 
+Het selecteren van de juiste testtool is dan ook de belangrijkste eerste stap bij het inzetten van testtools.
+
+Met name de tools voor geautomatiseerde testuitvoering worden steeds vaker gebruikt in testtrajecten.
+Meer info hier over: https://www.toets-je-parate-kennis-over.nl/software-testen/kennisbank/tools-geautomatiseerde-testuitvoering/
+
+Testtools voor testuitvoering kunnen worden onderverdeeld in de volgende soorten:
+- Geautomatiseerde testuitvoering,
+- Performance-, load, en stresstesten,
+- Code coverage,
+- Comparator,
+- Databasemanipulatie (bijvoorbeeld SQL),
+- Simulator,
+- Stubs en drivers.
+
+3c. Wat verstaan wij onder werkplekken?
+Een werkplek is de plaats waar medewerkers werken, en waar werkgever volgens de arbeidsomstandighedenwet verantwoordelijk voor is.
+Dit hoeft per definitie niet enkel een kantoor te zijn.
+
+Bronnen:
+https://www.toets-je-parate-kennis-over.nl/software-testen/kennisbank/testomgevingen/
+https://www.toets-je-parate-kennis-over.nl/software-testen/kennisbank/tools-testuitvoering/
+https://www.kantoorruimtevinden.nl/blog/wat-is-een-werkplek/#:~:text=Een%20werkplek%20is%20de%20plaats,dat%20meestal%20wel%20het%20geval.
+
+
+Opdracht 4: Wat is het model voor een organisatie binnen het testen. Ga dat na binnen TechGrounds? Wat zijn de verschillende betrokken disciplines?
+
+Bronnen:
+
+
+Opdracht 5: Hoe ziet de testorganisatie eruit in projecten? Beschrijf o.a. de rollen.
+
+Bronnen:

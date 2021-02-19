@@ -48,23 +48,30 @@ verantwoordelijkheden moet krijgen en de inbedding van het testteam in de projec
 van gestructureerd testen binnen de organisatie. Voor iedere test moet beschreven zijn wie hem uitvoert, wie er verantwoordelijk voor is, wie controleert dat de test goed
 verloopt en aan wie de resultaten worden doorgegeven. Op organisatorisch nivo dienen testfuncties te zijn gedefinieerd met bijbehorende taken en opleidingseisen.
 
+
 Opdracht 4: Vind informatie over het Test- en systeemontwikkelproces en beschrijf de invloeden van het V-Model.
 Bronnen:
+
 
 Opdracht 5: Beschrijf de linkerkant van het V-model en geef de definitie aan van toetsen. Waarmee kan het resultaat vergeleken worden bij het toetsen?
 Bronnen:
 
+
 Opdracht 6: Welke testsoorten en -verantwoordelijkheden zijn er in een systeemontwikkeltraject?
 Bronnen:
+
 
 Opdracht 7: Vind nu informatie over de rechterkant van het V-model en beschrijf welke testsoorten hier plaatsvinden en de verantwoordelijke. 
 Bronnen:
 
+
 Opdracht 8: Wat is een testbasis? 
 Bronnen:
 
+
 Opdracht 9: Welke test vormen zijn er? Wat is een testvorm? Wat is een regressietest?
 Bronnen:
+
 
 Opdracht 10: Wat is gestructureerd testen? Geef hierbij de nadelen van ongestructureerd testen en de voordelen van een gestructureerd testaanpak.
 
@@ -96,6 +103,7 @@ Inefficiënt en ineffectief door:
 Bronnen:
 https://www.toets-je-parate-kennis-over.nl/software-testen/kennisbank/software-testen/
 http://www.erikvanveenendaal.nl/NL/files/Checklist%20gestructureerd%20testen.pdf
+
 
 
 Opdracht 11: Wat zijn de kenmerken van een gestructureerde testaanpak?

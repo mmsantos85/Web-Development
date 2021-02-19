@@ -25,11 +25,14 @@ Software wordt vóór het operationeel gebruik getest, niet om alle fouten weg t
 Als het al uitvoerbaar zou zijn, zou het maken van foutloze software een onevenredige hoeveelheid tests en kosten betekenen.
 De invoering van het systeem heeft allerlei gevolgen voor de omgeving. Deze gevolgen wil men goed kunnen inschatten. Het gaat om de gevolgen op Commercieel, Organisatorisch, 
 Personeel, Administratief, Financieel en Technisch gebied.
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Softwaretesten is een cruciaal onderdeel van de ontwikkeling van softwareproducten, omdat het de consistentie en prestaties verbetert. Het belangrijkste voordeel van het testen 
 is de identificatie en daaropvolgende verwijdering van de fouten. Echter testen helpt ontwikkelaars en testers ook om de werkelijke en verwachte resultaten te vergelijken om de 
 kwaliteit te verbeteren. Als de softwareproductie plaatsvindt zonder deze te testen, het kan nutteloos of soms gevaarlijk zijn voor klanten. 
 Dus, een tester moet dragen een unieke hoed die de betrouwbaarheid van de software beschermt en maakt het veilig om te gebruiken in real-life scenario's.
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Er zijn een aantal ontwikkelingen die vragen om meer aandacht voor testen.
 

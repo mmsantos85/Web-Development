@@ -1,0 +1,71 @@
+***TMAP in essenties***
+
+De vier essenties van TMap:
+- TMap is gebaseerd op een business driven test management (BDTM) aanpak
+- TMap beschrijft een gestructureerd testproces
+- TMap bevat een complete gereedschapskist
+- TMap is een adaptieve testmethode.
+
+We gaan ons verdiepen in TMap door middel van onderzoek over wat de essenties zijn van TMap. 
+Wij leren het volgende:
+- BDTM,
+- Gestructureerd testproces,
+- Complete Gereedschapskist,
+- Adaptieve en complete methode.
+
+1 Business driven test management.
+De kern van testen is dat er tests worden uitgevoerd aan de hand van bijvoorbeeld testgevallen of checklists. 
+Maar wat voor tests zijn dit? Om het testen zinvol te laten zijn, moeten de tests gericht zijn op het testen van die kenmerken en 
+onderdelen van een testobject waarvoor men een risico ziet als deze later in productie onvoldoende goed werken. Dit betekent dat er, 
+voordat er met de testuitvoering kan worden gestart, blijkbaar al diverse afwegingen hebben plaatsgevonden. 
+Er is dus al nagedacht over welke onderdelen van het testobject niet, wel, hoe en met welke dekking moet worden getest. Waar wordt dat dan door bepaald?
+
+
+Opdracht 1: Ga op zoek naar informatie en beschrijf wat een business case is. Geeft hierbij ook aan waaraan de projectaanpak hoort te voldoen als de 
+business case als bepalende factor is.
+
+De business case van IT begint steeds belangrijker te worden voor organisaties. De BDTM aanpak biedt de mogelijkheid om dit op een goede wijze te 
+verwerken in het testtraject op basis TMap® Next en kan daarom worden gezien als de ‘rode draad’ van de tweede essentie, het gestructureerde testproces.
+
+Bij BDTM begint een project altijd met een businesscase. De business case geeft de rechtvaardiging voor het project weer en geeft antwoord op de 
+vragen: waarom doen we dit project, welke investeringen zijn hiervoor nodig, wat wil de opdrachtgever met het resultaat bereiken?
+De business case wordt in vastgestelde termijnen getoetst om er zeker van te zijn dat de uiteindelijke resultaten valide blijven voor de opdrachtgever. 
+
+Bronnen:
+https://quizlet.com/nl/477476576/tmap-hst-5-flash-cards/
+
+
+Opdracht 2: Wat zijn de kenmerken van de BDTM aanpak?
+BDTM is een aanpak waarbij, voor het testproces begint, keuzes worden gemaakt die gebaseerd zijn op risico's, resultaat, tijd en kosten.
+Bij TMap wordt er vanuit gegaan dat een projectaanpak, die is gebaseerd op een business case, voldoet aan de volgende kenmerken. 
+De 4 BDTM aspecten: Resultaat, Risico's, Tijd en Kosten.
+
+Kenmerken van BDTM zijn:
+- De totale testinspanning is gerelateerd aan de risico‟s van het te testen systeem voor de organisatie.
+- De begroting en planning voor het testproces zijn gerelateerd aan de opgestelde teststrategie.
+- Op verschillende momenten in het testtraject wordt de opdrachtgever betrokken bij het maken van keuzes.
+
+
+Opdracht 3: Definieer de stappen van de BDTM aanpak.
+De stappen van BDTM zijn:
+1. Formuleren opdracht en verzamelen testdoelen.
+2. Bepalen risicoklasse per combinatie van kenmerk en deelobject.
+3. Bepalen of een combinatie van kenmerk en deelobject licht of zwaar moet worden getest.
+4. Het op hoofdlijnen begroten van de test en dit in een planning verwerken.
+5. Toewijzen testtechnieken aan de combinaties van kenmerk en deelobject.
+6. Gedurende het testproces biedt de testmanager inzicht en sturingsmogelijkheden over voortgangen kwaliteit van het testproces en kwaliteit en risico‟s 
+van het testobject.
+
+Voordelen van BDTM zijn:
+- Een door de opdrachtgever stuurbaar proces;
+- De testmanager communiceert zinvolle informatie in de terminologie van de opdrachtgever.
+- Het masterplanniveau kan zover worden gedetailleerd als gewenst of mogelijk is
+
+Bronnen:
+https://www.toets-je-parate-kennis-over.nl/software-testen/tmap-next-bdtm/
+https://www.examenvragen.nl/downloads/tmap-voorbeeld.pdf
+
+
+
+
+

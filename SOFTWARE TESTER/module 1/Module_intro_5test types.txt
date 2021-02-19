@@ -1,4 +1,4 @@
-***5 Welke test Types zijn er?
+***5 Welke test Types zijn er?***
 
 In de vorige opdrachten kwamen wij al verschillende soorten testvormen tegen. Deze worden natuurlijk omgevormd naar types. 
 Testen wordt onderscheiden in 3 soorten categorie typen, namelijk:
@@ -6,6 +6,7 @@ Testen wordt onderscheiden in 3 soorten categorie typen, namelijk:
 - Functioneel testen
 - Niet-functioneel testen of Performance testen.
 - Onderhoud testen (regressie en onderhoud).
+
 
 Opdracht 1: Zoek van de categorie Functioneel testen minimaal 5 types en geef hiervan een beschrijving.
 Functioneel testen is het testen van software op basis van de functionele omschrijving van de software om de kwaliteit hiervan te beoordelen en 
@@ -117,15 +118,22 @@ Agile testen.
 Binnen een Agile ontwikkelmethodiek is het niet noodzakelijk om alle functionaliteiten van tevoren te beschrijven. Op basis van de User Stories wordt de 
 ontwikkeling aangevangen en als het agile proces goed in elkaar zit zal er gedurende de sprint goed worden gedocumenteerd wat er precies functioneel wordt gebouwd. 
 Door het testen in dit proces te integreren zal er continu gewerkt worden aan het omschrijven van functionaliteiten, het creëren van test cases, 
-het uitvoeren van testen en het evalueren van de uitkomsten. Hierdoor wordt functioneel testen niet een sessie na afloop van de ontwikkeling, maar een continue cirkel van beschrijven, 
-testen, evalueren en verbeteren. Wanneer hier professionele testers op in worden gezet, is het prima mogelijk (en vaak beter) om functioneel testen uit te besteden.
+het uitvoeren van testen en het evalueren van de uitkomsten. Hierdoor wordt functioneel testen niet een sessie na afloop van de ontwikkeling, 
+maar een continue cirkel van beschrijven, testen, evalueren en verbeteren. Wanneer hier professionele testers op in worden gezet, is het prima mogelijk (en vaak beter) 
+om functioneel testen uit te besteden.
 
-In een testtraject is het onmogelijk om alles volledig te testen. Voorafgaand aan het opstellen van een teststrategie wordt een product risico analyse uitgevoerd. In deze product risico analyse worden de verschillende risico’s onderkend en gecategoriseerd. Op basis van deze risico’s kunnen strategische keuzes gemaakt worden met welke testsoorten, diepgang en middelen de testen worden uitgevoerd. Bij de hiervoor genoemde keuzes spelen de aangeleverde acceptatiecriteria ook een belangrijke rol. Daarnaast is het mogelijk om met een teststrategie de beschikbare middelen (tijd, geld en IT-middelen) zo efficiënt mogelijk in te zetten. Dus de hoogst haalbare dekkingsgraad op het juiste moment in het testtraject.
+In een testtraject is het onmogelijk om alles volledig te testen. Voorafgaand aan het opstellen van een teststrategie wordt een product risico analyse uitgevoerd. 
+In deze product risico analyse worden de verschillende risico’s onderkend en gecategoriseerd. Op basis van deze risico’s kunnen strategische keuzes gemaakt worden met 
+welke testsoorten, diepgang en middelen de testen worden uitgevoerd. Bij de hiervoor genoemde keuzes spelen de aangeleverde acceptatiecriteria ook een belangrijke rol. 
+Daarnaast is het mogelijk om met een teststrategie de beschikbare middelen (tijd, geld en IT-middelen) zo efficiënt mogelijk in te zetten. 
+Dus de hoogst haalbare dekkingsgraad op het juiste moment in het testtraject.
 
 Doel teststrategie
-De teststrategie geeft een totaal overzicht van wat er getest wordt binnen welke testsoort en met welke diepgang. Hiermee kan voorkomen worden dat onderdelen in meerdere testsoorten met dezelfde diepgang en op basis van dezelfde specifiaties worden getest.
+De teststrategie geeft een totaal overzicht van wat er getest wordt binnen welke testsoort en met welke diepgang. Hiermee kan voorkomen worden dat onderdelen in meerdere 
+testsoorten met dezelfde diepgang en op basis van dezelfde specifiaties worden getest.
 
-De teststrategie moet besproken worden met en geaccordeerd worden door de opdrachtgever van het testtraject, liefst onderbouwd met statistische informatie. De opdrachtgever moet de risico’s van de gepresenteerde teststrategie goed onderkennen en moet zien dat de optimale balans is gehaald in de kwaliteit van testen, tijd en geld.
+De teststrategie moet besproken worden met en geaccordeerd worden door de opdrachtgever van het testtraject, liefst onderbouwd met statistische informatie. 
+De opdrachtgever moet de risico’s van de gepresenteerde teststrategie goed onderkennen en moet zien dat de optimale balans is gehaald in de kwaliteit van testen, tijd en geld.
 
 Het opstellen en accorderen is een onderdeel van de fase “Planning” van TMap® Next
 
