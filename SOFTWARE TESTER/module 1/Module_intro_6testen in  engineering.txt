@@ -2,7 +2,15 @@
 Heel veel informatie opgezocht en beschreven in deze hand-out? We gaan vanaf nu er nog dieper op in!
 
 Opdracht 1: Maak een korte samenvatting van 6 punten wat testen inhoud voor de IT.
-1. 
+1. speelt een voorname rol bij de ontwikkeling van nieuwe ICT-programma's/software progamma's,
+2. De tester controleert of de oplossing doet wat het moet doen. 
+   De tester probeert het nieuwe stukje software te ‘breken'. Dit helpt het ontwerpproces en zorgt voor een foutloos programma in elke ontwikkelingsfase.
+3. Veiligheid,
+4. Bespaard kosten voor op de lange termijn, Fouten die na ingebruikname van de software worden geconstateerd zijn vele malen duurder om te herstellen dan 
+   fouten in de ontwikkelfase.
+5. Kwaliteitsborging, 
+6. Acceptatie,
+7. Stuurinformatie, het levert de feitelijke en betrouwbare stuurinformatie voor je projectbesturing en IT governance.
 
 
 Opdracht 2: Vind de defecten in het volgende voorbeeld en wees gedetailleerd in je antwoord.

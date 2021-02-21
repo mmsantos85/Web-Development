@@ -1,9 +1,8 @@
-*** 2 Waarom is testen belangrijk?
+*** 2 Waarom is testen belangrijk?***
 
 Software Testen is belangrijk omdat eventuele bugs of fouten in de software vroegtijdig kunnen worden opgespoord en kunnen worden opgelost 
 voordat het softwareproduct wordt geleverd. Een goed getest softwareproduct heeft betrouwbaarheid, veiligheid en hoge prestaties, 
 die verder resulteren in tijdwinst, kosteneffectiviteit en klanttevredenheid garanderen.
-
 
 Geef antwoord op de volgende vragen:
 
@@ -82,7 +81,7 @@ Gevolgen: Bestanden van de eindgebruiker werden van de computer verwijderd.
 -Gehacked:
 GGD, gegevens van Privégegevens van Nederlanders die in twee coronasystemen van de GGD staan, worden illegaal verhandeld. 
 Het gaat onder meer om burgerservicenummers
-Fout:
+Fout: Software gehacked.
 Gevolgen: Persoonlijke gegevens uitgelekt en doorverkocht.
 
 

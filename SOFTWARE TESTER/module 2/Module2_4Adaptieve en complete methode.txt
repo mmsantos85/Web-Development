@@ -43,14 +43,13 @@ Maak een lijst met alle defects/verbeteringen in de ruimte waar je je nu in bevi
 Bijv. Er is een vlek op de muur. Belichting kan beter.
 
 Woonkamer:
-- Geverfde vloer, stukjes geen verf meer. ook door niet netjes de vloer te verven verfvlekken op de plinten.
+- DIY geverfde vloer, sommige stukjes geen verf meer. ook door niet netjes de vloer te verven verfvlekken op de plinten.
 - Thermometer werkt niet naar behoren,
 - Vlekjes op de muur.
 - 1 lamp met drie spots in 1 ruimte. net te weinig licht.
-- 
+- Slijtage/ kleine beschadigingen op de deur.
 
-
-
+ 
 Oefening 3: [Tandenpoetsen]
 Baby Groot wilt graag een les van jou hoe hij zijn tanden moet poetsen. Ga ervanuit dat hij ook tanden heeft als een mens en even slim is als jij. 
 Maar maak een stap-voor-stap instructie. Wees zo gedetailleerd mogelijk in je beschrijving.
@@ -79,7 +78,8 @@ Met een elektrische tandenborstel;
 - Stop vervolgens de elektrische tandenborstel in je mond, met de haartjes richting je tanden,
 - Zet de borstel onder een kleine hoek op het tandoppervlak net over de tandvleesrand. Gebruik weinig druk,
 - Houd de borstel enkele seconden stil op de tand of kies. De borstel maakt zelf de poetsbeweging,
-- Beweeg de borstel om deze naar de volgende tand of kies te brengen. Volg daarbij de vorm van je tanden en kiezen, waardoor de borstel ook tussen je tanden en kiezen komt,
+- Beweeg de borstel om deze naar de volgende tand of kies te brengen. Volg daarbij de vorm van je tanden en kiezen, 
+  waardoor de borstel ook tussen je tanden en kiezen komt,
 - Houd een vaste poetsvolgorde aan en let ook op de achterkant van de laatste kiezen en de binnenkant van je gebit,
 - Spuug vervolgens de overige tandpaste uit je mond,
 - Spoel eventueel je mond na met water, spuug dit vervolgens uit,
@@ -89,15 +89,19 @@ Met een elektrische tandenborstel;
 Oefening 4: [De pen]
 Neem een ballpoint pen. Identificeer de types testen die je op deze pen kan uitvoeren om het van zo hoog mogelijke kwaliteit te maken.
 
-- Accepptatie test:
-gebruikersvriendelijk is
-beheerbaar is
-voldoet aan de performance eisen
-voldoet aan de security eisen
-correct samenwerkt met andere systemen (interfaces met andere systemen)
-conversie procedure goed werkt
-beheerprocedures goed werken (bijvoorbeeld backup en recovery)
-etc.
+**Accepptatie test:
+- gebruikersvriendelijk is
+- beheerbaar is
+- voldoet aan de performance eisen
+- voldoet aan de security eisen
+- correct samenwerkt met andere systemen (interfaces met andere systemen)
+- conversie procedure goed werkt
+- beheerprocedures goed werken (bijvoorbeeld backup en recovery) etc.
+
+**functioneel testen
+5. Integratie testen. 
+Wanneer verschillende onderdelen van de software moeten samenwerken, moet er getest worden of deze samenwerking goed werkt. 
+Oftewel; zijn ze goed geïntegreerd met elkaar?
 
 **Niet-functioneel testen
 1. Performance/load testen. 
@@ -110,9 +114,6 @@ Hoe gedraagt het systeem zich in de praktijk tijdens langdurig en intensief gebr
 6. Usability testen. 
 Hoe gemakkelijk is de software in gebruik? Hoe wordt er om gegaan met specifieke gebruik situaties en hoe makkelijk is de software in het gebruik? 
 Het gaat hier voornamelijk om de UI test.
-
-
-
 
 Smoke testing. Dit is een eerste test die moet aangeven of de basisfunctionaliteiten in orde zijn. 
 Door middel van een aantal test cases wordt gekeken of deze versie van de software stabiel is en klaar om verder ontwikkeld en getest te worden.

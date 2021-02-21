@@ -50,27 +50,131 @@ verloopt en aan wie de resultaten worden doorgegeven. Op organisatorisch nivo di
 
 
 Opdracht 4: Vind informatie over het Test- en systeemontwikkelproces en beschrijf de invloeden van het V-Model.
+
+Het V-model wordt veel gebruikt om de relatie tussen het systeemontwikkel- en testproces (de testsoorten) te visualiseren.
+Het V-model besteedt aandacht aan systeemontwikkeling en testen. De systeemontwikkeling en het testen is opgedeeld in een aantal fasen die elk een aantal vooraf 
+gedefinieerde producten opleveren. Wanneer de producten van een fase zijn opgeleverd, vormen deze de basis voor de volgende fase, er kan dus niet worden begonnen 
+aan een nieuwe fase wanneer de producten van de vorige fase niet zijn opgeleverd (en goedgekeurd). Voor elke specificatie- of ontwerpfase aan de linkerzijde van de “V”, 
+is een corresponderende testsoort aan de rechterzijde van de “V”. 
+Het V-model is een lineaire methode en wordt altijd in de volgorde uitgevoerd als in de figuur is aangegeven.
+
 Bronnen:
+https://www.toets-je-parate-kennis-over.nl/software-testen/kennisbank/testsoorten-en-v-model/
 
 
 Opdracht 5: Beschrijf de linkerkant van het V-model en geef de definitie aan van toetsen. Waarmee kan het resultaat vergeleken worden bij het toetsen?
+Voor elke specificatie- of ontwerpfase aan de linkerzijde van de “V”, is een corresponderende testsoort aan de rechterzijde van de “V”. 
+Het V-model is een lineaire methode en wordt altijd in de volgorde uitgevoerd als in de figuur is aangegeven.
+
 Bronnen:
+https://www.toets-je-parate-kennis-over.nl/software-testen/kennisbank/testsoorten-en-v-model/
 
 
 Opdracht 6: Welke testsoorten en -verantwoordelijkheden zijn er in een systeemontwikkeltraject?
+Een testsoort is een groep van testactiviteiten die gezamenlijk worden uitgevoerd en aangestuurd.
+
+- Ontwikkeltests:
+Een door de ontwikkelaars uitgevoerde test om aan te tonen dat het systeem voldoet aan met name de technische specificaties.
+Deze testsoort kan nog verder worden onderverdeeld in: Unittest (UT) en Unitintegratietest (UIT).
+
+- Systeemtests:
+Een door de leverancier uitgevoerde test om aan te tonen dat het systeem voldoet aan de functionele- en niet-functionele specificaties.
+Deze testsoort kan nog verder worden onderverdeeld in: Systeemtest (ST) en Systeemintegratietest (SIT).
+
+- Acceptatietests:
+Een door de opdrachtgever (accepterende partij) uitgevoerde test om vast te stellen dat het systeem voldoet aan met name de functionele- en niet-functionele verwachtingen.
+Deze testsoort kan nog verder worden onderverdeeld in: Functionele Acceptatietest (FAT), Gebruikersacceptatietest (GAT) en Productieacceptatietest (PAT).
+
 Bronnen:
+https://www.toets-je-parate-kennis-over.nl/software-testen/kennisbank/testsoorten-en-v-model/
 
 
 Opdracht 7: Vind nu informatie over de rechterkant van het V-model en beschrijf welke testsoorten hier plaatsvinden en de verantwoordelijke. 
+Aan de rechterkant van het V-model vindt het testen plaats. Hierbij wordt vaak onderscheid gemaakt tussen testen door de leverende partij en testen door de accepterende partij. 
+Deze verantwoordelijkheden wordt in de praktijk veelal vertaald naar het groeperen van testactiviteiten in testsoorten.
+
 Bronnen:
+https://www.toets-je-parate-kennis-over.nl/software-testen/kennisbank/testsoorten-en-v-model/
 
 
 Opdracht 8: Wat is een testbasis? 
+De testbasis zijn alle bronnen, waaruit de eisen zijn af te leiden, die aan een informatie systeem worden gesteld. Je kunt dit ook zien als: “de informatie die het gewenste 
+systeem gedrag beschrijft”. Om te kunnen testen moet er namelijk bekend zijn wat er verwacht wordt van het systeem. 
+Het is niet mogelijk om testgevallen op te stellen als je als tester niet kunt achterhalen wat het systeem zou moeten doen.
+
+De volgende bronnen kunnen onderdeel uitmaken van de testbasis:
+- Requirements,
+- Acceptatiecriteria,
+- Functioneel ontwerp,
+- Use cases,
+- Logisch datamodel,
+- Technisch ontwerp,
+- Systeem documentatie,
+- Handleidingen (gebruikers of installatie),
+- Procesbeschrijvingen,
+- AO procedures,
+- Wetgeving,
+- Materiedeskundige.
+
+Welke testbasis gebruiken:
+Welke testbasis door de tester voor een specifiek te testen onderdeel gebruikt moet worden, wordt vastgelegd in het testplan. 
+Het moet dus van te voren duidelijk zijn welke testbasis er beschikbaar is en wanneer deze moet worden gebruikt.
+
+Kwaliteit testbasis:
+In de praktijk komt het voor dat de testbasis van onvoldoende kwaliteit is. Dat wil zeggen dat de testbasis inhoudelijk te globaal is, inconsistenties bevat, fouten bevat of dat 
+het niet mogelijk is om er testgevallen uit af te leiden. In deze situatie is het niet mogelijk om alle beschikbare testontwerptechnieken te gebruiken. 
+Het kan in dat geval betekenen dat de testbasis of dat de teststrategie moet worden aangepast.
+
+Om vast te kunnen stellen of de testbasis van voldoende kwaliteit is om te gebruiken bij het opstellen van de testgevallen wordt eerst een beoordeling van de testbasis uitgevoerd. 
+Dit gebeurt aan de hand van een checklist die is toegespitst op de te gebruiken testontwerptechnieken. Op basis van de resultaten wordt een rapport detailintake opgesteld. 
+Dit rapport geeft een samenvatting van de testbaarheid van de testbasis.
+
 Bronnen:
+https://www.toets-je-parate-kennis-over.nl/software-testen/kennisbank/testbasis-software-testen/
 
 
 Opdracht 9: Welke test vormen zijn er? Wat is een testvorm? Wat is een regressietest?
+9A. Wat is een testvorm:
+Een testvorm is een groepering van testdoelen en bijbehorende kwaliteitsattributen.
+Met een testvorm kan aan de ene kant een detaillering gegeven worden aan een kwaliteitsattribuut waarbij de testdoelen gekoppeld worden aan de testvormen. 
+Hierbij kan het zo zijn dat niet alle testdoelen behorende bij een kwaliteitsattribuut gekoppeld worden aan dezelfde testvormen.
+Een testvorm kan ook gebruikt worden bij verschillende kwaliteitsattributen. Dit zorgt er voor dat uiteindelijk alle testdoelen die gekoppeld zijn aan dezelfde testvorm 
+in gezamenlijkheid getest kunnen worden. Dit is van belang voor het kunnen begroten en plannen van de verschillende testactiviteiten.
+
+Er is geen vaste lijst met testvormen beschikbaar. Je kunt als testmanager/ testcoördinator zelf testvormen benoemen en bepalen wat het doel is.
+
+9b. Welke testvormen zijn er:
+Een aantal gangbare testvormen zijn:
+- Usability,
+- Penetratietest,
+- Multi-user,
+- Regressie,
+- Performance.
+
+***Extra info:
+UT = unittest
+UIT = unitintegratietest
+ST = systeemtest
+SIT = systeemintegratietest
+AT = acceptatietest (alle soorten)
+FAT = functionele acceptatietest
+GAT = gebruikersacceptatietest
+PAT = productieacceptatietestie 
+
+Zie link voor uitgebriede en meerdere testvormen:
+http://www.mentorum.nl/docs/Traindocs/Overzicht_Toegepaste_testvormen.pdf
+
+9c. Wat is regressietest:
+Regressie is ‘het verschijnsel dat de kwaliteit van een systeem als geheel terugloopt als gevolg van individuele aanpassingen’ (TMap Next, 2006). 
+Om schade als gevolg van deze softwarefouten te voorkomen wordt een regressietest uitgevoerd. De regressietesten hebben als doel om vast te stellen of alle systeemonderdelen 
+goed blijven functioneren na het doorvoeren van één of meerdere wijzigingen. Ook na het oplossen van openstaande testbevindingen is het raadzaam om een regressietest uit te voeren.
+
+Zie link voor belangrijke aspecten bij het opbouwen van een regressietest set:
+https://testersuite.nl/tien-uitgangspunten-bij-regressietesten/
+
 Bronnen:
+https://www.toets-je-parate-kennis-over.nl/software-testen/kennisbank/testvormen/
+https://testersuite.nl/tien-uitgangspunten-bij-regressietesten/
 
 
 Opdracht 10: Wat is gestructureerd testen? Geef hierbij de nadelen van ongestructureerd testen en de voordelen van een gestructureerd testaanpak.
@@ -105,6 +209,17 @@ https://www.toets-je-parate-kennis-over.nl/software-testen/kennisbank/software-t
 http://www.erikvanveenendaal.nl/NL/files/Checklist%20gestructureerd%20testen.pdf
 
 
-
 Opdracht 11: Wat zijn de kenmerken van een gestructureerde testaanpak?
+Kenmerken van gestructureerde testaanpak: 
+- Structuur over vragen wat, door wie, wanneer en welke volgorde; Omvatting en beschrijving van relevante aspecten,
+- Bieden van concrete handvatten,
+- Sturen van testactiviteiten in het kader van tijd, geld en kwaliteit.
+
+Het gestructureerde testproces bestaat uit drie processen:
+1. mastertestplan (MTP), managen van het totale testproces, MTP geeft inzicht in de diverse toet te passen test- en toetssoorten zodanig dat er een
+optimalisatie plaatsvindt van het totale testproces en is sturend voor de onderliggende testsoorten.
+2. acceptatie- en systeemtesten;
+3. ontwikkeltesten.
+
 Bronnen:
+https://www.examenvragen.nl/downloads/tmap-voorbeeld.pdf

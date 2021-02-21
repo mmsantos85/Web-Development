@@ -1,4 +1,4 @@
-Module 1: Software testen:
+***Module 1: Software testen***
 
 Wat is Software Testen? Definitie, Basis & types.
 
@@ -165,6 +165,66 @@ https://blog.technosoft.nl/qa-testing/de-voordelen-van-testen-in-de-praktijk
 https://www.toets-je-parate-kennis-over.nl/software-testen/kennisbank/software-testen/
 
 
+
+***Extra info.
+Voor- en nadelen geautomatiseerd testen:
+
+Een doordachte strategie voor geautomatiseerd testen vraagt inzicht in de mogelijkheden en onmogelijkheden en de valkuilen. Want “A fool with a tool is still a fool”!
+En die éne vergeten valkuil kan je een hoop ellende bezorgen. En dat éne vergeten voordeel kan maken dat je jouw goede plan niet verkocht krijgt aan de beslissers in 
+je organisatie.
+Daarom ga ik nu álle mogelijke voor- en nadelen die we in de SmarTEST praktijk ervaren of die ik van anderen heb opgepikt met je doornemen. 
+Ik heb het kaf van het koren gescheiden en ze snijden allemaal hout. Maar, uiteraard praten we niet over absolute waarheden. 
+Spreekt een voor- of nadeel je niet aan of is het in jouw situatie niet relevant? Laat hem dan vooral rusten!
+
+1. Het is snel - snellere feedback, hogere ‘velocity', testen minder op het kritieke pad.
+2. Je kunt meer en vaker testen - de hogere snelheid maakt frequenter testen mogelijk.
+3. Het maakt vollediger (regressie)testen mogelijk - met een betere dekkingsgraad en daardoor minder kans op productieverstoringen.
+4. Die snelheid en volledigheid maakt je IT-delivery meer agile en meer wendbaar.
+5. Het is goedkoper – je kosten zijn lager door onder andere minder menskracht voor de uitvoering. Daar moet ik wel bij zeggen dat snelle besparingen op korte termijn 
+   zeldzaam zijn: de kost gaat voor de baat uit. Zelfs op lange termijn zijn de directe kosten niet altijd lager dan bij handmatig testen. De winst zit dan in andere 
+   voordelen die zich uiteindelijk ook weer naar geld laten vertalen, zoals wendbaarheid, kwaliteit en volledigheid. 
+   Op termijn moeten de investeringen -direct of indirect-winstgevend zijn, anders moet je er niet aan beginnen.
+6. Het is een Brainsaver – want het routinewerk wordt je uit handen genomen en je houdt meer tijd over voor exploratieve, intelligente en creatieve testen,
+7. Het is Betrouwbaar -  want minder foutgevoelig, de tool doet precies wat je zegt, telkens opnieuw
+8. Je maakt het Herhaalbaar - want je doet elke keer exact hetzelfde en ‘bugs’ zijn makkelijker te reproduceren
+9. Het is Veelzijdig – het maakt namelijk testen mogelijk die handmatig niet lukken omdat het te snel gaat of omdat er geen handmatige MMI interface is.
+10.Het is Nauwkeurig - maakt nauwkeuriger meten mogelijk, bijvoorbeeld van responstijden
+11.Alles wordt Traceerbaar - aantoonbaarheid en compliancy, achteraf is altijd traceerbaar wat precies is getest
+12.Het is leuk en Motiverend - meer uitdaging en motivatie voor de medewerkers; minder saai handmatig werk
+13.Het bespaart ook op andere manieren tijd - de gebruikte tools zijn ook handig voor het snel invoeren van grote hoeveelheden consistente (test)data via de schermen, 
+   dus mét invoervalidaties.
+14.Je nut je omgevingen beter - uit  testen draaien ‘s nachts of zelfs 24x7.
+15.Het ondersteunt Visualisatie - ondersteunt een continue visuele kwaliteitsindicatie van de software, zichtbaar voor iedereen in de organisatie, bijvoorbeeld via 
+   dashboards op de gangen.
+16.Het Brengt structuur - brengt rust, reinheid en regelmaat, want geautomatiseerd testen kan niet zonder een gestructureerd proces met stabiele omgevingen en schone testdata 
+   (maar ‘elk voordeel heb z’n nadeel’, zie de eerste bullet in het rijtje nadelen).
+17.Het draagt bij aan een soepel het build proces – GT is een onmisbare schakel in een geautomatiseerd build proces, continuous integration en in ‘test first’ 
+   softwareontwikkeling, TDD.
+18.Performance testen kunnen niet zonder- maakt langdurig of zelfs continu testen met hoge en/of wisselende belastingen mogelijk 
+   (performance, load, stress, piek, soak, endurance, reliability testen).
+
+ 
+Nadelen automatisch testen:
+1. Het is een softwareproject erbij! - Het is een complex geheel van scripts, parameters, data en besturingslogica. Dat alles maken en onderhouden kost 
+   tijd en geld en is onderhoudsintensief. Dat dit bij ‘test first’ aanpakken minder van toepassing is hebben we overigens al gezien.
+2. Je bent Afhankelijk - van structuur, stabiele omgevingen en consistente testdata is groot. Alles moet exact kloppen, terwijl dat handmatig niet hoedt.
+3. Tools zijn Dom - geautomatiseerd testen is meer ‘checken’ dan testen en ontbeert de creativiteit en de flexibiliteit van de menselijke tester.
+4. Het kost tijd en geld –afgezien van dure uren van dure specialisten zijn veel tools evenmin gratis en kosten selectie- en inkoopprocedures ook tijd en energie. 
+   Als je het goed doet verdien je dat allemaal ruimschoots terug, maar het initiele budget moet er wel zijn.
+5. Het is Complex - de tools brengen hun eigen complexiteit mee, vergen opleiding en beheer.
+6. Het heeft zijn beperkingen - niet alle testen kunnen worden geautomatiseerd, de tools hebben hun beperkingen
+7. De analyse van de ‘fails’ in runverslagen kan tijdrovend   zijn, met name als je dekkingsgraad groter en fijnmaziger wordt en de tool veel onterechte fouten rapporteert
+8. Tools kunnen beveiligingsrisico’s introduceren. Denk aan lekken, kwetsbaarheden bijvoorbeeld door poorten open te zetten en te linken naar mogelijk riskante cloud services
+9. Het gaat ten koste van het kritische testoog creativiteit wordt gestopt in tool-technische uitdagingen en niet meer in kritisch testontwerp. 
+   Ik denk hierbij aan testgoeroe Michael Bolton die de wereld afreist met zijn workshop ‘critical thinking for testers’.
+10.Wat dacht je van Minder draagvlak: Handmatig testen brengt draagvlak, betrokkenheid en kennis bij de (gebruikers)testers en dat wordt minder bij geautomatiseerd testen
+11.En een hele gevaarlijke: Schijnzekerheid - het vertrouwen in de uitkomsten van geautomatiseerde testruns is vaak groot, maar dekking en kwaliteit van een geautomatiseerde 
+  testset zijn niet meer waard dan wat de bouwers erin gestopt hebben. 
+12.Samenvattend: geautomatiseerd testen stelt hoge eisen en vergt een behoorlijk kennisniveau en volwassenheid van de organisatie.
+
+Bronnen:
+http://www.smartest.nl/smartest/podcast_geautomatiseerd_testen/deel_3__alle_voor_en_nadelen
+http://www.smartest.nl/smartest/wat1is1smart1testen
 
 
 

@@ -30,23 +30,40 @@ https://www.toets-je-parate-kennis-over.nl/software-testen/kennisbank/software-t
 
 
 Opdracht 2 : Wat zijn de kosten?
-Testen kost tijd en geld, daarom moet er nagedacht worden over wat er getest wordt en hoe uitgebreid dit gebeurt. Hoe uitgebreid er getest wordt is dan ook afhankelijk 
-van het budget en van de risico's die men wil inschatten. 
+Testen kost tijd en geld, daarom moet er nagedacht worden over wat er getest wordt en hoe uitgebreid dit gebeurt. Hoe uitgebreid er getest wordt is 
+dan ook afhankelijk van het budget en van de risico's die men wil inschatten. 
 In het ideale geval wordt er niet getest, want dat is het goedkoopst, maar vaak durft men dat niet omdat men bepaalde risico's niet wil lopen. 
-Door te testen krijgt men inzicht in die risico's. Daarom moet er een impliciete of expliciete risico-inschatting gemaakt worden. Het testen kost tussen de 10 en 
-30% van het totale projectbudget. 
+Door te testen krijgt men inzicht in die risico's. Daarom moet er een impliciete of expliciete risico-inschatting gemaakt worden. Het testen kost 
+tussen de 10 en 30% van het totale projectbudget. 
 Eventueel kan men met bijvoorbeeld een testpuntanalyse een inschatting maken.
 
 Bronnen: 
 https://nl.wikipedia.org/wiki/Testen_(software)
 
 
-Opdracht 3 : Wat zijn de baten? (gunstige gevolgen van testen)
+Opdracht 3 : Wat zijn de baten? (gunstige gevolgen van testen):
+Testen en test automatisering kunnen de testefficiency verhogen. Door de uitrol van testautomatisering en het daardoor overnemen van het routinematige werk kunnen testers 
+zich concentreren op de complexe cases. Dit leidt ook tot minder productie-incidenten, kortere doorlooptijden van de testuitvoer en efficiëntere inzet van de resources. 
+Door het gestructureerd vastleggen van functionaliteiten in  geautomatiseerde testscripts wordt de aanwezige kennis ook beter geborgd in de organisatie.
 
+De toepassing van testautomatisering zorgt ervoor dat er mensen beschikbaar komen die kunnen helpen om de voortbrengingsketen verder en efficiënter in te richten. 
+Denk bijvoorbeeld aan het inrichten van een build pipeline en het optimaliseren daarvan. Betrokkenen krijgen dan een grotere uitdaging, er ontstaan meer doorgroeimogelijkheden 
+en beschikbare expertise kan beter worden benut.
+
+Hoe meer vormen van testautomatisering worden toegepast hoe groter de waarde zal zijn. Pas je testautomatisering al toe in de ontwerpfase dan zal dat zijn effect hebben in de 
+verdere schakels in de ontwikkelketen. Hoe eerder een fout is gevonden hoe goedkoper het is om deze te herstellen en de mogelijk negatieve effecten te voorkomen.
+
+Testautomatisering heeft ook een toegevoegde waarde om het kwaliteitsverschil tussen teams in bijvoorbeeld ketens op te vangen. 
+Hoe goed ook het streven om alleen met kwalitatief hoogwaardige teams te werken blijft er altijd een verschil kwaliteit tussen de teams. 
+Niet alleen de kwaliteit maar ook de zorgvuldigheid en betrokkenheid zijn zaken die meespelen. Door continu een geautomatiseerde test uit te voeren x
+krijg je op ieder willekeurig moment inzicht in de kwaliteit van een systeem of een keten en kun je in een vroegtijdig stadium ingrijpen om kwaliteitsissues op te lossen.
 
 Bronnen: 
+https://www.vanharen.net/blog/de-waarde-van-testautomatisering/
 
 
 Opdracht 4 : Formuleer dit verder in wat de Test Opbrengst kan zijn.
+Zie opdracht 3 en link hieronder.
 
 Bronnen: 
+https://www.techzine.nl/blogs/devops/448324/software-testen-niemand-twijfelt-aan-nut-toch-gebeurt-het-te-weinig/

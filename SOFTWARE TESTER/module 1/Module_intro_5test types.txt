@@ -7,7 +7,6 @@ Testen wordt onderscheiden in 3 soorten categorie typen, namelijk:
 - Niet-functioneel testen of Performance testen.
 - Onderhoud testen (regressie en onderhoud).
 
-
 Opdracht 1: Zoek van de categorie Functioneel testen minimaal 5 types en geef hiervan een beschrijving.
 Functioneel testen is het testen van software op basis van de functionele omschrijving van de software om de kwaliteit hiervan te beoordelen en 
 mogelijke fouten op te sporen. Het gaat hier om het testen van een (vooraf) beschreven situatie. Je controleert als het ware de uitkomst van de 
@@ -135,15 +134,15 @@ testsoorten met dezelfde diepgang en op basis van dezelfde specifiaties worden g
 De teststrategie moet besproken worden met en geaccordeerd worden door de opdrachtgever van het testtraject, liefst onderbouwd met statistische informatie. 
 De opdrachtgever moet de risico’s van de gepresenteerde teststrategie goed onderkennen en moet zien dat de optimale balans is gehaald in de kwaliteit van testen, tijd en geld.
 
-Het opstellen en accorderen is een onderdeel van de fase “Planning” van TMap® Next
+Het opstellen en accorderen is een onderdeel van de fase “Planning” van TMap® Next.
 
 Opstellen teststrategie
 Heb jij dat ook, dat je bij het opstellen van een teststrategie denkt:
 
-Hoe zit het ook al weer met testsoorten en testvormen?
-Welke kwaliteitsattributen zijn er en wat is de bijbehorende definitie?
-Met welke testontwerptechniek kan een bepaalde kwaliteitsattribuut worden getest?
-Wij hebben de antwoorden voor je opgenomen in één document. Een handig naslagwerk voor bij het opstellen van een teststrategie.
+- Hoe zit het ook al weer met testsoorten en testvormen?
+- Welke kwaliteitsattributen zijn er en wat is de bijbehorende definitie?
+- Met welke testontwerptechniek kan een bepaalde kwaliteitsattribuut worden getest?
+- Wij hebben de antwoorden voor je opgenomen in één document. Een handig naslagwerk voor bij het opstellen van een teststrategie.
 
 
 
