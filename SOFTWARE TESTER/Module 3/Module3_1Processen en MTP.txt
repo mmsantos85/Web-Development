@@ -1,0 +1,14 @@
+https://www.toets-je-parate-kennis-over.nl/software-testen/kennisbank/definitie-tmap-next-testsoorten/
+
+Afkorting:
+UT = unittest
+UIT = unitintegratietest
+ST = systeemtest
+SIT = systeemintegratietest
+AT = acceptatietest (alle soorten)
+FAT = functionele acceptatietest
+GAT = gebruikersacceptatietest
+PAT = productieacceptatietest
+
+Bronnen:
+http://www.mentorum.nl/docs/Traindocs/Overzicht_Toegepaste_testvormen.pdf

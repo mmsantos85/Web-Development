@@ -6,6 +6,38 @@ Het adaptiviteit van TMap kan worden samengevat in vier adaptiviteit kenmerken:
 - Leer van ervaringen,
 - Probeer voor gebruik.
 
+Opdracht: Geef voor elk punt een beschrijving van wat hiermee wordt bedoeld en hoe zou je het implementeren voor een project bij TechGrounds?
+- Reageer op verandering:
+  adaptiviteit begint  met het vaststellen van de veranderingen en het reageren daarop. Binnen Tmap vindt dit al meteen vanaf de start plaats, 
+  bij de 1e activiteiten van het MasterTestPlan. Bij het vaststellen en orienteren van de opdracht speelt het verkrijgen van in zicht in de 
+  omgeving waarin de test plaatsvindt en het vaststellen van eventuele mogelijk veranderingen een hoofdrol. Juist daar wordt de basis gelegd 
+  voor de verdere invulling en toegepassing van de methode. Welke testsoorten, testvormen, fasen, tools worden op welke wijze ingevuld?
+  Maar het blijft niet bij deze acviteiten. Het definieren van de test strategie met bijbehorende planning gebeurt in nauw overleg
+  met de opdrachtgever. Zijn de opgestelde teststrategiie en de hieruit opgestelde begroting en planning voor de opdrachtgever niet acceptabel, dan wordt het plan aangepast. 
+  De opdrachtgever heeft hierdoor nadrukkelijk grip op het testprocese en kan deze sturen in de balans resultaat en risico versus tijd en kosten. 
+  Dit terugkoppelen vindt gedurende het gehele testtraject plaats en ook tijdens de beheerfase kan de testmanager in overleg met de opdrachtgever besluiten bepaalde 
+  zaken in het testplan aan te passen.
+
+- Hergebruik van producten en processen,
+- Leer van ervaringen,
+- Probeer voor gebruik: zie link; http://www.leovanderaalst.nl/TMap%20NEXT%20[NE].pdf pagina 26 en 27.
+
+Project bij TechGrounds:
+- Reageer op verandering:
+  Flexibel testen kunnen uitvoeren wanneer dat gevraagd word of planning veranderd binnen een sprint.
+- Hergebruik van producten en processen;
+  Bijvoorbeeld codes die goed door de tests heen zijn gekomen kunnen hergebruikt worden. Strutureel test aanpak maken.
+- Leer van ervaringen:
+  Het is niet altijd nodig om alle hoofdstukken van een testplan op te nemen. Het blijft altijd de afweging of het betreffende hoofdstuk toegevoegde waarde heeft voor het project. 
+  Wel zul je minimaal de volgende onderwerpen moeten opnemen: scope, randvoorwaarden, productrisico analyse (PRA), teststrategie, begroting, planning en risico’s.
+
+  Er hoeft niet altijd een mastertestplan en detailtestplan te worden opgesteld.
+  In die situaties dat je bijvoorbeeld te maken hebt met maar een (1) testsoort, bijvoorbeeld Ketentest, of dat je met een relatief klein project te maken hebt kun je de onderwerpen 
+  van het mastertestplan en detailtestplan samenvoegen in een (1) testplan.
+- Probeer voor gebruik.
+  Scheelt tijd en geld voor op de langere termijn. 
+
+
 ***Extra info  Adaptieve mthode:
 TMap is een aanpak die in alle testsituaties en in combinatie met elke willekeurige systeemontwikkelmethode toepasbaar is. Het biedt de tester een breed 
 scala aan elementen om te gebruiken  tijdens een test. Dit betekent dat de tester moet kiezen wat hij daadwerkelijk gebruikt, afhankelijk van de specifieke situatie. 
@@ -18,11 +50,6 @@ zoals Agile en Scrum.
 
 Bronnen:
 https://docplayer.nl/42816627-Tmap-process-template-voor-visual-studio-het.html
-
-
-Opdracht: Geef voor elk punt een beschrijving van wat hiermee wordt bedoeld en hoe zou je het implementeren voor een project bij TechGrounds?
-
-Bronnen:
 
 
 ***Oefeningen

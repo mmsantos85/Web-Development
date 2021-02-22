@@ -84,7 +84,6 @@ Het gaat onder meer om burgerservicenummers
 Fout: Software gehacked.
 Gevolgen: Persoonlijke gegevens uitgelekt en doorverkocht.
 
-
 Bronnen: 
 https://www.yourtestprofessionals.nl/waarom-software-testen-steeds-belangrijker-wordt/
 https://www.nu.nl/buitenland/5827560/boeing-topman-erkent-fouten-in-software-gecrashte-737-max-toestellen.html

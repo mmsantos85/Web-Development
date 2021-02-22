@@ -10,9 +10,9 @@ Deze gereedschapskist richt zich op de invulling van de onderwerpen:
 De diverse ‘gereedschappen’ worden in TMap op het moment dat ze kunnen worden gebruikt in meer details beschreven. Met deze gereedschapskist beschikt de 
 tester over een groot aantal mogelijkheden om elke test uitdaging succesvol aan te kunnen gaan.
 
-***Technieken:
 
 Opdracht 1: Welke technieken zijn er? Plaats vervolgens de diverse technieken in welke fases wij die kunnen gebruiken.
+Opdracht 2: Geef voor elke techniek een gedetailleerd beschrijving wat je mogelijkheden zijn.
 
 TMap-aanpak word geleverd met tools en procedures. De toolbox helpt de gebruiker met: 
 - Testdiagnoses,
@@ -21,7 +21,11 @@ TMap-aanpak word geleverd met tools en procedures. De toolbox helpt de gebruiker
 - Productrisicoanalyse,
 - Productevaluatie.
 
-Deze schatkist richt zich op invulling van de onderwerpen:
+Technieken uitgebreide uitleg, zie link hieronder:
+https://www.toets-je-parate-kennis-over.nl/software-testen/kennisbank/wat-is-een-testontwerptechniek/
+
+
+***Extra info: Deze schatkist richt zich op invulling van de onderwerpen:
 
 (FASE BEHEER + FASE PLANNING.)
 Technieken: HOE wordt getest: 
@@ -48,11 +52,6 @@ Organisatie: WIE testen er. De organisatie van gestructureerd testen vraagt om:
 
 Bronnen:
 https://www.examenvragen.nl/downloads/tmap-voorbeeld.pdf
-
-
-Opdracht 2: Geef voor elke techniek een gedetailleerd beschrijving wat je mogelijkheden zijn.
-
-Bronnen:
 
 
 ***Infrastructuur
@@ -107,10 +106,36 @@ https://www.kantoorruimtevinden.nl/blog/wat-is-een-werkplek/#:~:text=Een%20werkp
 
 
 Opdracht 4: Wat is het model voor een organisatie binnen het testen. Ga dat na binnen TechGrounds? Wat zijn de verschillende betrokken disciplines?
+Elk project gebruikt tegenwoordig wel een vooraf gedefinieerde ontwikkelmethodologie. Bekende voorbeelden zijn waterval, iteratief en/of incrementeel, 
+agile, scrum, RUP (Rational Unified Process), het spiral-model, etc. Elke methodologie heeft wel zijn voor- en nadelen, afhankelijk van de context waarin deze wordt toegepast. 
+Zo is een watervalmodel niet echt geschikt in een omgeving die gekenmerkt wordt door veel veranderingen in specificaties tijdens de bouw en is een iteratief of agile-model 
+niet geschikt in een omgeving waar men live moet gaan in een ‘big bang'. Hoe dan ook, er zullen altijd specifieke testfasen moeten worden doorlopen in elk project, 
+of dit nu eenmalig is of vaker binnen een bepaalde projectfase. Het ‘V-model' is een voorbeeld van zowel een ontwikkel- als testmethodologie. 
+Binnen dit model worden bekende testfasen beschreven als unit/component testen (tijdens de bouw; denk bijvoorbeeld aan Java's JUnit), 
+systeemtesten, integratietesten (tussen verschillende systemen), performancetesten en gebruikersacceptatietesten.
 
 Bronnen:
+https://www.computable.nl/artikel/opinie/development/3317449/1509029/het-belang-van-een-goede-teststrategie.html
 
 
-Opdracht 5: Hoe ziet de testorganisatie eruit in projecten? Beschrijf o.a. de rollen.
+Opdracht 5: Hoe ziet de testorganisatie eruit in projecten? Beschrijf o.a. de rollen:
+Een volwassen testorganisatie is gemodelleerd volgens de structuur zoals gedefinieerd in het testmodel (zie TAF-testgebied 1: testmethodologie). 
+Dit betekent dat er dus is nagedacht over de verschillende testrollen en benodigde vaardigheden en dat deze rollen zijn gecreëerd in de testorganisatie. 
+Denk bijvoorbeeld aan testmanager, testlead (een testmanager verantwoordelijk voor een specifieke testfase), functionele tester, performance tester, etc. 
+Ook zal de inhoudelijke (functionele) kennis van het te ontwikkelen informatiesysteem en de kennis van de testprocessen zelf moeten worden verdeeld over 
+de verschillende testteams om gestandaardiseerd (ook wel bekend als ‘geïndustrialiseerd') testen mogelijk te maken.
+
+- testmanager:
+  De Testmanager coördineert projecten waarbij ICT onderdelen of informatiesystemen door een testtraject geleid worden. 
+  De Testmanager is verantwoordelijk voor het aansturen van de testafdeling en het verzorgen van de middelen om te kunnen testen.
+- testlead:
+  Een testmanager verantwoordelijk voor een specifieke testfase
+- Functionele tester:
+  Functioneel testen is het testen van software op basis van de functionele omschrijving van de software om de kwaliteit hiervan te beoordelen en mogelijke 
+  fouten op te sporen. Het gaat hier om het testen van een (vooraf) beschreven situatie.
+- Performance tester:
+  Performance testen geeft u inzicht in het gedrag van uw systemen wanneer deze gebruikt worden door een gespecificeerde groep gebruikers. 
+  De nadruk van de performance test ligt op het verkrijgen van inzicht in de reactietijden die de gebruiker ervaart en de mogelijke belastbaarheid van het systeem.
 
 Bronnen:
+https://www.computable.nl/artikel/opinie/development/3317449/1509029/het-belang-van-een-goede-teststrategie.html
