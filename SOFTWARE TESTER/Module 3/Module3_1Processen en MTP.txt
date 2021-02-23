@@ -1,14 +1,173 @@
-https://www.toets-je-parate-kennis-over.nl/software-testen/kennisbank/definitie-tmap-next-testsoorten/
+***Processen en MastertestPlan***
 
-Afkorting:
-UT = unittest
-UIT = unitintegratietest
-ST = systeemtest
-SIT = systeemintegratietest
-AT = acceptatietest (alle soorten)
-FAT = functionele acceptatietest
-GAT = gebruikersacceptatietest
-PAT = productieacceptatietest
+Inleiding processen:
+
+TMap onderscheidt de volgende groepen van testsoorten:
+- Ontwikkeltests,
+- Systeemtests,
+- Acceptatietests.
+
+Deze groepen van testsoorten worden vaak ingevuld met meerdere afzonderlijke testsoorten. De functionele, gebruikerstest en 
+productie acceptatietest zijn bekende acceptatietest soorten.
+
+Opdracht : Zoek de volgende termen op en omschrijf ze in het kort:
+- UT  - UIT
+- ST  - SIT
+- FAT - GAT - PAT
+
+Waar passen deze termen in het V-model?
+Het V-model wordt veel gebruikt om de relatie tussen het systeemontwikkel- en testproces (de testsoorten) te visualiseren.
+
+Het V-model besteedt aandacht aan systeemontwikkeling en testen. De systeemontwikkeling en het testen is opgedeeld in een aantal fasen die elk een aantal vooraf gedefinieerde 
+producten opleveren. Wanneer de producten van een fase zijn opgeleverd, vormen deze de basis voor de volgende fase, er kan dus niet worden begonnen aan een nieuwe fase wanneer 
+de producten van de vorige fase niet zijn opgeleverd (en goedgekeurd). 
+Voor elke specificatie- of ontwerpfase aan de linkerzijde van de “V”, is een corresponderende testsoort aan de rechterzijde van de “V”. 
+
+Het V-model is een lineaire methode en wordt altijd in de volgorde uitgevoerd als in de figuur is aangegeven.
+Aan de rechterkant van het V-model vindt het testen plaats. Hierbij wordt vaak onderscheid gemaakt tussen testen door de leverende partij en testen door de accepterende partij. 
+Deze verantwoordelijkheden wordt in de praktijk veelal vertaald naar het groeperen van testactiviteiten in testsoorten.
+
+Aan de linkerkant staan de verschillende fases die voor systeem ontwikkeling worden gehanteerd. Zo worden eerst de requirements bepaald, wordt vervolgens het "wat" beschreven 
+in een functioneel ontwerp, om deze daarna te vertalen naar het "hoe" in een technisch ontwerp. 
+Uiteindelijk wordt op basis van een technisch ontwerp hebt systeem ontwikkeld. Aan de rechterkant zijn de verschillende soorten testen opgenomen. 
+
+Afkorting en betekenissen:
+- UT = unittest: RECHTS V-MODEL.
+  Unittesten is een methode om softwaremodulen of stukjes broncode (units) afzonderlijk te testen. Bij unittesten zal voor iedere unit
+  een of meer tests ontwikkeld worden. Hierbij worden dan verschillende testcases doorlopen. In het ideale geval zijn alle testcases onafhankelijk 
+  van andere tests. Eventueel worden hiertoe zogenaamde mockobjecten gemaakt om de unittests gescheiden uit te kunnen voeren.
+
+- UIT = unitintegratietest: LINKS V-MODEL.
+  Aantonen dat een logische groep units aan de in de technische specificaties gestelde eisen voldoet.
+
+- ST = systeemtest: LINKS V-MODEL.
+  Door de leverancier uitgevoerd. toont aan het ontwikkelde systeem of delen daarvan aan de functionele- en niet-functionele specificaties en het technisch ontwerp voldoen.
+
+- SIT = systeemintegratietest: RECHTS V-MODEL.
+  Door de toekomstige gebruiker(s) uitgevoerd. Toont aan dat (sub)systeeminterface afspraken zijn nagekomen, correct zijn geïnterpreteerd en correct zijn geïmplementeerd.
+
+- AT = acceptatietest (alle soorten) RECHTS V-MODEL:
+  Door de toekomstige gebruiker(s) en beheerder(s) uitgevoerde test, die moet vaststellen dat het ontwikkelde systeem aan de functionele en niet-functionele eisen voldoet. 
+  Deze test wordt uitgevoerd in een zoveel mogelijk als-ware-het-productie omgeving. De acceptatietest kan nog worden onderverdeeld in:
+  Functionele acceptatietest (FAT): vaststellen dat het ontwikkelde systeem aan de functionele eisen voldoet.
+  Gebruikersacceptatietest (GAT): vaststellen dat het ontwikkelde systeem aan de wensen/eisen van de gebruiker voldoet.
+  Productieacceptatietest (PAT): vaststellen dat het ontwikkelde systeem aan de de gestelde beheer eisen voldoet.
+
+- FAT = functionele acceptatietest: RECHTS V-MODEL.
+  Door de toekomstige gebruiker(s) uitgevoerd. Toont aan dat het ontwikkelde systeem aan de functionele eisen voldoet.
+
+- GAT = gebruikersacceptatietest: LINKS V-MODEL.
+  Door de toekomstige gebruiker(s) uitgevoerd. Toont aan dat het ontwikkelde systeem aan de wensen/eisen van de gebruiker voldoet.
+
+- PAT = productieacceptatietest: RECHTS V-MODEL.
+  Door de toekomstige beheerder(s) uitgevoerd. Toont aan dat het ontwikkelde systeem aan de van uit beheer gesteld eisen voldoet.
+
+Naast de hierboven genoemde testsoorten worden in organisaties ook wel de volgende testsoorten gebruikt:
+
+- Ketentesten (KT),
+- Ketenintegratietesten (KIT).
 
 Bronnen:
 http://www.mentorum.nl/docs/Traindocs/Overzicht_Toegepaste_testvormen.pdf
+https://www.toets-je-parate-kennis-over.nl/software-testen/kennisbank/definitie-tmap-next-testsoorten/
+https://coach-software-testen.nl/kennisbank/software-testen/testsoorten/
+https://www.toets-je-parate-kennis-over.nl/software-testen/kennisbank/testsoorten-en-v-model/
+https://coach-software-testen.nl/v-model-en-testsoorten/
+
+***MasterTestPLan
+
+Het opstellen van een mastertestplan klinkt misschien vanzelfsprekend, maar in de praktijk is dat nog niet vanzelfsprekend. De afstemming wordt helaas vaak overgelaten 
+aan de testmanagers van de individuele testsoorten. Afstemming lukt dan meestal nog wel op het niveau van mijlpalen, maar wordt moeilijker wanneer het gaat om de scope 
+en de zwaarte van de verschillende testsoorten. Een projectmanager kan hier doorgaans onvoldoende aandacht aan geven. De testmanager van een afzonderlijke testsoort heeft
+hiervoor onvoldoende mandaat. Gelukkig wordt ook binnen de systeemontwikkeling steeds vaker het belang ingezien van het op elkaar afgestemd krijgen en houden van de testsoorten. 
+Zo is binnen IBM’s systeemontwikkelmethode Rational Unified Precess het mastertestplan een officieel product.
+Opstellen van een mastertestplan en beheren van het totale testproces vraagt om een speciale rol: de testmanager of overall test coördinator voor het overkoepelende testproces.
+
+“Onnodig dubbel getest”
+Als belangrijkste reden voor een mastertestplan wordt genoemd het vermijden van onnodig dubbel testen. Het woord “onnodig” is hierbij belangrijk.
+
+De mastertestplan zit in de Fase Planning van het totale testproces en in de fase beheer. 
+
+Opdracht 1: Vind informatie over de Fase Planning van het totale testproces en definieer het volgende: 
+
+- De doelen:
+  Het formuleren van een samenhangende en gedragen aanpak waarmee de testopdracht goed uitgevoerd kan worden. Een belangrijk onderdeel van de planning is
+  het opstellen van het testplan, om de opdrachtgever en andere betrokkenen te informeren over de aanpak, planning, begroting, activiteiten en de op te leveren
+  (eind)producten met betrekking tot het testproces. Indien er een bovenliggend mastertestplan is, dient dit plan hiervan afgeleid te worden.
+
+- Geef de Context van een mastertestplan:
+  De stappen van de planningsfase dienen altijd doorlopen te worden. De resultaten   worden meestal vastgelegd in een afzonderlijk testplan, wanneer de testsoort als op
+  zichzelf staande activiteit wordt georganiseerd. In sommige gevallen, met name bij iteratieve of agile ontwikkeling, 
+  is de testsoort geïntegreerd in het totale proces en maakt het testplan onderdeel uit van het projectplan.
+
+  De benodigde inspanning voor het maken van het plan is afhankelijk van wat er al aanwezig is. De aanwezigheid van een mastertestplan, van Generieke Test Afspraken, 
+  of een lijnorganisatie Testen met voorschriften, sjablonen en standaards kunnen het opstellen van het testplan aanzienlijk vergemakkelijken omdat hier simpelweg
+  naar verwezen kan worden.
+  Bij het maken van het testplan moet de testmanager rekening houden met het (on)mogelijke. Een belangrijke factor hierbij is de bestaande “testvolwassenheid”, 
+  ofwel de kwaliteit van het testproces. Is men bekend met een testfasering, heeft men testtools, gebruiken de testers testontwerptechnieken, hoe is men gewend te administreren 
+  en te rapporteren? Bij lage testvolwassenheid kan de testmanager niet te hoge eisen stellen aan het testproces en de testers daarbinnen.
+  Dit geldt in mindere mate ook voor de volwassenheid van het ontwikkel- of onderhoudsproces rondom testen. Als dit chaotisch en onbeheersbaar is, is het
+  vermoedelijk een slechte investering om het “perfecte” testproces neer te zetten en kan volstaan worden met een “redelijk” testproces.
+  
+- Randvoorwaarden: 
+Om zinvol te kunnen starten met het opstellen van het testplan dienen de volgende zaken bekend te zijn:
+- De opdrachtgever voor de testsoort,
+- Doel en belang van het systeem of pakket voor de organisatie,
+- Globale eisen / requirements,
+- De organisatie van het ontwikkel-, onderhouds- of implementatieproces,
+- De (oplever)planning voor het te ontwikkelen of te onderhouden systeem of te implementeren pakket,
+- De werkwijze voor het te ontwikkelen of te onderhouden systeem of te implementeren pakket,
+- Indien sprake is van een mastertestplan dient dit gefixeerd en goedgekeurd te zijn,
+- Inzicht in ontwikkel- en productieomgeving voor het kunnen definiëren van de testomgeving.
+
+Wanneer deze informatie nog niet beschikbaar is, bijvoorbeeld omdat de ontwikkelaanpak nog onbekend is, heeft dit negatieve gevolgen voor ofwel doorlooptijd
+of benodigde inspanning voor het opstellen van het plan, ofwel voor de kwaliteit en gewenste mate van detail van het plan.
+Ook moet er de bereidheid en mogelijkheid zijn tot het maken van afspraken op het gebied van de test.
+
+- Werkwijze: 
+  zie link pagina 179 en 180: https://drive.google.com/file/d/0B1mncLJKDX4DUEFob1B5SWNyZDA/view
+
+- Rollen/verantwoordelijkheden:
+De primair verantwoordelijke rol voor het opstellen van het testplan is de testmanager, soms ook testcoördinator genaamd.
+Hoewel de term testmanager wordt gebruikt als verantwoordelijke persoon voor het testproces, staat in de praktijk ook vaak een testcoördinator aan het hoofd van de systeem- of acceptatietest. 
+De verschillen zijn meer gevoelsmatig en situationeel dan objectief, maar in grote lijnen kan er het volgende over gezegd worden:
+
+- Hoe meer bevoegdheden, hoe meer de voorkeur uitgaat naar de term testmanager;
+- Hoe groter de scope van de test, idem;
+- Hoe groter de omvang van de test, idem;
+- Bij een overkoepelende testmanager: voorkeur testcoördinator;
+- Bij een overall testcoördinator: voorkeur testmanager;
+
+- Activiteiten. maak hiervan een schema: opstellen van de mastertestplan met een overzichtelijke nummering van het proces.
+Het opstellen van het testplan omvat de volgende activiteiten:
+1. Vaststellen opdracht;
+2. Oriënteren opdracht;
+3. Vaststellen testbasis;
+4. Analyseren productrisico’s;
+5. Bepalen teststrategie;
+6. Bepalen begroting;
+7. Bepalen planning;
+8. Toewijzen testeenheden en testtechnieken;
+9. Definiëren testproducten;
+10. Definiëren organisatie;
+11. Definiëren infrastructuur;
+12. Inrichten beheer;
+13. Bepalen testprojectrisico’s en maatregelen;
+14. Terugkoppelen en fixeren plan.
+
+Bronnen:
+https://www.toets-je-parate-kennis-over.nl/software-testen/kennisbank/mastertestplan/
+https://drive.google.com/file/d/0B1mncLJKDX4DUEFob1B5SWNyZDA/view
+
+Wij gaan nu verder met ISTQB, maar het advies luidt lees de workbook over TMap wanneer je tijd hebt. 
+De volgende onderwerpen zijn van zeer belang:
+- Risicoanalyse,
+- Test,
+- Strategie bepalen,
+- Pad afhandeling,
+- Acceptatiecriteria. 
+
+
+
+
+
