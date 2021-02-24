@@ -1,0 +1,37 @@
+***ISTQB Foundation***
+
+ISTQB oftewel ‘International Software Testing Qualifications Board’ is de board waar je gecertificeerd kan worden als tester. 
+ISTQB focust zich op internationale standaarden terwijl TMap zich meer focust binnen Nederland.
+
+Aankomend week richten we op de Agile Tester van de ISTQB. In de volgende link word je al geleid naar de juiste pad naar tester. 
+Leerdoelen:
+- De fundamentals van agile software development
+- Verschillende agile methodieken
+- De verschillen tussen testen op traditionele en agile manier.
+- Testen in agile projecten
+- Rollen en vaardigheden van een tester in agile.
+- Agile testtechnieken
+- Product Kwaliteit vast kunnen stellen in agile projecten
+- Test zwaarte bepalen om uit te voeren testen te definiëren.
+- Tools in agile projecten.
+- https://www.istqb.org/downloads/send/2-foundation-level-documents/281-istqb-ctfl-syllabus-2018-v3-1.html
+
+
+Lees de Syllabus en beantwoord de volgende vragen.
+
+Opdracht 1: Wat zijn de Agile methodes?
+
+Opdracht 2: Hoe maak je een risico- analyse?
+
+Opdracht 3: Hoe wordt dan een teststrategie bepaald? Denk aan hoe zwaar er getest moet worden.
+
+Opdracht 4: Welke technieken zijn er en geef hier een korte beschrijving van de technieken.
+
+Opdracht 5: Welke tools zijn er die een tester zouden helpen?
+
+Goed nu heb je een basis waarmee je mogelijk de proefexamen kan doen op:
+
+
+https://www.istqb.org/certification-path-root/foundation-level-2018.html
+Advies luidt: Lees de Syllabus nogmaals door voordat je de proefexamen gaat doen. En de belangrijke onderwerpen van TMap.
+

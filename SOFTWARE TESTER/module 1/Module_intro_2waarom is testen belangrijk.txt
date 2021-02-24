@@ -82,7 +82,9 @@ Gevolgen: Bestanden van de eindgebruiker werden van de computer verwijderd.
 GGD, gegevens van Privégegevens van Nederlanders die in twee coronasystemen van de GGD staan, worden illegaal verhandeld. 
 Het gaat onder meer om burgerservicenummers
 Fout: Software gehacked.
-Gevolgen: Persoonlijke gegevens uitgelekt en doorverkocht.
+
+Zie nog meer nieuws hierover:
+https://coach-software-testen.nl/nieuws/
 
 Bronnen: 
 https://www.yourtestprofessionals.nl/waarom-software-testen-steeds-belangrijker-wordt/
