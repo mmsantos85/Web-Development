@@ -1,0 +1,114 @@
+***Oefeningen module 4 ISTQB***
+
+***Oefening 6 [Test scenario’s schrijven]:
+
+We testen niet alleen, maar ontwikkelen ook testscenario's. Er is een realistisch scenario en u moet hiervoor test ideeën schrijven.
+Nogmaals, we willen geen stapsgewijze procedure; we willen ideeën met een korte beschrijving.
+Schrijf test ideeën voor dit scenario: u staat bij de kassa van de supermarkt. U heeft vijf items gekocht (x, y, z, a en b). U doet de betaling en gaat naar de EXIT-deur.
+
+Voorbeeld Test Ideeën als hint:
+Als de kassa geen mensen heeft, scan dan alle vijf items. Scan ook je kaart en voer de betaling uit.
+De scanners moeten de juiste relevante informatie scannen.
+
+
+***Oefening 7 [Defect Reporting]:
+Als tester is het beste deel van het werk om defecten te melden. We willen graag weten hoe u het volgende defect zou melden (u kunt zelf beslissen welke velden u wilt opnemen 
+terwijl u het defect op de beste manier meldt).
+
+Schrijf een gedetailleerd effectrapport voor dit voorbeeld fout: na inloggen bij Gmail navigeert het naar Google.com.
+
+Geen hint hier. :) Schrijf gewoon een goed en volledig defect rapport. Als je hulp nodig hebt bekijk de volgende links:
+https://www.softwaretestinghelp.com/sample-bug-report/
+
+
+SAMPLE BUG REPORT
+Bug Name: Application crash on clicking the SAVE button while creating a new user.
+Bug ID: (It will be automatically created by the BUG Tracking tool once you save this bug)
+Area Path: USERS menu > New Users
+Build Number: Version Number 5.0.1
+Severity: HIGH (High/Medium/Low) or 1
+Priority: HIGH (High/Medium/Low) or 1
+Assigned to: Developer-X
+Reported By: Your Name
+Reported On: Date
+Reason: Defect
+Status: New/Open/Active (Depends on the Tool you are using)
+Environment: Windows 2003/SQL Server 2005
+
+Description:
+Application crash on clicking the SAVE button while creating a new
+the user, hence unable to create a new user in the application.
+
+Steps To Reproduce:
+1) Login into the Application
+2) Navigate to the Users Menu > New User
+3) Filled all the user information fields
+4) Clicked on the ‘Save’ button
+5) Seen an error page “ORA1090 Exception: Insert values Error…”
+6) See the attached logs for more information (Attach more logs related to bug..IF any)
+7) And also see the attached screenshot of the error page.
+
+Expected Result: On clicking SAVE button, should be prompted to a success message “New User has been created successfully”.
+
+
+Geen hint hier. :) Schrijf gewoon een goed en volledig defect rapport. Als je hulp nodig hebt bekijk de volgende links:
+https://www.softwaretestinghelp.com/sample-bug-report/
+
+
+
+***Oefening 8 [Suggesties geven]:
+Het geven van suggesties om de kwaliteit of gebruikerservaring te verbeteren, is het verlengstuk van de taak van een tester. 
+Dus waarom zou je dat niet proberen? Kunt u ons vertellen hoe de gebruikerservaring kan worden verbeterd voor de volgende aanmeldingspagina?
+Hier is een voorbeeld suggestie als hint:
+
+- In plaats van de klant te vragen om te selecteren of hij een nieuwe klant is, zou het systeem de status van de klant moeten controleren op basis van het 
+e-mailadres of de gebruikers-ID die hij had opgegeven.
+
+
+***Oefening 9 [Bug Hunting]:
+Een van de ontwikkelaars in opleiding heeft een soort tekstblok-applicatie ontwikkeld. Hieronder ziet u één van de screenshots van de applicatie. 
+Kun je bugs / problemen opnoemen die de trainee-ontwikkelaar moet oplossen?
+
+
+***Oefening 10 [Think Testing]:
+Hoe zou u een papieren boodschappentas met een capaciteit van 5 kg testen?
+
+Erg makkelijk? Begin met het schrijven van uw test ideeën in termen van testscenario's.
+
+Test scenario 1:
+In de regen.
+
+***handige links***
+
+Handige link van testcases en wat er uitgevoerd kan worden door middel van checklists:
+https://www.softwaretestinghelp.com/sample-test-cases-testing-web-desktop-applications/
+
+Oriënteren testopdracht:
+https://www.tmap.net/sites/tmap/files/2019-08/Checklist_Orienteren_testopdracht_0.doc
+
+Randvoorwaarden:
+https://www.tmap.net/sites/tmap/files/2019-08/Checklist_Randvoorwaarden_en_uitgangspunten.doc
+
+Risico’s test process:
+https://www.tmap.net/sites/tmap/files/2019-08/Checklist_Risicos_testproces.doc
+
+Checklist kwaliteit karakters:
+https://www.tmap.net/sites/tmap/files/2019-08/Checklists%20Various%20quality%20characteristics%20.doc
+
+Risicofactoren per kwaliteitsAttribuut: 
+https://www.tmap.net/sites/tmap/files/2019-08/Checklist_Risicofactoren_per_kwaliteitsattribuut.doc
+
+Testontwerptechnieken:
+https://www.tmap.net/sites/tmap/files/2019-08/Checklist_Testontwerptechnieken.doc
+
+Evaluatie Testproces:
+https://www.tmap.net/sites/tmap/files/2019-08/Checklist_Evaluatie_testproces.doc
+
+
+
+
+
+
+
+
+
