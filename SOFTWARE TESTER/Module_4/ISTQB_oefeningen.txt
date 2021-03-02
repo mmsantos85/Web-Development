@@ -55,7 +55,6 @@ Geen hint hier. :) Schrijf gewoon een goed en volledig defect rapport. Als je hu
 https://www.softwaretestinghelp.com/sample-bug-report/
 
 
-
 ***Oefening 8 [Suggesties geven]:
 Het geven van suggesties om de kwaliteit of gebruikerservaring te verbeteren, is het verlengstuk van de taak van een tester. 
 Dus waarom zou je dat niet proberen? Kunt u ons vertellen hoe de gebruikerservaring kan worden verbeterd voor de volgende aanmeldingspagina?
@@ -75,13 +74,20 @@ Hoe zou u een papieren boodschappentas met een capaciteit van 5 kg testen?
 
 Erg makkelijk? Begin met het schrijven van uw test ideeën in termen van testscenario's.
 
+What is a Test Scenario?
+A TEST SCENARIO is defined as any functionality that can be tested. It is also called Test Condition or Test Possibility. As a tester, 
+you should put yourself in the end user’s shoes and figure out the real-world scenarios and use cases of the Application Under Test.
+
+Bronnen:
+https://www.guru99.com/test-scenario.html
+
 Test scenario 1:
-In de regen.
+In verschillende weersomstandigheden, zoals bijvoorbeeld  in de regen.
 
 ***handige links***
 
 Handige link van testcases en wat er uitgevoerd kan worden door middel van checklists:
-https://www.softwaretestinghelp.com/sample-test-cases-testing-web-desktop-applications/
+https://www.softwaretestinghelp.com/sample-test-cases-testing-web-desktop-applications/ 
 
 Oriënteren testopdracht:
 https://www.tmap.net/sites/tmap/files/2019-08/Checklist_Orienteren_testopdracht_0.doc
