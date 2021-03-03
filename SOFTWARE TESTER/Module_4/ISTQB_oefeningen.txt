@@ -4,11 +4,21 @@
 
 We testen niet alleen, maar ontwikkelen ook testscenario's. Er is een realistisch scenario en u moet hiervoor test ideeën schrijven.
 Nogmaals, we willen geen stapsgewijze procedure; we willen ideeën met een korte beschrijving.
-Schrijf test ideeën voor dit scenario: u staat bij de kassa van de supermarkt. U heeft vijf items gekocht (x, y, z, a en b). U doet de betaling en gaat naar de EXIT-deur.
+Schrijf test ideeën voor dit scenario: 
+
+U staat bij de kassa van de supermarkt. U heeft vijf items gekocht (x, y, z, a en b). U doet de betaling en gaat naar de EXIT-deur.
 
 Voorbeeld Test Ideeën als hint:
-Als de kassa geen mensen heeft, scan dan alle vijf items. Scan ook je kaart en voer de betaling uit.
-De scanners moeten de juiste relevante informatie scannen.
+- Als de kassa geen mensen heeft, scan dan alle vijf items. Scan ook je kaart en voer de betaling uit.
+- De scanners moeten de juiste relevante informatie scannen.
+
+Kassa met een kassiere:
+- 
+
+Zelfscan kassa's:
+- Zelfscanner kassa, voor alchol heb je externe toestemming nodig om af te kunnen rekenen. Hiervan krijgt personeel een melding van.
+- Kassa heeft een ingebouwde weegschaal voor groente en fruit en een menu om fruit en groentesoort uit te kiezen.
+- 
 
 
 ***Oefening 7 [Defect Reporting]:
