@@ -13,17 +13,41 @@ Voorbeeld Test Ideeën als hint:
 - De scanners moeten de juiste relevante informatie scannen.
 
 Kassa met een kassiere:
-- 
+- Kassiere scant alle producten 1 keer.
+- Alle items hebben de juiste informatie code.
+- Scanner scant de juiste informatie en prijs.
+- Scanner scant de juiste aanbieding/prijs.
+- Het systeem telt de juiste bedragen bij elkaar op.
+- Overzicht van gekochte items laten de juiste informatie en prijzen zien.
+- Bon word met de juiste informatie en prijs uitgeprint.
 
 Zelfscan kassa's:
-- Zelfscanner kassa, voor alchol heb je externe toestemming nodig om af te kunnen rekenen. Hiervan krijgt personeel een melding van.
-- Kassa heeft een ingebouwde weegschaal voor groente en fruit en een menu om fruit en groentesoort uit te kiezen.
-- 
+- Als de kassa geen mensen heeft, scan dan alle vijf items. Scan ook je kaart en voer de betaling uit.
+- Kassa heeft een duidelijk layout met functies verdeling, zoals 'scan uw boodschappen'.
+- De scanners moeten de juiste relevante informatie scannen.
+- Kassa heeft een klik optie voor je bonuskaart.
+- Kassa heeft een verwijder optie voor als je een product meer dan 1 keer hebt gescand of een product wilt verwijderen.
+- Kassa laat een overzicht zien van wat je hebt gescand.
+- Kassa geeft een melding voor alchol, personeel krijgt hiervan een melding om te komen controleren op leeftijd. 
+- Kassa heeft een menu voor fruit en groentesoort.
+- Kassa heeft een ingebouwde weegschaal voor groente en fruit.
+- kassa heeft een klik optie voor afrekenen.
+- Kassa geeft een overzicht van alle betaalkaarten die het betaal systeem accepteert.
+- Kassa heeft een optie om je boodschappen te annuleren.
+- Kassa heeft een optie voor externe hulp.
+- Kassa systeem houdt een steekproef om te checken of een klant alle gekochte items daadwerkelijk heeft gescand en betaald.
+- Kassa heeft een optie voor korte bon of een lange bon.
+- Overzicht van gekochte items laten de juiste informatie en prijzen zien.
+- Bon word met de juiste informatie en prijs uitgeprint.
+- Uitgeprinte bon heeft een streepjes code.
+- Klant kan met de bon exit poortje opnenen.
 
 
 ***Oefening 7 [Defect Reporting]:
 Als tester is het beste deel van het werk om defecten te melden. We willen graag weten hoe u het volgende defect zou melden (u kunt zelf beslissen welke velden u wilt opnemen 
 terwijl u het defect op de beste manier meldt).
+
+Zie word document.
 
 Schrijf een gedetailleerd effectrapport voor dit voorbeeld fout: na inloggen bij Gmail navigeert het naar Google.com.
 
@@ -60,7 +84,6 @@ Steps To Reproduce:
 
 Expected Result: On clicking SAVE button, should be prompted to a success message “New User has been created successfully”.
 
-
 Geen hint hier. :) Schrijf gewoon een goed en volledig defect rapport. Als je hulp nodig hebt bekijk de volgende links:
 https://www.softwaretestinghelp.com/sample-bug-report/
 
@@ -70,13 +93,26 @@ Het geven van suggesties om de kwaliteit of gebruikerservaring te verbeteren, is
 Dus waarom zou je dat niet proberen? Kunt u ons vertellen hoe de gebruikerservaring kan worden verbeterd voor de volgende aanmeldingspagina?
 Hier is een voorbeeld suggestie als hint:
 
-- In plaats van de klant te vragen om te selecteren of hij een nieuwe klant is, zou het systeem de status van de klant moeten controleren op basis van het 
-e-mailadres of de gebruikers-ID die hij had opgegeven.
+- In plaats van de klant te vragen om te selecteren of hij een nieuwe klant is, 
+  zou het systeem de status van de klant moeten controleren op basis van het e-mailadres of de gebruikers-ID die hij had opgegeven.
+- Ipv als optie geven "sign in using our secure server' zou dit al ingebouwd moeten zijn tijdens het inschrijf proces.
+- Meestal als je inlogt, weet je dat een wachtwoord hebt, anders is het een register of inschrijf formulier.
+- Inschrijven als een nieuwe klant of al ingeschreven staan kan beter en duidelijker weergegeven worden. Bijv een aparte formulier 
+  voor nieuwe klanten.
 
 
 ***Oefening 9 [Bug Hunting]:
 Een van de ontwikkelaars in opleiding heeft een soort tekstblok-applicatie ontwikkeld. Hieronder ziet u één van de screenshots van de applicatie. 
 Kun je bugs / problemen opnoemen die de trainee-ontwikkelaar moet oplossen?
+
+- Voor elke handeling een shortcut voorzien.
+- Alle handelingen in dezelfde kleur.
+- Ctrl+F zonder een punt.
+- Crtl+C, Crtl+V en Ctrl+X mist.
+- Replace en Find zonder .. 
+- Undo is Ctrl+Z.
+- Ctrl+E is voor de searchbar.
+- Ctrl+E, opletten dat alles op 1 lijn staat. Letter E staat iets lager.
 
 
 ***Oefening 10 [Think Testing]:
@@ -88,11 +124,21 @@ What is a Test Scenario?
 A TEST SCENARIO is defined as any functionality that can be tested. It is also called Test Condition or Test Possibility. As a tester, 
 you should put yourself in the end user’s shoes and figure out the real-world scenarios and use cases of the Application Under Test.
 
+- Wanneer de gebruiker buiten loopt met de tas blijft het intact onder welke weerstandigheden dan ook, bijv. regen.
+- Wanneer de gebruiker handvaten vast houdt, zijn de handvaten stevig bevestigd en hebben geen invloed op de papieren gedeelte.
+- Wanneer de gebruiker de tas draagt, liggen de handvaten van de boodschappentas comfortabel in de hand. Bijv. snijdt niet in de vingers/handen.
+- Boodschappentas is gemaakt van 100% gerecycled papier. 
+- Gebruiker kan de boodschappentas meerdere malen gebruiken met de max capaciteit.
+- Ontwerp boodschappentas is praktisch ontworpen.
+- Gberuiker kan zowel harde/zachte/zware items tot 5 kg in de tas doen.
+- Boodschappen tas heeft een praktisch bodem ontwerp voor verschillende vormen zoals ronde/vierkante/zachte/harde items.
+- Gberuiker kan de tas handig opgevouwen tot een klein formaat voor meerdere keren gebruik en bij zich houden.
+- Wanneer een gebruiker de tas uit zijn/haar tas/zak haalt, behoudt het zijn functionaliteit en stevigheid na het ontvouwen van de tas.
+- Tas is duurzaam en schaadt niet het milieu als de gebruiker de tas weggooit.
+
 Bronnen:
 https://www.guru99.com/test-scenario.html
 
-Test scenario 1:
-In verschillende weersomstandigheden, zoals bijvoorbeeld  in de regen.
 
 ***handige links***
 
