@@ -1,0 +1,37 @@
+Je hebt nu een goede basis kunnen leggen voor een tester!! Gefeliciteerd!!
+Laten we ons nu verdiepen in scenario’s waarbij we applicaties en login schermen gaan testen.
+
+Ga naar de volgende site:
+https://the-internet.herokuapp.com/
+
+Dit is een applicatie waarbij je kan oefenen op Test Scenario’s. 
+
+Het testplan is er om de verschillende redenen:
+‐ testsoorten op elkaar afstemmen,
+‐ over lap of gaten in de test dekking minimaliseren,
+‐ beschikbare middelen optimaal te verdelen,
+‐ belangrijke fouten zo vroeg mogelijk vinden,
+‐ het testen zo kort mogelijk op he tkritieke pad van het totale project te laten plaatsvinden,
+‐ uniformiteit in de test processen te bewerkstelligen‐afspraken met betrokkenen vast te leggen,
+‐ de opdrachtgever te informeren over de aanpak,
+- planning,
+- activiteiten en de op te leveren (eind)product en met betrekking tot het totale testproces.
+
+Opdracht 1: Maak voor een basic-Auth een test plan. Schrijf alles zo goed mogelijk uit. Voer de test plan uit en houd rekening met het rapporteren. 
+Presenteer je suggesties en houd je pitch voor een groep.
+
+Bronnen:
+https://coach-software-testen.nl/kennisbank/software-testen/testplan/
+https://www.toets-je-parate-kennis-over.nl/software-testen/kennisbank/testplan/
+
+Opdracht 2: Maak nu een test plan voor een ‘Forgot Password’- proces. En voer hetzelfde uit als opdracht 1.
+
+
+Opdracht 3: Maak nog een test plan voor een willekeurig onderwerp van de volgende site: 
+ https://the-internet.herokuapp.com/
+
+Op de onderstaande site staan oefeningen met google-Chrome. Een handige devtool om oefeningen in te maken voor een tester:
+http://testersplayground.herokuapp.com/index.php
+
+Opdracht 4: Voer deze oefeningen uit!
+
