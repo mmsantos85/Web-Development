@@ -1,0 +1,13 @@
+Opdracht 2: Maak nu een test plan voor een ‘Forgot Password’- proces. En voer hetzelfde uit als opdracht 1.
+
+
+Opdracht 3: Maak nog een test plan voor een willekeurig onderwerp van de volgende site: 
+https://the-internet.herokuapp.com/
+
+
+Op de onderstaande site staan oefeningen met google-Chrome. Een handige devtool om oefeningen in te maken voor een tester:
+http://testersplayground.herokuapp.com/index.php
+
+
+
+Opdracht 4: Voer deze oefeningen uit!

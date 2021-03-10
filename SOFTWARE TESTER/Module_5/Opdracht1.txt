@@ -17,6 +17,14 @@ Het testplan is er om de verschillende redenen:
 - planning,
 - activiteiten en de op te leveren (eind)product en met betrekking tot het totale testproces.
 
+De onderdelen die behandeld kunnen worden zijn:
+
+- Aanleiding (Waarom),
+- Aanpak (Hoe),
+- Benodigde mensen en middelen (Wie en wat),
+- Benodigde tijd (planning) (Wat),
+- Op te leveren producten (Wat).
+
 Opdracht 1: Maak voor een basic-Auth een test plan. Schrijf alles zo goed mogelijk uit. Voer de test plan uit en houd rekening met het rapporteren. 
 Presenteer je suggesties en houd je pitch voor een groep.
 
@@ -24,14 +32,6 @@ Bronnen:
 https://coach-software-testen.nl/kennisbank/software-testen/testplan/
 https://www.toets-je-parate-kennis-over.nl/software-testen/kennisbank/testplan/
 
-Opdracht 2: Maak nu een test plan voor een ‘Forgot Password’- proces. En voer hetzelfde uit als opdracht 1.
 
 
-Opdracht 3: Maak nog een test plan voor een willekeurig onderwerp van de volgende site: 
- https://the-internet.herokuapp.com/
-
-Op de onderstaande site staan oefeningen met google-Chrome. Een handige devtool om oefeningen in te maken voor een tester:
-http://testersplayground.herokuapp.com/index.php
-
-Opdracht 4: Voer deze oefeningen uit!
 
